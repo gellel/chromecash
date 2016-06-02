@@ -1,0 +1,5231 @@
+[
+    {
+        "country": {
+            "en_name": "Afghanistan",
+            "alt_name": "",
+            "native_name":"افغانستان",
+            "A2": "AF",
+            "A3": "AFG",
+            "NUM": "4",
+            "DC": "93"
+        },
+        "currency": {
+            "name": "Afghani",
+            "full": "Afghan Afghani",
+            "symb": "؋",
+            "abbr": "AFN"
+        },
+        "meta": {
+            "unicode_decimal": "1547",
+            "unicode_hex": "60b"
+        }
+    },
+    {
+        "country": {
+            "en_name": "Albania",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "AL",
+            "A3": "ALB",
+            "NUM": "8",
+            "DC": "355"
+        },
+        "currency": {
+            "name": "Lek",
+            "full": "Albanian Lek",
+            "symb": "LEK",
+            "abbr": "ALL"
+        },
+        "meta": {
+            "unicode_decimal": "76, 101, 107",
+            "unicode_hex": "4c, 65, 6b"
+        }
+    },
+    {
+        "country": {
+            "en_name": "Algeria",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "DZ",
+            "A3": "DZA",
+            "NUM": "12",
+            "DC": "213"
+        },
+        "currency": {
+            "name": "Dinar",
+            "full": "Algerian Dinar",
+            "symb": "د.ج",
+            "abbr": "DZD"
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "American Samoa",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "AS",
+            "A3": "ASM",
+            "NUM": "16",
+            "DC": "1-684"
+        },
+        "currency": {
+            "name": "Dollar",
+            "full": "United States Dollar",
+            "symb": "$",
+            "abbr": "USD"
+        },
+        "meta": {
+            "unicode_decimal": "36",
+            "unicode_hex": "24"
+        }
+    },
+    {
+        "country": {
+            "en_name": "Andorra",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "AD",
+            "A3": "AND",
+            "NUM": "20",
+            "DC": "376"
+        },
+        "currency": {
+            "name": "Euro",
+            "full": "European Euro",
+            "symb": "€",
+            "abbr": "EURO"
+        },
+        "meta": {
+            "unicode_decimal": "8364",
+            "unicode_hex": "20ac"
+        }
+    },
+    {
+        "country": {
+            "en_name": "Angola",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "AO",
+            "A3": "AGO",
+            "NUM": "24",
+            "DC": "244"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Anguilla",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "AI",
+            "A3": "AIA",
+            "NUM": "660",
+            "DC": "1-264"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Antarctica",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "AQ",
+            "A3": "ATA",
+            "NUM": "10",
+            "DC": "672"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Antigua and Barbuda",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "AG",
+            "A3": "ATG",
+            "NUM": "28",
+            "DC": "1-268"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Argentina",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "AR",
+            "A3": "ARG",
+            "NUM": "32",
+            "DC": "54"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Armenia",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "AM",
+            "A3": "ARM",
+            "NUM": "51",
+            "DC": "374"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Aruba",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "AW",
+            "A3": "ABW",
+            "NUM": "533",
+            "DC": "297"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Australia",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "AU",
+            "A3": "AUS",
+            "NUM": "36",
+            "DC": "61"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Austria",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "AT",
+            "A3": "AUT",
+            "NUM": "40",
+            "DC": "43"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Azerbaijan",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "AZ",
+            "A3": "AZE",
+            "NUM": "31",
+            "DC": "994"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Bahamas",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "BS",
+            "A3": "BHS",
+            "NUM": "44",
+            "DC": "1-242"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Bahrain",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "BH",
+            "A3": "BHR",
+            "NUM": "48",
+            "DC": "973"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Bangladesh",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "BD",
+            "A3": "BGD",
+            "NUM": "50",
+            "DC": "880"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Barbados",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "BB",
+            "A3": "BRB",
+            "NUM": "52",
+            "DC": "1-246"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Belarus",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "BY",
+            "A3": "BLR",
+            "NUM": "112",
+            "DC": "375"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Belgium",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "BE",
+            "A3": "BEL",
+            "NUM": "56",
+            "DC": "32"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Belize",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "BZ",
+            "A3": "BLZ",
+            "NUM": "84",
+            "DC": "501"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Benin",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "BJ",
+            "A3": "BEN",
+            "NUM": "204",
+            "DC": "229"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Bermuda",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "BM",
+            "A3": "BMU",
+            "NUM": "60",
+            "DC": "1-441"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Bhutan",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "BT",
+            "A3": "BTN",
+            "NUM": "64",
+            "DC": "975"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Bolivia",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "BO",
+            "A3": "BOL",
+            "NUM": "68",
+            "DC": "591"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Bonaire",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "BQ",
+            "A3": "BES",
+            "NUM": "535",
+            "DC": "599"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Bosnia and Herzegovina",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "BA",
+            "A3": "BIH",
+            "NUM": "70",
+            "DC": "387"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Botswana",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "BW",
+            "A3": "BWA",
+            "NUM": "72",
+            "DC": "267"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Bouvet Island",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "BV",
+            "A3": "BVT",
+            "NUM": "74",
+            "DC": "47"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Brazil",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "BR",
+            "A3": "BRA",
+            "NUM": "76",
+            "DC": "55"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "British Indian Ocean Territory",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "IO",
+            "A3": "IOT",
+            "NUM": "86",
+            "DC": "246"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Brunei Darussalam",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "BN",
+            "A3": "BRN",
+            "NUM": "96",
+            "DC": "673"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Bulgaria",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "BG",
+            "A3": "BGR",
+            "NUM": "100",
+            "DC": "359"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Burkina Faso",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "BF",
+            "A3": "BFA",
+            "NUM": "854",
+            "DC": "226"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Burundi",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "BI",
+            "A3": "BDI",
+            "NUM": "108",
+            "DC": "257"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Cambodia",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "KH",
+            "A3": "KHM",
+            "NUM": "116",
+            "DC": "855"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Cameroon",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "CM",
+            "A3": "CMR",
+            "NUM": "120",
+            "DC": "237"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Canada",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "CA",
+            "A3": "CAN",
+            "NUM": "124",
+            "DC": "1"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Cape Verde",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "CV",
+            "A3": "CPV",
+            "NUM": "132",
+            "DC": "238"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Cayman Islands",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "KY",
+            "A3": "CYM",
+            "NUM": "136",
+            "DC": "1-345"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Central African Republic",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "CF",
+            "A3": "CAF",
+            "NUM": "140",
+            "DC": "236"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Chad",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "TD",
+            "A3": "TCD",
+            "NUM": "148",
+            "DC": "235"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Chile",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "CL",
+            "A3": "CHL",
+            "NUM": "152",
+            "DC": "56"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "China",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "CN",
+            "A3": "CHN",
+            "NUM": "156",
+            "DC": "86"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Christmas Island",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "CX",
+            "A3": "CXR",
+            "NUM": "162",
+            "DC": "61"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Cocos (Keeling) Islands",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "CC",
+            "A3": "CCK",
+            "NUM": "166",
+            "DC": "61"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Colombia",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "CO",
+            "A3": "COL",
+            "NUM": "170",
+            "DC": "57"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Comoros",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "KM",
+            "A3": "COM",
+            "NUM": "174",
+            "DC": "269"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Congo",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "CG",
+            "A3": "COG",
+            "NUM": "178",
+            "DC": "242"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Democratic Republic of the Congo",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "CD",
+            "A3": "COD",
+            "NUM": "180",
+            "DC": "243"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Cook Islands",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "CK",
+            "A3": "COK",
+            "NUM": "184",
+            "DC": "682"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Costa Rica",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "CR",
+            "A3": "CRI",
+            "NUM": "188",
+            "DC": "506"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Croatia",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "HR",
+            "A3": "HRV",
+            "NUM": "191",
+            "DC": "385"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Cuba",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "CU",
+            "A3": "CUB",
+            "NUM": "192",
+            "DC": "53"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "CuraÃ§ao",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "CW",
+            "A3": "CUW",
+            "NUM": "531",
+            "DC": "599"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Cyprus",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "CY",
+            "A3": "CYP",
+            "NUM": "196",
+            "DC": "357"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Czech Republic",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "CZ",
+            "A3": "CZE",
+            "NUM": "203",
+            "DC": "420"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "CÃ´te d'Ivoire",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "CI",
+            "A3": "CIV",
+            "NUM": "384",
+            "DC": "225"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Denmark",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "DK",
+            "A3": "DNK",
+            "NUM": "208",
+            "DC": "45"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Djibouti",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "DJ",
+            "A3": "DJI",
+            "NUM": "262",
+            "DC": "253"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Dominica",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "DM",
+            "A3": "DMA",
+            "NUM": "212",
+            "DC": "1-767"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Dominican Republic",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "DO",
+            "A3": "DOM",
+            "NUM": "214",
+            "DC": "1-809,1-829,1-849"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Ecuador",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "EC",
+            "A3": "ECU",
+            "NUM": "218",
+            "DC": "593"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Egypt",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "EG",
+            "A3": "EGY",
+            "NUM": "818",
+            "DC": "20"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "El Salvador",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "SV",
+            "A3": "SLV",
+            "NUM": "222",
+            "DC": "503"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Equatorial Guinea",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "GQ",
+            "A3": "GNQ",
+            "NUM": "226",
+            "DC": "240"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Eritrea",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "ER",
+            "A3": "ERI",
+            "NUM": "232",
+            "DC": "291"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Estonia",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "EE",
+            "A3": "EST",
+            "NUM": "233",
+            "DC": "372"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Ethiopia",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "ET",
+            "A3": "ETH",
+            "NUM": "231",
+            "DC": "251"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Falkland Islands (Malvinas)",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "FK",
+            "A3": "FLK",
+            "NUM": "238",
+            "DC": "500"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Faroe Islands",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "FO",
+            "A3": "FRO",
+            "NUM": "234",
+            "DC": "298"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Fiji",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "FJ",
+            "A3": "FJI",
+            "NUM": "242",
+            "DC": "679"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Finland",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "FI",
+            "A3": "FIN",
+            "NUM": "246",
+            "DC": "358"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "France",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "FR",
+            "A3": "FRA",
+            "NUM": "250",
+            "DC": "33"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "French Guiana",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "GF",
+            "A3": "GUF",
+            "NUM": "254",
+            "DC": "594"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "French Polynesia",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "PF",
+            "A3": "PYF",
+            "NUM": "258",
+            "DC": "689"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "French Southern Territories",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "TF",
+            "A3": "ATF",
+            "NUM": "260",
+            "DC": "262"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Gabon",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "GA",
+            "A3": "GAB",
+            "NUM": "266",
+            "DC": "241"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Gambia",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "GM",
+            "A3": "GMB",
+            "NUM": "270",
+            "DC": "220"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Georgia",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "GE",
+            "A3": "GEO",
+            "NUM": "268",
+            "DC": "995"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Germany",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "DE",
+            "A3": "DEU",
+            "NUM": "276",
+            "DC": "49"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Ghana",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "GH",
+            "A3": "GHA",
+            "NUM": "288",
+            "DC": "233"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Gibraltar",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "GI",
+            "A3": "GIB",
+            "NUM": "292",
+            "DC": "350"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Greece",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "GR",
+            "A3": "GRC",
+            "NUM": "300",
+            "DC": "30"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Greenland",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "GL",
+            "A3": "GRL",
+            "NUM": "304",
+            "DC": "299"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Grenada",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "GD",
+            "A3": "GRD",
+            "NUM": "308",
+            "DC": "1-473"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Guadeloupe",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "GP",
+            "A3": "GLP",
+            "NUM": "312",
+            "DC": "590"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Guam",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "GU",
+            "A3": "GUM",
+            "NUM": "316",
+            "DC": "1-671"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Guatemala",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "GT",
+            "A3": "GTM",
+            "NUM": "320",
+            "DC": "502"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Guernsey",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "GG",
+            "A3": "GGY",
+            "NUM": "831",
+            "DC": "44"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Guinea",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "GN",
+            "A3": "GIN",
+            "NUM": "324",
+            "DC": "224"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Guinea-Bissau",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "GW",
+            "A3": "GNB",
+            "NUM": "624",
+            "DC": "245"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Guyana",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "GY",
+            "A3": "GUY",
+            "NUM": "328",
+            "DC": "592"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Haiti",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "HT",
+            "A3": "HTI",
+            "NUM": "332",
+            "DC": "509"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Heard Island and McDonald Mcdonald Islands",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "HM",
+            "A3": "HMD",
+            "NUM": "334",
+            "DC": "672"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Holy See (Vatican City State)",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "VA",
+            "A3": "VAT",
+            "NUM": "336",
+            "DC": "379"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Honduras",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "HN",
+            "A3": "HND",
+            "NUM": "340",
+            "DC": "504"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Hong Kong",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "HK",
+            "A3": "HKG",
+            "NUM": "344",
+            "DC": "852"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Hungary",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "HU",
+            "A3": "HUN",
+            "NUM": "348",
+            "DC": "36"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Iceland",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "IS",
+            "A3": "ISL",
+            "NUM": "352",
+            "DC": "354"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "India",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "IN",
+            "A3": "IND",
+            "NUM": "356",
+            "DC": "91"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Indonesia",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "ID",
+            "A3": "IDN",
+            "NUM": "360",
+            "DC": "62"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Iran, Islamic Republic of",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "IR",
+            "A3": "IRN",
+            "NUM": "364",
+            "DC": "98"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Iraq",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "IQ",
+            "A3": "IRQ",
+            "NUM": "368",
+            "DC": "964"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Ireland",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "IE",
+            "A3": "IRL",
+            "NUM": "372",
+            "DC": "353"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Isle of Man",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "IM",
+            "A3": "IMN",
+            "NUM": "833",
+            "DC": "44"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Israel",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "IL",
+            "A3": "ISR",
+            "NUM": "376",
+            "DC": "972"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Italy",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "IT",
+            "A3": "ITA",
+            "NUM": "380",
+            "DC": "39"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Jamaica",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "JM",
+            "A3": "JAM",
+            "NUM": "388",
+            "DC": "1-876"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Japan",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "JP",
+            "A3": "JPN",
+            "NUM": "392",
+            "DC": "81"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Jersey",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "JE",
+            "A3": "JEY",
+            "NUM": "832",
+            "DC": "44"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Jordan",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "JO",
+            "A3": "JOR",
+            "NUM": "400",
+            "DC": "962"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Kazakhstan",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "KZ",
+            "A3": "KAZ",
+            "NUM": "398",
+            "DC": "7"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Kenya",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "KE",
+            "A3": "KEN",
+            "NUM": "404",
+            "DC": "254"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Kiribati",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "KI",
+            "A3": "KIR",
+            "NUM": "296",
+            "DC": "686"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Korea, Democratic People's Republic of",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "KP",
+            "A3": "PRK",
+            "NUM": "408",
+            "DC": "850"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Korea, Republic of",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "KR",
+            "A3": "KOR",
+            "NUM": "410",
+            "DC": "82"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Kuwait",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "KW",
+            "A3": "KWT",
+            "NUM": "414",
+            "DC": "965"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Kyrgyzstan",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "KG",
+            "A3": "KGZ",
+            "NUM": "417",
+            "DC": "996"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Lao People's Democratic Republic",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "LA",
+            "A3": "LAO",
+            "NUM": "418",
+            "DC": "856"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Latvia",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "LV",
+            "A3": "LVA",
+            "NUM": "428",
+            "DC": "371"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Lebanon",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "LB",
+            "A3": "LBN",
+            "NUM": "422",
+            "DC": "961"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Lesotho",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "LS",
+            "A3": "LSO",
+            "NUM": "426",
+            "DC": "266"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Liberia",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "LR",
+            "A3": "LBR",
+            "NUM": "430",
+            "DC": "231"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Libya",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "LY",
+            "A3": "LBY",
+            "NUM": "434",
+            "DC": "218"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Liechtenstein",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "LI",
+            "A3": "LIE",
+            "NUM": "438",
+            "DC": "423"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Lithuania",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "LT",
+            "A3": "LTU",
+            "NUM": "440",
+            "DC": "370"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Luxembourg",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "LU",
+            "A3": "LUX",
+            "NUM": "442",
+            "DC": "352"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Macao",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "MO",
+            "A3": "MAC",
+            "NUM": "446",
+            "DC": "853"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Macedonia, the Former Yugoslav Republic of",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "MK",
+            "A3": "MKD",
+            "NUM": "807",
+            "DC": "389"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Madagascar",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "MG",
+            "A3": "MDG",
+            "NUM": "450",
+            "DC": "261"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Malawi",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "MW",
+            "A3": "MWI",
+            "NUM": "454",
+            "DC": "265"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Malaysia",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "MY",
+            "A3": "MYS",
+            "NUM": "458",
+            "DC": "60"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Maldives",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "MV",
+            "A3": "MDV",
+            "NUM": "462",
+            "DC": "960"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Mali",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "ML",
+            "A3": "MLI",
+            "NUM": "466",
+            "DC": "223"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Malta",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "MT",
+            "A3": "MLT",
+            "NUM": "470",
+            "DC": "356"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Marshall Islands",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "MH",
+            "A3": "MHL",
+            "NUM": "584",
+            "DC": "692"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Martinique",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "MQ",
+            "A3": "MTQ",
+            "NUM": "474",
+            "DC": "596"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Mauritania",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "MR",
+            "A3": "MRT",
+            "NUM": "478",
+            "DC": "222"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Mauritius",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "MU",
+            "A3": "MUS",
+            "NUM": "480",
+            "DC": "230"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Mayotte",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "YT",
+            "A3": "MYT",
+            "NUM": "175",
+            "DC": "262"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Mexico",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "MX",
+            "A3": "MEX",
+            "NUM": "484",
+            "DC": "52"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Micronesia, Federated States of",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "FM",
+            "A3": "FSM",
+            "NUM": "583",
+            "DC": "691"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Moldova, Republic of",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "MD",
+            "A3": "MDA",
+            "NUM": "498",
+            "DC": "373"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Monaco",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "MC",
+            "A3": "MCO",
+            "NUM": "492",
+            "DC": "377"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Mongolia",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "MN",
+            "A3": "MNG",
+            "NUM": "496",
+            "DC": "976"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Montenegro",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "ME",
+            "A3": "MNE",
+            "NUM": "499",
+            "DC": "382"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Montserrat",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "MS",
+            "A3": "MSR",
+            "NUM": "500",
+            "DC": "1-664"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Morocco",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "MA",
+            "A3": "MAR",
+            "NUM": "504",
+            "DC": "212"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Mozambique",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "MZ",
+            "A3": "MOZ",
+            "NUM": "508",
+            "DC": "258"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Myanmar",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "MM",
+            "A3": "MMR",
+            "NUM": "104",
+            "DC": "95"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Namibia",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "NA",
+            "A3": "NAM",
+            "NUM": "516",
+            "DC": "264"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Nauru",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "NR",
+            "A3": "NRU",
+            "NUM": "520",
+            "DC": "674"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Nepal",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "NP",
+            "A3": "NPL",
+            "NUM": "524",
+            "DC": "977"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Netherlands",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "NL",
+            "A3": "NLD",
+            "NUM": "528",
+            "DC": "31"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "New Caledonia",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "NC",
+            "A3": "NCL",
+            "NUM": "540",
+            "DC": "687"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "New Zealand",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "NZ",
+            "A3": "NZL",
+            "NUM": "554",
+            "DC": "64"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Nicaragua",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "NI",
+            "A3": "NIC",
+            "NUM": "558",
+            "DC": "505"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Niger",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "NE",
+            "A3": "NER",
+            "NUM": "562",
+            "DC": "227"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Nigeria",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "NG",
+            "A3": "NGA",
+            "NUM": "566",
+            "DC": "234"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Niue",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "NU",
+            "A3": "NIU",
+            "NUM": "570",
+            "DC": "683"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Norfolk Island",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "NF",
+            "A3": "NFK",
+            "NUM": "574",
+            "DC": "672"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Northern Mariana Islands",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "MP",
+            "A3": "MNP",
+            "NUM": "580",
+            "DC": "1-670"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Norway",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "NO",
+            "A3": "NOR",
+            "NUM": "578",
+            "DC": "47"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Oman",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "OM",
+            "A3": "OMN",
+            "NUM": "512",
+            "DC": "968"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Pakistan",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "PK",
+            "A3": "PAK",
+            "NUM": "586",
+            "DC": "92"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Palau",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "PW",
+            "A3": "PLW",
+            "NUM": "585",
+            "DC": "680"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Palestine, State of",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "PS",
+            "A3": "PSE",
+            "NUM": "275",
+            "DC": "970"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Panama",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "PA",
+            "A3": "PAN",
+            "NUM": "591",
+            "DC": "507"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Papua New Guinea",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "PG",
+            "A3": "PNG",
+            "NUM": "598",
+            "DC": "675"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Paraguay",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "PY",
+            "A3": "PRY",
+            "NUM": "600",
+            "DC": "595"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Peru",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "PE",
+            "A3": "PER",
+            "NUM": "604",
+            "DC": "51"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Philippines",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "PH",
+            "A3": "PHL",
+            "NUM": "608",
+            "DC": "63"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Pitcairn",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "PN",
+            "A3": "PCN",
+            "NUM": "612",
+            "DC": "870"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Poland",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "PL",
+            "A3": "POL",
+            "NUM": "616",
+            "DC": "48"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Portugal",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "PT",
+            "A3": "PRT",
+            "NUM": "620",
+            "DC": "351"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Puerto Rico",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "PR",
+            "A3": "PRI",
+            "NUM": "630",
+            "DC": "1"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Qatar",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "QA",
+            "A3": "QAT",
+            "NUM": "634",
+            "DC": "974"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Romania",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "RO",
+            "A3": "ROU",
+            "NUM": "642",
+            "DC": "40"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Russian Federation",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "RU",
+            "A3": "RUS",
+            "NUM": "643",
+            "DC": "7"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Rwanda",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "RW",
+            "A3": "RWA",
+            "NUM": "646",
+            "DC": "250"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Reunion",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "RE",
+            "A3": "REU",
+            "NUM": "638",
+            "DC": "262"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Saint Barthelemy",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "BL",
+            "A3": "BLM",
+            "NUM": "652",
+            "DC": "590"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Saint Helena",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "SH",
+            "A3": "SHN",
+            "NUM": "654",
+            "DC": "290"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Saint Kitts and Nevis",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "KN",
+            "A3": "KNA",
+            "NUM": "659",
+            "DC": "1-869"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Saint Lucia",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "LC",
+            "A3": "LCA",
+            "NUM": "662",
+            "DC": "1-758"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Saint Martin (French part)",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "MF",
+            "A3": "MAF",
+            "NUM": "663",
+            "DC": "590"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Saint Pierre and Miquelon",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "PM",
+            "A3": "SPM",
+            "NUM": "666",
+            "DC": "508"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Saint Vincent and the Grenadines",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "VC",
+            "A3": "VCT",
+            "NUM": "670",
+            "DC": "1-784"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Samoa",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "WS",
+            "A3": "WSM",
+            "NUM": "882",
+            "DC": "685"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "San Marino",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "SM",
+            "A3": "SMR",
+            "NUM": "674",
+            "DC": "378"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Sao Tome and Principe",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "ST",
+            "A3": "STP",
+            "NUM": "678",
+            "DC": "239"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Saudi Arabia",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "SA",
+            "A3": "SAU",
+            "NUM": "682",
+            "DC": "966"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Senegal",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "SN",
+            "A3": "SEN",
+            "NUM": "686",
+            "DC": "221"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Serbia",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "RS",
+            "A3": "SRB",
+            "NUM": "688",
+            "DC": "381"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Seychelles",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "SC",
+            "A3": "SYC",
+            "NUM": "690",
+            "DC": "248"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Sierra Leone",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "SL",
+            "A3": "SLE",
+            "NUM": "694",
+            "DC": "232"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Singapore",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "SG",
+            "A3": "SGP",
+            "NUM": "702",
+            "DC": "65"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Sint Maarten (Dutch part)",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "SX",
+            "A3": "SXM",
+            "NUM": "534",
+            "DC": "1-721"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Slovakia",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "SK",
+            "A3": "SVK",
+            "NUM": "703",
+            "DC": "421"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Slovenia",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "SI",
+            "A3": "SVN",
+            "NUM": "705",
+            "DC": "386"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Solomon Islands",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "SB",
+            "A3": "SLB",
+            "NUM": "90",
+            "DC": "677"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Somalia",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "SO",
+            "A3": "SOM",
+            "NUM": "706",
+            "DC": "252"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "South Africa",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "ZA",
+            "A3": "ZAF",
+            "NUM": "710",
+            "DC": "27"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "South Georgia and the South Sandwich Islands",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "GS",
+            "A3": "SGS",
+            "NUM": "239",
+            "DC": "500"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "South Sudan",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "SS",
+            "A3": "SSD",
+            "NUM": "728",
+            "DC": "211"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Spain",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "ES",
+            "A3": "ESP",
+            "NUM": "724",
+            "DC": "34"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Sri Lanka",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "LK",
+            "A3": "LKA",
+            "NUM": "144",
+            "DC": "94"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Sudan",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "SD",
+            "A3": "SDN",
+            "NUM": "729",
+            "DC": "249"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Suriname",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "SR",
+            "A3": "SUR",
+            "NUM": "740",
+            "DC": "597"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Svalbard and Jan Mayen",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "SJ",
+            "A3": "SJM",
+            "NUM": "744",
+            "DC": "47"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Swaziland",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "SZ",
+            "A3": "SWZ",
+            "NUM": "748",
+            "DC": "268"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Sweden",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "SE",
+            "A3": "SWE",
+            "NUM": "752",
+            "DC": "46"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Switzerland",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "CH",
+            "A3": "CHE",
+            "NUM": "756",
+            "DC": "41"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Syrian Arab Republic",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "SY",
+            "A3": "SYR",
+            "NUM": "760",
+            "DC": "963"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Taiwan, Province of China",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "TW",
+            "A3": "TWN",
+            "NUM": "158",
+            "DC": "886"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Tajikistan",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "TJ",
+            "A3": "TJK",
+            "NUM": "762",
+            "DC": "992"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "United Republic of Tanzania",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "TZ",
+            "A3": "TZA",
+            "NUM": "834",
+            "DC": "255"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Thailand",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "TH",
+            "A3": "THA",
+            "NUM": "764",
+            "DC": "66"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Timor-Leste",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "TL",
+            "A3": "TLS",
+            "NUM": "626",
+            "DC": "670"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Togo",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "TG",
+            "A3": "TGO",
+            "NUM": "768",
+            "DC": "228"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Tokelau",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "TK",
+            "A3": "TKL",
+            "NUM": "772",
+            "DC": "690"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Tonga",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "TO",
+            "A3": "TON",
+            "NUM": "776",
+            "DC": "676"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Trinidad and Tobago",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "TT",
+            "A3": "TTO",
+            "NUM": "780",
+            "DC": "1-868"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Tunisia",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "TN",
+            "A3": "TUN",
+            "NUM": "788",
+            "DC": "216"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Turkey",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "TR",
+            "A3": "TUR",
+            "NUM": "792",
+            "DC": "90"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Turkmenistan",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "TM",
+            "A3": "TKM",
+            "NUM": "795",
+            "DC": "993"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Turks and Caicos Islands",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "TC",
+            "A3": "TCA",
+            "NUM": "796",
+            "DC": "1-649"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Tuvalu",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "TV",
+            "A3": "TUV",
+            "NUM": "798",
+            "DC": "688"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Uganda",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "UG",
+            "A3": "UGA",
+            "NUM": "800",
+            "DC": "256"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Ukraine",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "UA",
+            "A3": "UKR",
+            "NUM": "804",
+            "DC": "380"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "United Arab Emirates",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "AE",
+            "A3": "ARE",
+            "NUM": "784",
+            "DC": "971"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "United Kingdom",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "GB",
+            "A3": "GBR",
+            "NUM": "826",
+            "DC": "44"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "United States",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "US",
+            "A3": "USA",
+            "NUM": "840",
+            "DC": "1"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "United States Minor Outlying Islands",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "UM",
+            "A3": "UMI",
+            "NUM": "581",
+            "DC": "1"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Uruguay",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "UY",
+            "A3": "URY",
+            "NUM": "858",
+            "DC": "598"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Uzbekistan",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "UZ",
+            "A3": "UZB",
+            "NUM": "860",
+            "DC": "998"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Vanuatu",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "VU",
+            "A3": "VUT",
+            "NUM": "548",
+            "DC": "678"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Venezuela",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "VE",
+            "A3": "VEN",
+            "NUM": "862",
+            "DC": "58"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Viet Nam",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "VN",
+            "A3": "VNM",
+            "NUM": "704",
+            "DC": "84"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "British Virgin Islands",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "VG",
+            "A3": "VGB",
+            "NUM": "92",
+            "DC": "1-284"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "US Virgin Islands",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "VI",
+            "A3": "VIR",
+            "NUM": "850",
+            "DC": "1-340"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Wallis and Futuna",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "WF",
+            "A3": "WLF",
+            "NUM": "876",
+            "DC": "681"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Western Sahara",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "EH",
+            "A3": "ESH",
+            "NUM": "732",
+            "DC": "212"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Yemen",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "YE",
+            "A3": "YEM",
+            "NUM": "887",
+            "DC": "967"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Zambia",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "ZM",
+            "A3": "ZMB",
+            "NUM": "894",
+            "DC": "260"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Zimbabwe",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "ZW",
+            "A3": "ZWE",
+            "NUM": "716",
+            "DC": "263"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    },
+    {
+        "country": {
+            "en_name": "Aland Islands",
+            "alt_name": "",
+            "native_name":"",
+            "A2": "AX",
+            "A3": "ALA",
+            "NUM": "248",
+            "DC": "358"
+        },
+        "currency": {
+            "name": "",
+            "full": "",
+            "symb": "",
+            "abbr": ""
+        },
+        "meta": {
+            "unicode_decimal": "",
+            "unicode_hex": ""
+        }
+    }
+]

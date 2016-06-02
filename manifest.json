@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+
+  "name": "chromecash",
+  "description": "Converts a pages display currency to your own",
+  "version": "1.0",
+
+  "icons": {
+	 "16": "img/png/icon/16/16.png",
+   "128": "img/png/icon/128/128.png"
+  },
+
+  
+
+  "content_scripts": [
+    {
+      "js": ["js/lib/prototypes.js", "js/content/content.js"],
+      "all_frames": true,
+      "run_at" : "document_idle", /** document_idle **/
+      "matches": ["http://*/*", "https://*/*"]
+    }
+  ],
+
+  "permissions": [
+    "activeTab",
+    "tabs", 
+    "http://*/*", 
+    "https://*/*"
+  ]
+
+}
