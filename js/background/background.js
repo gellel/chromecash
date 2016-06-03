@@ -57,6 +57,11 @@ function fetchCountryJSON (callback) {
 	* handles supplied request relative to the outcome desired such as requesting data through a function
 **/
 
+
+chrome.runtime.onStartUp.addListener(function () {
+	alert("first run");
+});
+
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 
 	if (request) {
