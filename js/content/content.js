@@ -15,9 +15,9 @@
 		
 		chrome.runtime.sendMessage({message_type: "function_request", function_name: "fetchCountryJSON"}, function (a) {
 
-			console.log(a);
+			console.log(a)
 
-		})
+		});
 
 	};
 

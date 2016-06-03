@@ -61,15 +61,19 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 
 	if (request) {
 
+		let tabId = sender.tab.id;
+
 		if (request.message_type === "function_request") {
 
 			if (!request.function_name) {
-				sendResponse({ meta: {status: { msg: "missing function name"}} });
+				sendResponse({ tabId: tabId, meta: {status: { msg: "missing function name"}} });
 			}
 			else {
 				window[request.function_name](function (returned__data) {
+
+					//sender.tab.id
 				
-					sendResponse({ c: chrome, meta: {status: { msg: "success"}}, data: returned__data });
+					sendResponse({ tabId: tabId, meta: {status: { msg: "success"}}, data: returned__data });
 
 				});
 			}
