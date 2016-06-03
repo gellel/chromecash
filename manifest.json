@@ -10,7 +10,11 @@
    "128": "img/png/icon/128/128.png"
   },
 
-  
+  "background": {
+      "scripts": [
+          "js/background/background.js"
+      ]
+  },
 
   "content_scripts": [
     {
@@ -26,6 +30,8 @@
     "tabs", 
     "http://*/*", 
     "https://*/*"
-  ]
+  ],
+
+  "web_accessible_resources": ["js/json/countries/countries.json"]
 
 }
