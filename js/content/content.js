@@ -3,7 +3,7 @@
 
 
 
-	!function () {
+	!function (callback) {
 
 		callback();
 
