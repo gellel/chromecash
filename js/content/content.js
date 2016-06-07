@@ -12,38 +12,23 @@
 
 	function init () {
 
-		/*
-			str req:
+		chrome.runtime.sendMessage({message_type: "function_request", function_name: "fetchCountryJSON"}, function (response) {
 
-				starts with either: 
-					* valid currency identifier
-					* integer 
+			console.log("content.js send message received response:", response);
 
-				between:
-					* integer punctuated by:
-						* -
-						* ,
-						* .
-
-				ends with either:
-					* valid integer:
-						* followed by: 
-					<---------
-					|		
-					-->	* valid currency abbr
-	
-		*/
-
-
-
-		/*
-		chrome.runtime.sendMessage({message_type: "function_request", function_name: "fetchCountryJSON"}, function (a) {
-
-			console.log(a)
+			localStorage.removeItem("countries__json");
 
 		});
-		
-		*/
+
+		window.addEventListener("click", function () {
+			chrome.runtime.sendMessage({}, function (x) {
+
+				console.log(x);
+
+			});
+
+		}, false);
+
 	};
 
 

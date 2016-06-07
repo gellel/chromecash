@@ -14,41 +14,7 @@ function fetchCountryJSON (callback) {
 		* @param function 	acts as callback response handler for shared data to content.js
 	**/
 
-	countries__data = countries__data || localStorage.getItem("countries__json") || undefined;
-
-	if (!countries__data) {
-
-		let countries__path = chrome.extension.getURL("js/json/countries/countries.json");
-
-		let xhr = new XMLHttpRequest();
-
-		xhr.open("GET", countries__path, true);
-		
-		xhr.onreadystatechange = function () {
-			if (xhr.readyState === 4) {
-				countries__data = (xhr.status === 200) ? xhr.responseText : undefined;
-
-				if (countries__data) {
-				
-					localStorage.setItem("countries__json", countries__data);
-				}
-
-				callback(JSON.parse(countries__data));
-			}
-		};
-
-		xhr.send();
-
-	}
-	else {
-
-		if (typeof countries__data === "string") {
-			countries__data = JSON.parse(countries__data)
-		}
-
-		callback(countries__data);
-
-	};
+	callback(true);
 	
 };
 	
@@ -58,22 +24,29 @@ function fetchCountryJSON (callback) {
 **/
 
 
-chrome.runtime.onStartUp.addListener(function () {
-	alert("first run");
-});
-
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 
-	if (request) {
+	let response__data = { tabdId: sender.tab.id, meta: { status: { message: undefined }} };
 
-		let tabId = sender.tab.id;
+	if (typeof request === "object") {
+
+
+		if (Object.keys(request).length === 0) {
+
+			response__data.meta.status.message = "No abstraction supplied.";
+
+			sendResponse(response__data);
+
+		}
 
 		if (request.message_type === "function_request") {
+
 
 			if (!request.function_name) {
 				sendResponse({ tabId: tabId, meta: {status: { msg: "missing function name"}} });
 			}
 			else {
+
 				window[request.function_name](function (returned__data) {
 
 					//sender.tab.id
@@ -84,6 +57,8 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 			}
 		}
 
+
 	}
+	
 
 });
