@@ -13,6 +13,9 @@ function fetchCountryJSON (callback) {
 		*
 		* @param function 	acts as callback response handler for shared data to content.js
 	**/
+	if (!countries__data) {
+		
+	}
 
 	callback(true);
 	
