@@ -735,7 +735,61 @@
 
 		let str = textNodeCrawler(document.body);
 
-		console.log(str[1].nodeValue)
+		
+		for (let i = 0; i < str.length; i++) {
+
+			/**
+			    -
+			    * grouped: true
+			    * operation: { } followed by {.} occurs {1}
+			    * regex pattern: ((\s\.){1})
+			    
+			    * grouped: true
+			    * operation: {any digit} occurs {1}
+			    * regex pattern: ((\d+){1})
+			        
+			        * grouped: true
+			        * operation: check for either { .} or {any digit} until broken 
+			        * combined: ((\s\.){1})|((\d+){1})
+			    -
+
+			    -
+			    * grouped: true
+			    * operation: {.} or {,} followed by {any digit} until broken
+			    * regex pattern: ((\.|\,)\d+)
+			    
+			    * grouped: true
+			    * operation: {any digit} until broken
+			    * regex pattern: (\d+)
+
+			        * grouped: true
+			        * operation: check for either {.} or {.} followed by {any digit} until broken 
+
+			    -
+			    * grouped: false
+			    * operation: check that the entire pattern repeats more than once
+			    * regex pattern: {1,}
+			    
+			    ** result:
+			    
+			    ((\s\.){1})|((\d+){1})((\.\d+|\,\d+)|(\d+)){1,}
+
+			**/
+
+
+			let rgx = new RegExp(/((\s\.){1})|((\d+){1})(((\.|\,)\d+)|(\d+)){1,}/);
+
+			if (rgx.test(str[i].nodeValue)) {
+
+				let r = str[i].nodeValue.match(rgx)[0];
+
+				console.log(r)
+			}
+
+		};
+
+	
+		
 
 	</script>
 </html>
