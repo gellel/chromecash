@@ -14,7 +14,7 @@ function fetchCountryJSON (callback) {
 		* @param function 	acts as callback response handler for shared data to content.js
 	**/
 	if (!countries__data) {
-		
+		let countries__json = localStorage.getItem("countries_json");
 	}
 
 	callback(true);
