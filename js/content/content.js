@@ -23,7 +23,7 @@
 		window.addEventListener("click", function () {
 			chrome.runtime.sendMessage({}, function (x) {
 
-				console.log(x);
+				console.log("response from: ", x);
 
 			});
 
