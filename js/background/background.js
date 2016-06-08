@@ -19,9 +19,12 @@ function fetchCountryJSON (callback) {
 		if (countries__data) {
 			callback(countries__data)
 		}
+		else {
+			let xhr = new XMLHttpRequest();
+		}
 	}
 	else {
-		callback(true);
+		callback(countries__data);
 	}
 };
 	
