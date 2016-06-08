@@ -20,7 +20,13 @@ function fetchCountryJSON (callback) {
 			callback(countries__data)
 		}
 		else {
+
+			/** **/
+
+			let countries__path = chrome.extension.getURL("js/json/countries/countries.json");
+
 			let xhr = new XMLHttpRequest();
+
 		}
 	}
 	else {
