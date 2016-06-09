@@ -1,35 +1,23 @@
-!function () {
-	"use strict";
+/**
+	* retrieve JSON data from background.js
+	* hypothetically cached in background.js memory
+**/
+this.init = function () {
+	let countries__data = chrome.runtime.sendMessage({message_type: "function_request", function_name: "fetchJSON"}, function (response) {
+			console.log(response);
+	});
+};
 
-
-
-	!function (callback) {
-
-		callback();
-
-	}(init);
-
-
-	function init () {
-
-		chrome.runtime.sendMessage({message_type: "function_request", function_name: "fetchCountryJSON"}, function (response) {
-
-			console.log("content.js send message received response:", response);
-
-			localStorage.removeItem("countries__json");
-
-		});
-
-		window.addEventListener("click", function () {
-			chrome.runtime.sendMessage({}, function (x) {
-
-				console.log("response from: ", x);
-
-			});
-
-		}, false);
-
-	};
-
-
-}();
+/**
+	* activated from background.js
+	* unique response to tab content.js is operating on
+**/
+chrome.runtime.onMessage.addListener(function (request, sender, sendMessage) {
+	if (typeof request === "object") {
+		if (request.meta) {
+			if (request.meta.status === "tab_ready") {
+				window.init();
+			}
+		}
+	}
+});

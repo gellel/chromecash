@@ -1,80 +1,61 @@
-/**
-	* global instance of countries__data to be shared
-**/
+this.countries__data = undefined;
 
-let countries__data = undefined;
+this.fetchJSON = function (callback) {
+	if (!window.countries__data || window.countries__data === null) {
+		if (localStorage.getItem("countries__json") !== null) {
+			window.countries__data = JSON.parse(localStorage.getItem("countries__json"));
 
-function fetchCountryJSON (callback) {
-
-	/**
-		* retrieve local instance of countries data
-		* if data does not exist locally, fetch from resources countries.json
-		* set and store for future instances
-		*
-		* @param function 	acts as callback response handler for shared data to content.js
-	**/
-	if (!countries__data) {
-		countries__data = localStorage.getItem("countries_json");
-
-		if (countries__data) {
-			callback(countries__data)
+			fetchJSON(callback);
 		}
 		else {
-
-			/** **/
-
-			let countries__path = chrome.extension.getURL("js/json/countries/countries.json");
-
 			let xhr = new XMLHttpRequest();
+				xhr.addEventListener("readystatechange", function () {
+					if (xhr.readyState === 4) {
+						if (xhr.status === 200) {
+							localStorage.setItem("countries__json", xhr.responseText);
+							window.countries__data = JSON.parse(xhr.responseText);
 
-		}
+							fetchJSON(callback);
+						}
+					}
+				}, false);
+				xhr.open("GET", chrome.extension.getURL("js/json/countries/countries.json"), false);
+				xhr.send();
+		};
 	}
 	else {
-		callback(countries__data);
-	}
+		callback(window.countries__data);
+	};
 };
-	
+
+/*
+	* awaits tabsOnUpdate to complete before operating
+	* declare the eventListener for Messages to allow flexible requests for functions
+*/
+this.init = function () {
+	chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
+		if (typeof request === "object") {
+			if (request.message_type) {
+				if (request.message_type === "function_request") {
+					if (window[request.function_name]) {
+						window[request.function_name](function (returnedData) {		
+							sendResponse({c: chrome, s: sender, d: returnedData});
+						});
+					}
+				}
+			}
+		}
+	});
+};
+
 /**
-	* general cross script service worker accepts messages from content scripts
-	* handles supplied request relative to the outcome desired such as requesting data through a function
+	* primary initaliser
+	* asks tab[id] to initalise content functions
 **/
-
-
-chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
-
-	let response__data = { tabdId: sender.tab.id, meta: { status: { message: undefined }} };
-
-	if (typeof request === "object") {
-
-
-		if (Object.keys(request).length === 0) {
-
-			response__data.meta.status.message = "No abstraction supplied.";
-
-			sendResponse(response__data);
-
-		}
-
-		if (request.message_type === "function_request") {
-
-
-			if (!request.function_name) {
-				sendResponse({ tabId: tabId, meta: {status: { msg: "missing function name"}} });
-			}
-			else {
-
-				window[request.function_name](function (returned__data) {
-
-					//sender.tab.id
-				
-					sendResponse({ tabId: tabId, meta: {status: { msg: "success"}}, data: returned__data });
-
-				});
-			}
-		}
-
-
+chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
+	if (changeInfo.status === "complete") {
+		chrome.tabs.sendMessage(tabId, {meta: {status: "tab_ready", tabId: tabId}}, function () {
+			window.init();
+		});
 	}
-	
-
 });
