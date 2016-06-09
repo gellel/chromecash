@@ -1,5 +1,26 @@
+this.c = function (element, callback) {
+	let c = document.createTreeWalker(element, NodeFilter.SHOW_TEXT, "", false);
+	let r = new RegExp(/^\s*$/);
+	let n;
+	let nodes = [];
+	while (n = c.nextNode()) {
+		if (!r.test(n.nodeValue)) {
+			nodes.push(n);
+		}
+	}
+	if (callback) {
+		callback(nodes)
+	}
+	return nodes;
+};
+
 this.init = function (request, callback) {
-	console.log(request);
+
+	let floatregex = /(?:\d*\.)?\d+/;
+
+	c(document.body, function (nodes) {
+		console.log(nodes);
+	});
 };
 
 /**
