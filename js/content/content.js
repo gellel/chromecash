@@ -18,8 +18,31 @@ this.init = function (request, callback) {
 
 	let floatregex = /(?:\d*\.)?\d+/;
 
+	let d = request.r;
+
 	c(document.body, function (nodes) {
-		console.log(nodes);
+		/**
+			* initial top loop of content nodes
+		**/
+		for (let i = 0; i < nodes.length; i++) {
+			/**
+				* scopes function for evaluations of substrings
+			**/
+			!function (node) {
+				let str = node.nodeValue;
+				//[a-zA-Z0-9.,]+
+				let words = str.split(new RegExp(/[_+\-!@#%^&*();:\/|<>"'{}/\n/\ \t]/)).filter(Boolean);
+
+				console.log(words);
+				/**
+					* iterate through this nodes words 
+				**/
+				//for (let k = 0; k < words.length; k++) {
+				//	console.log(words[k])
+				//}
+			}(nodes[i]);
+		};
+		console.log("finished!!")
 	});
 };
 
