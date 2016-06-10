@@ -1,3 +1,11 @@
+this.a = function (funct, callback) {
+	let t = window.setTimeout(function () {
+		funct();
+		callback();
+		window.clearInterval(t);
+	}, 0);
+};
+
 this.c = function (element, callback) {
 	let c = document.createTreeWalker(element, NodeFilter.SHOW_TEXT, "", false);
 	let r = new RegExp(/^\s*$/);
@@ -21,28 +29,33 @@ this.init = function (request, callback) {
 	let d = request.r;
 
 	c(document.body, function (nodes) {
-		/**
-			* initial top loop of content nodes
-		**/
-		for (let i = 0; i < nodes.length; i++) {
-			/**
-				* scopes function for evaluations of substrings
-			**/
-			!function (node) {
-				let str = node.nodeValue;
-				//[a-zA-Z0-9.,]+
-				let words = str.split(new RegExp(/[_+\-!@#%^&*();:\/|<>"'{}/\n/\ \t]/)).filter(Boolean);
 
-				console.log(words);
+		window.a(function () {
+			/**
+				* initial top loop of content nodes
+			**/
+			for (let i = 0; i < nodes.length; i++) {
 				/**
-					* iterate through this nodes words 
+					* scopes function for evaluations of substrings
 				**/
-				//for (let k = 0; k < words.length; k++) {
-				//	console.log(words[k])
-				//}
-			}(nodes[i]);
-		};
-		console.log("finished!!")
+				!function (node) {
+					let str = node.nodeValue;
+					//[a-zA-Z0-9.,]+
+					// /[_+\-!?@#%^&*();:\/|<>"'{}/\n/\ \t]/
+					let words = str.split(new RegExp(/\s|[\_\+\-!@#$%^&*():;\\\/|<>"'\n\t]+/)).filter(Boolean);
+
+					console.log('w:', words);
+					/**
+						* iterate through this nodes words 
+					**/
+					//for (let k = 0; k < words.length; k++) {
+					//	console.log(words[k])
+					//}
+				}(nodes[i]);
+			};
+		}, function () {
+			console.log("truly async? finished!!");
+		});
 	});
 };
 
