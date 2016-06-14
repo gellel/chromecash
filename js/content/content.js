@@ -1,7 +1,7 @@
 this.a = function (funct, callback) {
 	let t = window.setTimeout(function () {
 		funct();
-		callback();
+		if (callback) callback();
 		window.clearInterval(t);
 	}, 0);
 };
@@ -22,15 +22,30 @@ this.c = function (element, callback) {
 	return nodes;
 };
 
+this.f = function (element) {
+	let tagNames = ["STYLE","SCRIPT", "NOSCRIPT", "PRE", "IMG", "CANVAS", "CODE", "ABBR", "TIME", "TEXTAREA", "INPUT", "OPTION", "AUDIO", "SOURCE", "VIDEO", "TRACK", "FORM"];
+
+	for (let i = 0; i < tagNames.length; i++) {
+		if (element.tagName === tagNames[i]) {
+			return true;
+		}
+	}
+	return false;
+};
+
 this.init = function (request, callback) {
 
-	let floatregex = /(?:\d*\.)?\d+/;
-
-	let d = request.r;
+	let json_data = request.r;
 
 	c(document.body, function (nodes) {
 
-		window.a(function () {
+		let clean_strs = [];
+
+		a(function () {
+
+			/**
+				* non whitespace strings
+			**/
 			/**
 				* initial top loop of content nodes
 			**/
@@ -39,12 +54,46 @@ this.init = function (request, callback) {
 					* scopes function for evaluations of substrings
 				**/
 				!function (node) {
-					let str = node.nodeValue;
-					//[a-zA-Z0-9.,]+
-					// /[_+\-!?@#%^&*();:\/|<>"'{}/\n/\ \t]/
-					let words = str.split(new RegExp(/\s|[\_\+\-!@#$%^&*():;\\\/|<>"'\n\t]+/)).filter(Boolean);
+					/**
+						* check parent node against registered elements to reduce array load
+						* filters against type, e.g. exclude <script> text
+					**/
+					if (!f(node.parentElement)) {
+						/**
+							* split words based on their position between spaces or special characters
+							* using characters that are unlikely to be used to declare a currency
+						**/
+						let words = node.nodeValue.split(new RegExp(/\s|[\_\+\-!@#%^&*():;\\\/|<>"'\n\t]+/)).filter(function (n) { return /\S/.test(n); });
 
-					console.log('w:', words);
+						/**
+							* append to array of clean strings 
+						**/
+						if (words.length) {
+							clean_strs.push({ textNode: node, textNodeWords: words });
+						}
+					}
+
+
+					/*
+					if (node.parentElement.tagName !== "NOSCRIPT" || node.parentElement.tagName !== "SCRIPT" || node.parentElement.tagName !== "PRE") {
+						let words = node.nodeValue.split(new RegExp(/\s|[\_\+\-!@#%^&*():;\\\/|<>"'\n\t]+/)).filter(function (n) { return /\S/.test(n); });
+
+						if (words.length) {
+							clean_strs.push({ node: node, words: words});
+						}
+
+					}
+
+					/*
+					let node_words = node_str.split(new RegExp(/\s|[\_\+\-!@#%^&*():;\\\/|<>"'\n\t]+/)).filter(function (n) {
+						return /\S/.test(n);
+					});
+
+					if (node_words.length) {
+						clean_strs.push({ parentElement: node.parentElement, words: node_words, node: node });
+					}
+					*/
+				
 					/**
 						* iterate through this nodes words 
 					**/
@@ -54,8 +103,31 @@ this.init = function (request, callback) {
 				}(nodes[i]);
 			};
 		}, function () {
-			console.log("truly async? finished!!");
+			/**
+				create primary async function to reduce page load
+			**/
+			a(function () {
+				for (let i = 0; i < clean_strs.length; i++) {
+					!function (clean) {
+						/**
+							secondary async to attempt to lighten page 
+						**/
+						a(function () {
+							for (let k = 0; k < clean.textNodeWords.length; k++) {
+								console.log("async:", k + ":", clean.textNodeWords[k])
+							}
+						});
+
+					}(clean_strs[i]);
+
+				}	
+
+			});
+
+			//console.log("async clean:", clean_strs);
+
 		});
+
 	});
 };
 
