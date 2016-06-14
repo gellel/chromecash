@@ -168,15 +168,31 @@ this.s = function (text, characters) {
 };
 
 this.matchCurrency = function (data) {
+	if (!location__data || !countries__data) return;
+
 	let node = data.node;
 	let text = data.text;
 
-	console.log(text);
+	/*
+	for (let i = 0; i < window.countries__data.length; i++) {
+		!function (data, node, text) {
+
+			console.log(data)
+
+		}(countries__data[i], node, text);
+	}
+	*/
+
 };
 
 this.init = function (request, callback) {
+	/**
+		* register countries__data result as global variable
+		* register location__data result as global variable
+	**/
+	window.location__data = request.location;
+	window.countries__data = request.countries;
 
-	let json_data = request.r;
 
 	c(document.body, function (nodes) {
 
@@ -276,7 +292,7 @@ this.init = function (request, callback) {
 										* appends item before
 									**/
 									if (words[k - 1]) {
-										data.text.before = words[k - 1][1]
+										data.text.before = words[k - 1][1];
 									}
 									/**
 										* assumes we used splitIndex
@@ -294,13 +310,10 @@ this.init = function (request, callback) {
 						});
 
 					}(clean_strs[i]);
-
+				
 				};	
 
 			});
-
-			//console.log("finished iterating over cleanstrs!!");
-
 		});
 
 	});
