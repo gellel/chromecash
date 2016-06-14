@@ -43,6 +43,10 @@ this.f = function (element) {
 **/	
 this.m = function (text) {
 	/**
+		* declare base potential currency variable
+	**/
+	let potential_currency = undefined;
+	/**
 		* check if str contains index of . or ,
 	**/	
 	if (text.indexOf('.') > -1 || text.indexOf(',') > -1) {
@@ -66,67 +70,99 @@ this.m = function (text) {
 			let int = text.match(/(?:\d+)(\d+|[,.])+\d+/g) || undefined;
 
 			if (int) {
-				//console.log('pass:', int[0]);
-
-				//s(int[0])
-
+				
+				/**
+					* check the existence of either a comma or period in string
+				**/
 				let matches = s(int[0], ['.', ',']);
+				/**
+					* check that array was populated
+				**/
+				if (matches.length) {
+					/**
+						* check if array is longer than one
+						* prevents false flag value of, e.g. 1,000 being converted to 1.000
+					**/
+					if (matches.length > 1) {
+						/**
+							* obtain last index of array
+						**/
+						let lastIndex = matches[matches.length - 1];
+						/**
+							* format European decleration (replace trailing comma with period)
+						**/
+						if (lastIndex.character === ",") {
+							int[0] = int[0].replace(/\./g, "").replace(/\,/g, ".");
+						}
+						/**
+							* format regular decleration (replace leading commas)
+						**/
+						else if (lastIndex.character === ".") {
+							int[0] = int[0].replace(/\,/g, "");
+						}
+						/**
+							* otherwise remove specia characters
+						**/
+						else {
+							int[0] = int[0].replace(/[,]/g, "");
+						}
 
-				console.log(matches)
+					}
+				}
+
+				/**
+					* perform final cleanup on remaining commas
+				**/
+
+				int[0] = int[0].replace(/\,/g, "");
+
+				potential_currency = int[0];
+
 			}
 			
-			/*
-			if (int) {
-				//console.log("i", int[0].match(/((\d|[,.])+)\d+[,.]\d+/g));
-				if (int[0].match(/((\d|[,.])+)\d+[,.]\d+/g)) {
-					console.log('prol:', int[0])
-				}
-				else {
-					console.log('nah:', int[0])
-				}
-			}
-			*/
-
-		}
-		else {
-			console.log('n repeat:', text)
 		}
 	}
-
-//	console.log(text, (text.indexOf('.') > -1) || (text.indexOf(',') > -1) );
-
-	//console.log( (text.match(/\./g)) ? true : false );
-
-	/*
-	if ((text.indexOf('.') > -1)) {
-
-		console.log("this text has a period", text)
-	} 
-	else if ((text.indexOf(',') > -1)) {
-		console.log("has a comma", text);
+	/**
+		* otherwise attempt to check if string is a potential number
+	**/
+	else if (!isNaN(text)) {
+		potential_currency = text;
 	}
-	else if (parseInt(text)) {
-		console.log("is a valid int", text);
-	}
-	else {
-		return false;
-	}
-	*/
+	/**
+		* return computed outcome
+	**/
+	return potential_currency;
 };
 /**
 	* substring index
 **/ 
 this.s = function (text, characters) {
+	if (!text || !characters) {
+		return;
+	}
+	/**
+		* temp array to hold found matches
+	**/
 	let matches = [];
+	/**
+		* iterate through provided string
+	**/
 	for (let i = 0; i < text.length; i++) {
+		/**
+			iterate through matches array
+		**/
 		for (let k = 0; k < characters.length; k++) {
+			/**
+				if text matches user supplied matches add to temp array
+			**/
 			if (text[i] === characters[k]) {
 				matches.push({
 					character: characters[k],
 					position: i
 				});
+				break;
 			}
-		}
+		};
 	};
 	return matches;
 };
@@ -140,7 +176,6 @@ this.init = function (request, callback) {
 		let clean_strs = [];
 
 		a(function () {
-
 			/**
 				* non whitespace strings
 			**/
@@ -171,33 +206,6 @@ this.init = function (request, callback) {
 						}
 					}
 
-
-					/*
-					if (node.parentElement.tagName !== "NOSCRIPT" || node.parentElement.tagName !== "SCRIPT" || node.parentElement.tagName !== "PRE") {
-						let words = node.nodeValue.split(new RegExp(/\s|[\_\+\-!@#%^&*():;\\\/|<>"'\n\t]+/)).filter(function (n) { return /\S/.test(n); });
-
-						if (words.length) {
-							clean_strs.push({ node: node, words: words});
-						}
-
-					}
-
-					/*
-					let node_words = node_str.split(new RegExp(/\s|[\_\+\-!@#%^&*():;\\\/|<>"'\n\t]+/)).filter(function (n) {
-						return /\S/.test(n);
-					});
-
-					if (node_words.length) {
-						clean_strs.push({ parentElement: node.parentElement, words: node_words, node: node });
-					}
-					*/
-				
-					/**
-						* iterate through this nodes words 
-					**/
-					//for (let k = 0; k < words.length; k++) {
-					//	console.log(words[k])
-					//}
 				}(nodes[i]);
 			};
 		}, function () {
@@ -205,44 +213,53 @@ this.init = function (request, callback) {
 				* create primary async function to reduce page load
 			**/
 			a(function () {
+				/**
+					* iterate over cleaned/valid strings from document Tree Walker
+				**/
 				for (let i = 0; i < clean_strs.length; i++) {
+					/**
+						* supply individual string to anonymous function for evaluation
+					**/
 					!function (clean) {
 						/**
-							* secondary async to attempt to lighten page 
+							* secondary async to attempt to lighten computational delay 
 						**/
 						a(function () {
-							for (let k = 0; k < clean.textNodeWords.length; k++) {
+							/**
+								* iterate over individual items in cleaned words array individual word list
+								* it's a bit of a mouthful, basically this:
+									cleaned_strs - 
+										clean_strs_item -
+											clean_strs_items_words < iterate over this
 
-								let pre = clean.textNodeWords[k - 1];
-								let mid = clean.textNodeWords[k];
-								let aft = clean.textNodeWords[k + 1];
-
-							//	console.log("str:", pre, mid, aft, "\n");
-
-							m(mid);
-
-								/** 
-									* begin string evaluation
+							**/
+							for (let k = 0, words = clean.textNodeWords; k < words.length; k++) {
+								/**
+									* evaluate current word in word list against currency string identifier 
 								**/
-								/*
-								console.log("is number:", !isNaN(clean.textNodeWords[k]));
-								console.log("text value:", clean.textNodeWords[k]);
-								console.log("");
-								*/
-								//console.log("is word a number:", !isNaN(clean.textNodeWords[k]))
-								//console.log("async:", k + ":", clean.textNodeWords[k])
+								let potential_currency = m(words[k]);
 
-								//if (isFloat(clean.textNodeWords[k]) || isInteger(clean.textNodeWords[k])) {
-									//console.log("is valid:", clean.textNodeWords[k])
+								if (potential_currency) {
 
-								
-								//}
+									let str_original = words[k];
+
+									let str_before = words[k - 1];
+									let str_after = words[k + 1];
+
+									console.log({b: str_before, a: str_after, o: str_original, c: potential_currency})
+
+									
+
+									//console.log("full string:", before, potential_currency, after, "\n");
+								}
 							}
+
+
 						});
 
 					}(clean_strs[i]);
 
-				}	
+				};	
 
 			});
 
