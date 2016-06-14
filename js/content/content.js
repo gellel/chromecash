@@ -167,6 +167,13 @@ this.s = function (text, characters) {
 	return matches;
 };
 
+this.matchCurrency = function (data) {
+	let node = data.node;
+	let text = data.text;
+
+	console.log(text);
+};
+
 this.init = function (request, callback) {
 
 	let json_data = request.r;
@@ -192,11 +199,22 @@ this.init = function (request, callback) {
 						* filters against type, e.g. exclude <script> text
 					**/
 					if (!f(node.parentElement)) {
+
 						/**
 							* split words based on their position between spaces or special characters
 							* using characters that are unlikely to be used to declare a currency
 						**/
+						
+						/* original v */
+						/*
 						let words = node.nodeValue.split(new RegExp(/\s|[\_\+\-!@#%^&*():;\\\/|<>"'\n\t]+/)).filter(function (n) { return /\S/.test(n); });
+						*/
+
+						/**
+							* use prototype split method to get substrings and index of split substring
+						**/
+
+						let words = node.nodeValue.splitIndex(new RegExp(/\s|[\_\+\-!@#%^&*():;\\\/|<>"'\n\t]+/));
 
 						/**
 							* append to array of clean strings 
@@ -234,27 +252,45 @@ this.init = function (request, callback) {
 
 							**/
 							for (let k = 0, words = clean.textNodeWords; k < words.length; k++) {
+								let position = words[k][0];
+								let word = words[k][1];
 								/**
 									* evaluate current word in word list against currency string identifier 
 								**/
-								let potential_currency = m(words[k]);
+								let potential = m(word);
+								/**
+									* process if not undefined
+								**/
+								if (potential) {
 
-								if (potential_currency) {
-
-									let str_original = words[k];
-
-									let str_before = words[k - 1];
-									let str_after = words[k + 1];
-
-									console.log({b: str_before, a: str_after, o: str_original, c: potential_currency})
-
-									
-
-									//console.log("full string:", before, potential_currency, after, "\n");
+									let data = {
+										text: {
+											original: word,
+											formatted: potential,
+											position: position
+										},
+										node: clean.textNode.parentElement
+									};
+									/**
+										* assumes we used splitIndex
+										* appends item before
+									**/
+									if (words[k - 1]) {
+										data.text.before = words[k - 1][1]
+									}
+									/**
+										* assumes we used splitIndex
+										* appends item after
+									**/
+									if (words[k + 1]) {
+										data.text.after = words[k + 1][1];
+									}	
+									/**
+										* dispatch to matchCurrency major function
+									**/
+									window.matchCurrency(data);
 								}
 							}
-
-
 						});
 
 					}(clean_strs[i]);
@@ -263,7 +299,7 @@ this.init = function (request, callback) {
 
 			});
 
-			//console.log("async clean:", clean_strs);
+			//console.log("finished iterating over cleanstrs!!");
 
 		});
 
