@@ -175,6 +175,7 @@
             "src": url + queryconcat + "callback=window.jsonf.json_" + id + ""
         });
     };
+
     win.getScript = function (source, callback) {
         var script = document.createElement('script');
         var prior = document.getElementsByTagName('script')[0];
@@ -193,39 +194,11 @@
                 }
             }
         };
-
         script.src = source;
     };
 
     win.getRandomInt = function (min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     };
-
-    win.CSS3 = {};
-    win.CSS3.getPrefix = function (ele) {
-        ele = ele || document.createElement("div");
-        var prefixes = {
-            'transition':'transitionend',
-            'OTransition':'oTransitionEnd',
-            'MozTransition':'transitionend',
-            'WebkitTransition':'webkitTransitionEnd'
-        };
-        for (var i in prefixes) {
-            if (ele.style[i] !== undefined) {
-                return prefixes[i];
-            }
-        }
-    };
-
-    win.time = {};
-
-    win.time.out = {};
-    win.time.out.set = function (id, delay, callback) {
-        if (!id || !delay) return;
-        win.time.out["id-" + id] = setTimeout(function () {
-            callback(win.time.out["id-" + id]);   
-        }, delay);
-    };
-
 
 }(window, Element, NodeList, HTMLCollection));
