@@ -12,13 +12,12 @@
         "currency": {
             "name": "Afghani",
             "full": "Afghan Afghani",
-            "symb_en": "؋",
-            "symb_native": "",
-            "abbr": "AFN"
-        },
-        "meta": {
-            "unicode_decimal": "1547",
-            "unicode_hex": "60b"
+            "symbol": "Af",
+            "symbol_alt": "Afs",
+            "html_decimal": "&#1547;",
+            "html_entity": "",
+            "html_hex": "&#x60b;",
+            "ISO": "AFN"
         }
     },
     {
@@ -34,13 +33,12 @@
         "currency": {
             "name": "Euro",
             "full": "European Euro",
-            "symb_en": "€",
-            "symb_native": "",
-            "abbr": "EURO"
-        },
-        "meta": {
-            "unicode_decimal": "8364",
-            "unicode_hex": "20ac"
+            "symbol": "€",
+            "symbol_alt": "",
+            "html_decimal": "&#8364;",
+            "html_entity": "&euro;",
+            "html_hex": "&#x20ac;",
+            "ISO": "EUR"
         }
     },
     {
@@ -56,13 +54,12 @@
         "currency": {
             "name": "Lek",
             "full": "Albanian Lek",
-            "symb_en": "LEK",
-            "symb_native": "",
-            "abbr": "ALL"
-        },
-        "meta": {
-            "unicode_decimal": "76, 101, 107",
-            "unicode_hex": "4c, 65, 6b"
+            "symbol": "LEK",
+            "symbol_alt": "L",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "ALL"
         }
     },
     {
@@ -78,13 +75,12 @@
         "currency": {
             "name": "Dinar",
             "full": "Algerian Dinar",
-            "symb_en": "دج",
-            "symb_native": "",
-            "abbr": "DZD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "Da",
+            "symbol_alt": "دج",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "DZD"
         }
     },
     {
@@ -100,13 +96,12 @@
         "currency": {
             "name": "Dollar",
             "full": "United States Dollar",
-            "symb_en": "US$",
-            "symb_native": "",
-            "abbr": "USD"
-        },
-        "meta": {
-            "unicode_decimal": "36",
-            "unicode_hex": "24"
+            "symbol": "US$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "USD"
         }
     },
     {
@@ -122,13 +117,12 @@
         "currency": {
             "name": "Euro",
             "full": "European Euro",
-            "symb_en": "€",
-            "symb_native": "",
-            "abbr": "EUR"
-        },
-        "meta": {
-            "unicode_decimal": "8364",
-            "unicode_hex": "20ac"
+            "symbol": "€",
+            "symbol_alt": "",
+            "html_decimal": "&#8364;",
+            "html_entity": "&euro;",
+            "html_hex": "&#x20ac;",
+            "ISO": "EUR"
         }
     },
     {
@@ -143,14 +137,13 @@
         },
         "currency": {
             "name": "Kwanza",
-            "full": "Angola Kwanza",
-            "symb_en": "Kz",
-            "symb_native": "",
-            "abbr": "AOA"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "full": "Angolan Kwanza",
+            "symbol": "Kz",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "AOA"
         }
     },
     {
@@ -166,35 +159,12 @@
         "currency": {
             "name": "Dollar",
             "full": "East Caribbean Dollar",
-            "symb_en": "EC$",
-            "symb_native": "",
-            "abbr": "XCD"
-        },
-        "meta": {
-            "unicode_decimal": "36",
-            "unicode_hex": "24"
-        }
-    },
-    {
-        "country": {
-            "en_name": "Antarctica",
-            "alt_name": "",
-            "native_name":"",
-            "A2": "AQ",
-            "A3": "ATA",
-            "NUM": "10",
-            "DC": "672"
-        },
-        "currency": {
-            "name": "",
-            "full": "",
-            "symb_en": "",
-            "symb_native": "",
-            "abbr": ""
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "EC$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "XCD"
         }
     },
     {
@@ -210,13 +180,12 @@
         "currency": {
             "name": "Dollar",
             "full": "East Caribbean Dollar",
-            "symb_en": "EC$",
-            "symb_native": "",
-            "abbr": "XCD"
-        },
-        "meta": {
-            "unicode_decimal": "36",
-            "unicode_hex": "24"
+            "symbol": "EC$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "XCD"
         }
     },
     {
@@ -231,14 +200,13 @@
         },
         "currency": {
             "name": "Peso",
-            "full": "Argentinian Peso",
-            "symb_en": "AR$",
-            "symb_native": "",
-            "abbr": "ARS"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "full": "Argentine Peso",
+            "symbol": "AR$",
+            "symbol_alt": "$",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "ARS"
         }
     },
     {
@@ -254,13 +222,12 @@
         "currency": {
             "name": "Dram",
             "full": "Armenian Dram",
-            "symb_en": "դր",
-            "symb_native": "",
-            "abbr": "AMD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "֏",
+            "symbol_alt": "",
+            "html_decimal": "&#1423;",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "AMD"
         }
     },
     {
@@ -276,13 +243,12 @@
         "currency": {
             "name": "Florin",
             "full": "Aruban Florin",
-            "symb_en": "ƒ",
-            "symb_native": "",
-            "abbr": "AWG"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": "192"
+            "symbol": "Afl.",
+            "symbol_alt": "ƒ",
+            "html_decimal": "&#402;",
+            "html_entity": "",
+            "html_hex": "&fnof;",
+            "ISO": "AWG"
         }
     },
     {
@@ -298,13 +264,12 @@
         "currency": {
             "name": "Dollar",
             "full": "Australian Dollar",
-            "symb_en": "AU$",
-            "symb_native": "",
-            "abbr": "AUD"
-        },
-        "meta": {
-            "unicode_decimal": "36",
-            "unicode_hex": "24"
+            "symbol": "AU$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "AUD"
         }
     },
     {
@@ -320,13 +285,12 @@
         "currency": {
             "name": "Euro",
             "full": "European Euro",
-            "symb_en": "€",
-            "symb_native": "",
-            "abbr": "EUR"
-        },
-        "meta": {
-            "unicode_decimal": "8364",
-            "unicode_hex": "20ac"
+            "symbol": "€",
+            "symbol_alt": "",
+            "html_decimal": "&#8364;",
+            "html_entity": "&euro;",
+            "html_hex": "&#x20ac;",
+            "ISO": "EUR"
         }
     },
     {
@@ -341,14 +305,13 @@
         },
         "currency": {
             "name": "Manat",
-            "full": "Azerbaijan Manat",
-            "symb_en": "₼",
-            "symb_native": "",
-            "abbr": "AZN"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": "20bc"
+            "full": "Azerbaijani Manat",
+            "symbol": "₼",
+            "symbol_alt": "ман",
+            "html_decimal": "&#8380;",
+            "html_entity": "",
+            "html_hex": "&#x20bc",
+            "ISO": "AZN"
         }
     },
     {
@@ -363,14 +326,13 @@
         },
         "currency": {
             "name": "Dollar",
-            "full": "Bahaman Dollar",
-            "symb_en": "BS$",
-            "symb_native": "",
-            "abbr": "BSD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": "24"
+            "full": "Bahamian Dollar",
+            "symbol": "B$",
+            "symbol_alt": "BS$",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "BSD"
         }
     },
     {
@@ -386,13 +348,12 @@
         "currency": {
             "name": "Dinar",
             "full": "Bahraini Dinar",
-            "symb_en": "ب.د",
-            "symb_native": "",
-            "abbr": "BHD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "BD",
+            "symbol_alt": "ب.د",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "BHD"
         }
     },
     {
@@ -408,13 +369,12 @@
         "currency": {
             "name": "Taka",
             "full": "Bangladeshi Taka",
-            "symb_en": "৳",
-            "symb_native": "",
-            "abbr": "BDT"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "Tk",
+            "symbol_alt": "৳",
+            "html_decimal": "&#2547;",
+            "html_entity": "",
+            "html_hex": "&#x9f3;",
+            "ISO": "BDT"
         }
     },
     {
@@ -429,14 +389,13 @@
         },
         "currency": {
             "name": "Dollar",
-            "full": "Barbados Dollar",
-            "symb_en": "Bds$",
-            "symb_native": "",
-            "abbr": "BBD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "full": "Barbadian Dollar",
+            "symbol": "Bds$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "BBD"
         }
     },
     {
@@ -452,13 +411,12 @@
         "currency": {
             "name": "Ruble",
             "full": "Belarusian Ruble",
-            "symb_en": "Br",
-            "symb_native": "",
-            "abbr": "BYR"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "Br",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "BYR"
         }
     },
     {
@@ -474,13 +432,12 @@
         "currency": {
             "name": "Euro",
             "full": "European Euro",
-            "symb_en": "€",
-            "symb_native": "",
-            "abbr": "EURO"
-        },
-        "meta": {
-            "unicode_decimal": "8364",
-            "unicode_hex": "20ac"
+            "symbol": "€",
+            "symbol_alt": "",
+            "html_decimal": "&#8364;",
+            "html_entity": "&euro;",
+            "html_hex": "&#x20ac;",
+            "ISO": "EUR"
         }
     },
     {
@@ -496,13 +453,12 @@
         "currency": {
             "name": "Dollar",
             "full": "Belize Dollar",
-            "symb_en": "BZ$",
-            "symb_native": "",
-            "abbr": "BZD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "BZ$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "BZD"
         }
     },
     {
@@ -517,14 +473,13 @@
         },
         "currency": {
             "name": "Franc",
-            "full": "West African CFA",
-            "symb_en": "franc",
-            "symb_native": "",
-            "abbr": "XOF"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "full":"Central African CFA franc",
+            "symbol": "CFA",
+            "symbol_alt": "franc",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "XOF"
         }
     },
     {
@@ -540,13 +495,12 @@
         "currency": {
             "name": "Dollar",
             "full": "Bermuda Dollar",
-            "symb_en": "BD$",
-            "symb_native": "",
-            "abbr": "BMD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "BD$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "BMD"
         }
     },
     {
@@ -562,13 +516,12 @@
         "currency": {
             "name": "Ngultrum",
             "full": "Bhutanese Ngultrum",
-            "symb_en": "Nu",
-            "symb_native": "",
-            "abbr": "BTN"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "Nu",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "BTN"
         }
     },
     {
@@ -584,13 +537,12 @@
         "currency": {
             "name": "Boliviano",
             "full": "Bolivian Boliviano",
-            "symb_en": "Bs",
-            "symb_native": "",
-            "abbr": "BOB"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "Bs",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "BOB"
         }
     },
     {
@@ -606,13 +558,12 @@
         "currency": {
             "name": "Dollar",
             "full": "United States Dollar",
-            "symb_en": "US$",
-            "symb_native": "",
-            "abbr": "USD"
-        },
-        "meta": {
-            "unicode_decimal": "36",
-            "unicode_hex": "24"
+            "symbol": "US$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "USD"
         }
     },
     {
@@ -628,13 +579,12 @@
         "currency": {
             "name": "Mark",
             "full": "Bosnia-Herzegovina Convertible Mark",
-            "symb_en": "KM",
-            "symb_native": "",
-            "abbr": "BAM"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "KM",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "BAM"
         }
     },
     {
@@ -650,13 +600,12 @@
         "currency": {
             "name": "Pula",
             "full": "Botswana Pula",
-            "symb_en": "P",
-            "symb_native": "",
-            "abbr": "BWP"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "P",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "BWP"
         }
     },
     {
@@ -672,13 +621,12 @@
         "currency": {
             "name": "",
             "full": "",
-            "symb_en": "",
-            "symb_native": "",
-            "abbr": ""
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": ""
         }
     },
     {
@@ -694,13 +642,12 @@
         "currency": {
             "name": "Real",
             "full": "Brazilian Real",
-            "symb_en": "R$",
-            "symb_native": "",
-            "abbr": "BRL"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "R$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "BRL"
         }
     },
     {
@@ -714,15 +661,14 @@
             "DC": "246"
         },
         "currency": {
-            "name": "",
-            "full": "",
-            "symb_en": "",
-            "symb_native": "",
-            "abbr": ""
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "name": "Pound",
+            "full": "United Kingdom Pound Sterling",
+            "symbol": "£",
+            "symbol_alt": "GBP",
+            "html_decimal": "&#163;",
+            "html_entity": "&pound;",
+            "html_hex": "&#xa3;0h",
+            "ISO": "GBP"
         }
     },
     {
@@ -738,13 +684,12 @@
         "currency": {
             "name": "Dollar",
             "full": "Brunei Dollar",
-            "symb_en": "B$",
-            "symb_native": "",
-            "abbr": "BND"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "B$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "BND"
         }
     },
     {
@@ -760,13 +705,12 @@
         "currency": {
             "name": "Lev",
             "full": "Bulgarian Lev",
-            "symb_en": "лв",
-            "symb_native": "",
-            "abbr": "BGN"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "лв",
+            "symbol_alt": "лв",
+            "html_decimal": "&#1051;&#1042;",
+            "html_entity": "",
+            "html_hex": "&#x41b;&#x412;",
+            "ISO": "BGN"
         }
     },
     {
@@ -780,15 +724,14 @@
             "DC": "226"
         },
         "currency": {
-            "name": "France",
-            "full": "West African CFA",
-            "symb_en": "france",
-            "symb_native": "",
-            "abbr": "XOF"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "name": "Franc",
+            "full": "Central African CFA franc",
+            "symbol": "CFA",
+            "symbol_alt": "franc",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "XOF"
         }
     },
     {
@@ -804,13 +747,12 @@
         "currency": {
             "name": "Franc",
             "full": "Burundian Franc",
-            "symb_en": "FBu",
-            "symb_native": "",
-            "abbr": "BIF"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "FBu",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "BIF"
         }
     },
     {
@@ -826,13 +768,12 @@
         "currency": {
             "name": "Riel",
             "full": "Cambodian Riel",
-            "symb_en": "៛",
-            "symb_native": "",
-            "abbr": "KHR"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "៛",
+            "symbol_alt": "",
+            "html_decimal": "&#6107;",
+            "html_entity": "",
+            "html_hex": "&#x17db;",
+            "ISO": "KHR"
         }
     },
     {
@@ -847,14 +788,13 @@
         },
         "currency": {
             "name": "Franc",
-            "full": "Central African CFA",
-            "symb_en": "franc",
-            "symb_native": "",
-            "abbr": "XAF"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "full": "Central African CFA franc",
+            "symbol": "FCFA",
+            "symbol_alt": "CFA",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "XAF"
         }
     },
     {
@@ -870,13 +810,12 @@
         "currency": {
             "name": "Dollar",
             "full": "Candian Dollar",
-            "symb_en": "CA$",
-            "symb_native": "",
-            "abbr": "CAD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "CA$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "CAD"
         }
     },
     {
@@ -892,13 +831,12 @@
         "currency": {
             "name": "Escudo",
             "full": "Cape Verde Escudo",
-            "symb_en": "CV$",
-            "symb_native": "",
-            "abbr": "CVE"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "Esc",
+            "symbol_alt": "CV$",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "CVE"
         }
     },
     {
@@ -914,13 +852,12 @@
         "currency": {
             "name": "Dollar",
             "full": "Cayman Islands Dollar",
-            "symb_en": "CI$",
-            "symb_native": "",
-            "abbr": "KYD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "CI$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "KYD"
         }
     },
     {
@@ -935,14 +872,13 @@
         },
         "currency": {
             "name": "Franc",
-            "full": "Central African CFA",
-            "symb_en": "franc",
-            "symb_native": "",
-            "abbr": "XAF"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "full": "Central African CFA franc",
+            "symbol": "FCFA",
+            "symbol_alt": "CFA",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "XAF"
         }
     },
     {
@@ -957,14 +893,13 @@
         },
         "currency": {
             "name": "Franc",
-            "full": "Central African CFA",
-            "symb_en": "franc",
-            "symb_native": "",
-            "abbr": "XAF"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "full": "Central African CFA franc",
+            "symbol": "FCFA",
+            "symbol_alt": "CFA",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "XAF"
         }
     },
     {
@@ -980,13 +915,12 @@
         "currency": {
             "name": "Peso",
             "full": "Chilean Peso",
-            "symb_en": "CL$",
-            "symb_native": "",
-            "abbr": "CLP"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "CL$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "CLP"
         }
     },
     {
@@ -1002,13 +936,12 @@
         "currency": {
             "name": "Yuan",
             "full": "Chinese Yuan Renminbi",
-            "symb_en": "CN¥",
-            "symb_native": "",
-            "abbr": "CNY"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "CN¥",
+            "symbol_alt": "¥",
+            "html_decimal": "&#165;",
+            "html_entity": "&yen;",
+            "html_hex": "&#xa5;",
+            "ISO": "CNY"
         }
     },
     {
@@ -1024,13 +957,12 @@
         "currency": {
             "name": "Dollar",
             "full": "Australian Dollar",
-            "symb_en": "AU$",
-            "symb_native": "",
-            "abbr": "AUD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "AU$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "AUD"
         }
     },
     {
@@ -1046,13 +978,12 @@
         "currency": {
             "name": "Dollar",
             "full": "Australian Dollar",
-            "symb_en": "AU$",
-            "symb_native": "",
-            "abbr": "AUD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "AU$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "AUD"
         }
     },
     {
@@ -1068,13 +999,12 @@
         "currency": {
             "name": "Peso",
             "full": "Colombian Peso",
-            "symb_en": "Col$",
-            "symb_native": "",
-            "abbr": "COP"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "Col$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "COP"
         }
     },
     {
@@ -1090,13 +1020,12 @@
         "currency": {
             "name": "Franc",
             "full": "Comorian Franc",
-            "symb_en": "KMF",
-            "symb_native": "",
-            "abbr": "KMF"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "CF",
+            "symbol_alt": "KMF",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "KMF"
         }
     },
     {
@@ -1111,14 +1040,13 @@
         },
         "currency": {
             "name": "Franc",
-            "full": "Central African CFA",
-            "symb_en": "franc",
-            "symb_native": "",
-            "abbr": "XAF"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "full": "Central African CFA franc",
+            "symbol": "FCFA",
+            "symbol_alt": "CFA",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "XAF"
         }
     },
     {
@@ -1134,13 +1062,12 @@
         "currency": {
             "name": "Franc",
             "full": "Congolese Franc",
-            "symb_en": "CDFr",
-            "symb_native": "",
-            "abbr": "CDF"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "FC",
+            "symbol_alt": "CDFr",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "CDF"
         }
     },
     {
@@ -1156,13 +1083,12 @@
         "currency": {
             "name": "Dollar",
             "full": "New Zealand Dollar",
-            "symb_en": "NZ$",
-            "symb_native": "",
-            "abbr": "NZD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "NZ$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "NZD"
         }
     },
     {
@@ -1178,13 +1104,12 @@
         "currency": {
             "name": "Colon",
             "full": "Costa Rican Colon",
-            "symb_en": "₡",
-            "symb_native": "",
-            "abbr": "CRC"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "₡",
+            "symbol_alt": "CRC",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "CRC"
         }
     },
     {
@@ -1200,13 +1125,12 @@
         "currency": {
             "name": "Kuna",
             "full": "Croatian Kuna",
-            "symb_en": "HRK",
-            "symb_native": "",
-            "abbr": "HRK"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "kn",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "HRK"
         }
     },
     {
@@ -1222,13 +1146,12 @@
         "currency": {
             "name": "Peso",
             "full": "Cuban Convertible Peso",
-            "symb_en": "CU$",
-            "symb_native": "",
-            "abbr": "CUC"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "CUC",
+            "symbol_alt": "CUC$",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "CUC"
         }
     },
     {
@@ -1244,13 +1167,12 @@
         "currency": {
             "name": "Antillean Guilder",
             "full": "Netherlands Antillean Guilder",
-            "symb_en": "NAƒ",
-            "symb_native": "",
-            "abbr": "ANG"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "NAf",
+            "symbol_alt": "NAƒ",
+            "html_decimal": "&#402;",
+            "html_entity": "",
+            "html_hex": "&fnof;",
+            "ISO": "ANG"
         }
     },
     {
@@ -1266,13 +1188,12 @@
         "currency": {
             "name": "Pound",
             "full": "Cypriot Pound",
-            "symb_en": "CY£",
-            "symb_native": "",
-            "abbr": "CYP"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "CY£",
+            "symbol_alt": "£",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "CYP"
         }
     },
     {
@@ -1288,13 +1209,12 @@
         "currency": {
             "name": "Koruna",
             "full": "Czech Koruna",
-            "symb_en": "Kč",
-            "symb_native": "",
-            "abbr": "CZK"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "Kč",
+            "symbol_alt": "",
+            "html_decimal": "&#269;",
+            "html_entity": "",
+            "html_hex": "&#x10d;",
+            "ISO": "CZK"
         }
     },
     {
@@ -1309,14 +1229,13 @@
         },
         "currency": {
             "name": "Franc",
-            "full": "West African CFA",
-            "symb_en": "franc",
-            "symb_native": "",
-            "abbr": "XOF"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "full": "West African CFA franc",
+            "symbol": "CFA",
+            "symbol_alt": "franc",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "XOF"
         }
     },
     {
@@ -1331,14 +1250,13 @@
         },
         "currency": {
             "name": "Krone",
-            "full": "Denmark Krone",
-            "symb_en": "ø",
-            "symb_native": "",
-            "abbr": "DKK"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "full": "Danish Krone",
+            "symbol": "kr",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "DKK"
         }
     },
     {
@@ -1354,13 +1272,12 @@
         "currency": {
             "name": "Franc",
             "full": "Djiboutian Franc",
-            "symb_en": "Fdj",
-            "symb_native": "",
-            "abbr": "DJF"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "Fdj",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "DJF"
         }
     },
     {
@@ -1376,13 +1293,12 @@
         "currency": {
             "name": "Dollar",
             "full": "East Caribbean Dollar",
-            "symb_en": "EC$",
-            "symb_native": "",
-            "abbr": "XCD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "EC$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "XCD"
         }
     },
     {
@@ -1398,13 +1314,12 @@
         "currency": {
             "name": "Peso",
             "full": "Dominican Peso",
-            "symb_en": "RD$",
-            "symb_native": "",
-            "abbr": "DOP"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "RD$",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "DOP"
         }
     },
     {
@@ -1420,13 +1335,12 @@
         "currency": {
             "name": "Dollar",
             "full": "United States Dollar",
-            "symb_en": "US$",
-            "symb_native": "",
-            "abbr": "USD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "US$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "USD"
         }
     },
     {
@@ -1442,13 +1356,12 @@
         "currency": {
             "name": "Pound",
             "full": "Egyptian Pound",
-            "symb_en": "ج.م",
-            "symb_native": "",
-            "abbr": "EGP"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "E£",
+            "symbol_alt": "£E",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "EGP"
         }
     },
     {
@@ -1464,13 +1377,12 @@
         "currency": {
             "name": "Dollar",
             "full": "United States Dollar",
-            "symb_en": "US$",
-            "symb_native": "",
-            "abbr": "USD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "US$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "USD"
         }
     },
     {
@@ -1485,14 +1397,13 @@
         },
         "currency": {
             "name": "Franc",
-            "full": "Central African CFA",
-            "symb_en": "franc",
-            "symb_native": "",
-            "abbr": "XAF"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "full": "Central African CFA franc",
+            "symbol": "FCFA",
+            "symbol_alt": "CFA",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "XAF"
         }
     },
     {
@@ -1508,13 +1419,12 @@
         "currency": {
             "name": "Nakfa",
             "full": "Eritrean Nakfa",
-            "symb_en": "Nfk",
-            "symb_native": "",
-            "abbr": "ERN"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "Nfk",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "ERN"
         }
     },
     {
@@ -1530,13 +1440,12 @@
         "currency": {
             "name": "Kroon",
             "full": "Estonian Kroon",
-            "symb_en": "KR",
-            "symb_native": "",
-            "abbr": "EEK"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "KR",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "EEK"
         }
     },
     {
@@ -1552,13 +1461,12 @@
         "currency": {
             "name": "Birr",
             "full": "Ethiopian Birr",
-            "symb_en": "Br",
-            "symb_native": "",
-            "abbr": "ETB"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "Br",
+            "symbol_alt": "ብር",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "ETB"
         }
     },
     {
@@ -1574,13 +1482,12 @@
         "currency": {
             "name": "Pound",
             "full": "Falkland Pound",
-            "symb_en": "FK£",
-            "symb_native": "",
-            "abbr": "FKP"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "FK£",
+            "symbol_alt": "£FK",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "FKP"
         }
     },
     {
@@ -1596,13 +1503,12 @@
         "currency": {
             "name": "Krone",
             "full": "Danish Krone",
-            "symb_en": "ø",
-            "symb_native": "",
-            "abbr": "DKK"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "kr",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "DKK"
         }
     },
     {
@@ -1618,13 +1524,12 @@
         "currency": {
             "name": "Dollar",
             "full": "Fiji Dollar",
-            "symb_en": "FJ$",
-            "symb_native": "",
-            "abbr": "FJD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "FJ$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "FJD"
         }
     },
     {
@@ -1640,13 +1545,12 @@
         "currency": {
             "name": "Euro",
             "full": "European Euro",
-            "symb_en": "€",
-            "symb_native": "",
-            "abbr": "EURO"
-        },
-        "meta": {
-            "unicode_decimal": "8364",
-            "unicode_hex": "20ac"
+            "symbol": "€",
+            "symbol_alt": "",
+            "html_decimal": "&#8364;",
+            "html_entity": "&euro;",
+            "html_hex": "&#x20ac;",
+            "ISO": "EUR"
         }
     },
     {
@@ -1662,13 +1566,12 @@
         "currency": {
             "name": "Euro",
             "full": "European Euro",
-            "symb_en": "€",
-            "symb_native": "",
-            "abbr": "EURO"
-        },
-        "meta": {
-            "unicode_decimal": "8364",
-            "unicode_hex": "20ac"
+            "symbol": "€",
+            "symbol_alt": "",
+            "html_decimal": "&#8364;",
+            "html_entity": "&euro;",
+            "html_hex": "&#x20ac;",
+            "ISO": "EUR"
         }
     },
     {
@@ -1684,13 +1587,12 @@
         "currency": {
             "name": "Euro",
             "full": "European Euro",
-            "symb_en": "€",
-            "symb_native": "",
-            "abbr": "EURO"
-        },
-        "meta": {
-            "unicode_decimal": "8364",
-            "unicode_hex": "20ac"
+            "symbol": "€",
+            "symbol_alt": "",
+            "html_decimal": "&#8364;",
+            "html_entity": "&euro;",
+            "html_hex": "&#x20ac;",
+            "ISO": "EUR"
         }
     },
     {
@@ -1706,13 +1608,12 @@
         "currency": {
             "name": "Fran",
             "full": "French Pacific Franc",
-            "symb_en": "CFP",
-            "symb_native": "",
-            "abbr": "XPF"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "F",
+            "symbol_alt": "CFP",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "XPF"
         }
     },
     {
@@ -1728,13 +1629,12 @@
         "currency": {
             "name": "",
             "full": "",
-            "symb_en": "",
-            "symb_native": "",
-            "abbr": ""
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": ""
         }
     },
     {
@@ -1749,14 +1649,13 @@
         },
         "currency": {
             "name": "Franc",
-            "full": "Central African CFA",
-            "symb_en": "franc",
-            "symb_native": "",
-            "abbr": "XAF"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "full": "Central African CFA franc",
+            "symbol": "FCFA",
+            "symbol_alt": "CFA",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "XAF"
         }
     },
     {
@@ -1772,13 +1671,12 @@
         "currency": {
             "name": "Dalasi",
             "full": "Gambian Dalasi",
-            "symb_en": "D",
-            "symb_native": "",
-            "abbr": "GMD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "D",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "GMD"
         }
     },
     {
@@ -1794,13 +1692,12 @@
         "currency": {
             "name": "Lari",
             "full": "Georgian Lari",
-            "symb_en": "GEL",
-            "symb_native": "",
-            "abbr": "GEL"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "GEL",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "GEL"
         }
     },
     {
@@ -1816,13 +1713,12 @@
         "currency": {
             "name": "Dollar",
             "full": "United States Dollar",
-            "symb_en": "US$",
-            "symb_native": "",
-            "abbr": "USD"
-        },
-        "meta": {
-            "unicode_decimal": "36",
-            "unicode_hex": "24"
+            "symbol": "US$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "USD"
         }
     },
     {
@@ -1838,13 +1734,12 @@
         "currency": {
             "name": "Cedi",
             "full": "Ghanaian Cedi",
-            "symb_en": "₵",
-            "symb_native": "",
-            "abbr": "GHC"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "₵",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "GHC"
         }
     },
     {
@@ -1860,13 +1755,12 @@
         "currency": {
             "name": "Pound",
             "full": "Gibraltar Pound",
-            "symb_en": "GI£",
-            "symb_native": "",
-            "abbr": "GIP"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "GI£",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "GIP"
         }
     },
     {
@@ -1882,13 +1776,12 @@
         "currency": {
             "name": "Euro",
             "full": "European Euro",
-            "symb_en": "€",
-            "symb_native": "",
-            "abbr": "EURO"
-        },
-        "meta": {
-            "unicode_decimal": "8364",
-            "unicode_hex": "20ac"
+            "symbol": "€",
+            "symbol_alt": "",
+            "html_decimal": "&#8364;",
+            "html_entity": "&euro;",
+            "html_hex": "&#x20ac;",
+            "ISO": "EUR"
         }
     },
     {
@@ -1904,13 +1797,12 @@
         "currency": {
             "name": "Krone",
             "full": "Danish Krone",
-            "symb_en": "ø",
-            "symb_native": "",
-            "abbr": "DKK"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "kr",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "DKK"
         }
     },
     {
@@ -1926,13 +1818,12 @@
         "currency": {
             "name": "Dollar",
             "full": "East Caribbean Dollar",
-            "symb_en": "EC$",
-            "symb_native": "",
-            "abbr": "XCD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "EC$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "XCD"
         }
     },
     {
@@ -1948,13 +1839,12 @@
         "currency": {
             "name": "Euro",
             "full": "European Euro",
-            "symb_en": "€",
-            "symb_native": "",
-            "abbr": "EURO"
-        },
-        "meta": {
-            "unicode_decimal": "8364",
-            "unicode_hex": "20ac"
+            "symbol": "€",
+            "symbol_alt": "",
+            "html_decimal": "&#8364;",
+            "html_entity": "&euro;",
+            "html_hex": "&#x20ac;",
+            "ISO": "EUR"
         }
     },
     {
@@ -1970,13 +1860,12 @@
         "currency": {
             "name": "Dollar",
             "full": "United States Dollar",
-            "symb_en": "US$",
-            "symb_native": "",
-            "abbr": "USD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "US$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "USD"
         }
     },
     {
@@ -1992,13 +1881,12 @@
         "currency": {
             "name": "Quetzal",
             "full": "Guatemalan Quetzal",
-            "symb_en": "Q",
-            "symb_native": "",
-            "abbr": "GTQ"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "Q",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "GTQ"
         }
     },
     {
@@ -2014,13 +1902,12 @@
         "currency": {
             "name": "Pound",
             "full": "Guernsey Pound",
-            "symb_en": "GGP",
-            "symb_native": "",
-            "abbr": "GGP"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "GGP",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "GGP"
         }
     },
     {
@@ -2036,13 +1923,12 @@
         "currency": {
             "name": "Franc",
             "full": "Guinean Franc",
-            "symb_en": "FG",
-            "symb_native": "",
-            "abbr": "GNF"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "FG",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "GNF"
         }
     },
     {
@@ -2057,14 +1943,13 @@
         },
         "currency": {
             "name": "Franc",
-            "full": "West African CFA",
-            "symb_en": "franc",
-            "symb_native": "",
-            "abbr": "XOF"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "full": "Central African CFA franc",
+            "symbol": "CFA",
+            "symbol_alt": "franc",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "XOF"
         }
     },
     {
@@ -2080,13 +1965,12 @@
         "currency": {
             "name": "Dollar",
             "full": "Guyanese Dollar",
-            "symb_en": "GY$",
-            "symb_native": "",
-            "abbr": "GYD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "GY$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "GYD"
         }
     },
     {
@@ -2102,13 +1986,12 @@
         "currency": {
             "name": "Gourde",
             "full": "Haitian Gourde",
-            "symb_en": "G",
-            "symb_native": "",
-            "abbr": "HTG"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "G",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "HTG"
         }
     },
     {
@@ -2124,13 +2007,12 @@
         "currency": {
             "name": "",
             "full": "",
-            "symb_en": "",
-            "symb_native": "",
-            "abbr": ""
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": ""
         }
     },
     {
@@ -2146,13 +2028,12 @@
         "currency": {
             "name": "Euro",
             "full": "European Euro",
-            "symb_en": "€",
-            "symb_native": "",
-            "abbr": "EURO"
-        },
-        "meta": {
-            "unicode_decimal": "8364",
-            "unicode_hex": "20ac"
+            "symbol": "€",
+            "symbol_alt": "",
+            "html_decimal": "&#8364;",
+            "html_entity": "&euro;",
+            "html_hex": "&#x20ac;",
+            "ISO": "EUR"
         }
     },
     {
@@ -2168,13 +2049,12 @@
         "currency": {
             "name": "Lempira",
             "full": "Honduran Lempira",
-            "symb_en": "L",
-            "symb_native": "",
-            "abbr": "HNL"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "L",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "HNL"
         }
     },
     {
@@ -2190,13 +2070,12 @@
         "currency": {
             "name": "Dollar",
             "full": "Hong Kong Dollar",
-            "symb_en": "HK$",
-            "symb_native": "",
-            "abbr": "HKD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "HK$",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "HKD"
         }
     },
     {
@@ -2212,13 +2091,12 @@
         "currency": {
             "name": "Forint",
             "full": "Hungarian Forint",
-            "symb_en": "Ft",
-            "symb_native": "",
-            "abbr": "HUF"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "Ft",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "HUF"
         }
     },
     {
@@ -2234,13 +2112,12 @@
         "currency": {
             "name": "Krona",
             "full": "Icelandic Krona",
-            "symb_en": "ISK",
-            "symb_native": "",
-            "abbr": "ISK"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "ISK",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "ISK"
         }
     },
     {
@@ -2256,13 +2133,12 @@
         "currency": {
             "name": "Rupee",
             "full": "Indian Rupee",
-            "symb_en": "IN₨",
-            "symb_native": "",
-            "abbr": "INR"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "IN₨",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "INR"
         }
     },
     {
@@ -2278,13 +2154,12 @@
         "currency": {
             "name": "Rupiah",
             "full": "Indonesian Rupiah",
-            "symb_en": "Rp",
-            "symb_native": "",
-            "abbr": "IDR"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "Rp",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "IDR"
         }
     },
     {
@@ -2300,13 +2175,12 @@
         "currency": {
             "name": "Rial",
             "full": "Iranian Rial",
-            "symb_en": "ريال",
-            "symb_native": "",
-            "abbr": "IRR"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "ريال",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "IRR"
         }
     },
     {
@@ -2322,13 +2196,12 @@
         "currency": {
             "name": "Dinar",
             "full": "Iraqi Dinar",
-            "symb_en": "ع.د",
-            "symb_native": "",
-            "abbr": "IQD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "ع.د",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "IQD"
         }
     },
     {
@@ -2344,13 +2217,12 @@
         "currency": {
             "name": "Euro",
             "full": "European Euro",
-            "symb_en": "€",
-            "symb_native": "",
-            "abbr": "EURO"
-        },
-        "meta": {
-            "unicode_decimal": "8364",
-            "unicode_hex": "20ac"
+            "symbol": "€",
+            "symbol_alt": "",
+            "html_decimal": "&#8364;",
+            "html_entity": "&euro;",
+            "html_hex": "&#x20ac;",
+            "ISO": "EUR"
         }
     },
     {
@@ -2366,13 +2238,12 @@
         "currency": {
             "name": "Pound",
             "full": "United Kingdom Pound Sterling",
-            "symb_en": "UK£",
-            "symb_native": "",
-            "abbr": "GBP"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "£",
+            "symbol_alt": "GBP",
+            "html_decimal": "&#163;",
+            "html_entity": "&pound;",
+            "html_hex": "&#xa3;0h",
+            "ISO": "GBP"
         }
     },
     {
@@ -2388,13 +2259,12 @@
         "currency": {
             "name": "Sheqel",
             "full": "Israeli New Sheqel",
-            "symb_en": "₪",
-            "symb_native": "",
-            "abbr": "ILS"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "₪",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "ILS"
         }
     },
     {
@@ -2410,13 +2280,12 @@
         "currency": {
             "name": "Euro",
             "full": "European Euro",
-            "symb_en": "€",
-            "symb_native": "",
-            "abbr": "EURO"
-        },
-        "meta": {
-            "unicode_decimal": "8364",
-            "unicode_hex": "20ac"
+            "symbol": "€",
+            "symbol_alt": "",
+            "html_decimal": "&#8364;",
+            "html_entity": "&euro;",
+            "html_hex": "&#x20ac;",
+            "ISO": "EUR"
         }
     },
     {
@@ -2432,13 +2301,12 @@
         "currency": {
             "name": "Dollar",
             "full": "Jamaican Dollar",
-            "symb_en": "JA$",
-            "symb_native": "",
-            "abbr": "JMD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "JA$",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "JMD"
         }
     },
     {
@@ -2454,13 +2322,12 @@
         "currency": {
             "name": "Yen",
             "full": "Japanese Yen",
-            "symb_en": "JP¥",
-            "symb_native": "",
-            "abbr": "JPY"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "JP¥",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "JPY"
         }
     },
     {
@@ -2476,13 +2343,12 @@
         "currency": {
             "name": "Pound",
             "full": "United Kingdom Pound Sterling",
-            "symb_en": "UK£",
-            "symb_native": "",
-            "abbr": "GBP"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "£",
+            "symbol_alt": "GBP",
+            "html_decimal": "&#163;",
+            "html_entity": "&pound;",
+            "html_hex": "&#xa3;0h",
+            "ISO": "GBP"
         }
     },
     {
@@ -2498,13 +2364,12 @@
         "currency": {
             "name": "Dinar",
             "full": "Jordanian Dinar",
-            "symb_en": "JD",
-            "symb_native": "",
-            "abbr": "JOD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "JD",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "JOD"
         }
     },
     {
@@ -2520,13 +2385,12 @@
         "currency": {
             "name": "Tenge",
             "full": "Kazakhstani Tenge",
-            "symb_en": "KZT",
-            "symb_native": "",
-            "abbr": "KZT"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "KZT",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "KZT"
         }
     },
     {
@@ -2542,13 +2406,12 @@
         "currency": {
             "name": "Shilling",
             "full": "Kenyan Shilling",
-            "symb_en": "KSh",
-            "symb_native": "",
-            "abbr": "KES"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "KSh",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "KES"
         }
     },
     {
@@ -2564,13 +2427,12 @@
         "currency": {
             "name": "Dollar",
             "full": "Australian Dollar",
-            "symb_en": "AU$",
-            "symb_native": "",
-            "abbr": "AUD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "AU$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "AUD"
         }
     },
     {
@@ -2586,13 +2448,12 @@
         "currency": {
             "name": "Won",
             "full": "North Korean Won",
-            "symb_en": "₩",
-            "symb_native": "",
-            "abbr": "KPW"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "₩",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "KPW"
         }
     },
     {
@@ -2608,13 +2469,12 @@
         "currency": {
             "name": "Won",
             "full": "Korean Won",
-            "symb_en": "₩",
-            "symb_native": "",
-            "abbr": "KPW"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "₩",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "KPW"
         }
     },
     {
@@ -2630,13 +2490,12 @@
         "currency": {
             "name": "Dinar",
             "full": "Kuwaiti Dinar",
-            "symb_en": "د.ك",
-            "symb_native": "",
-            "abbr": "KWD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "د.ك",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "KWD"
         }
     },
     {
@@ -2652,13 +2511,12 @@
         "currency": {
             "name": "Som",
             "full": "Kyrgyzstani Som",
-            "symb_en": "KGS",
-            "symb_native": "",
-            "abbr": "KGS"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "KGS",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "KGS"
         }
     },
     {
@@ -2674,13 +2532,12 @@
         "currency": {
             "name": "Kip",
             "full": "Lao Kip",
-            "symb_en": "₭",
-            "symb_native": "",
-            "abbr": "LAK"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "₭",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "LAK"
         }
     },
     {
@@ -2696,13 +2553,12 @@
         "currency": {
             "name": "Lats",
             "full": "Latvian Lats",
-            "symb_en": "Ls",
-            "symb_native": "",
-            "abbr": "LVL"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "Ls",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "LVL"
         }
     },
     {
@@ -2718,13 +2574,12 @@
         "currency": {
             "name": "Pound",
             "full": "Lebanese Pound",
-            "symb_en": "ل.ل",
-            "symb_native": "",
-            "abbr": "LBP"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "ل.ل",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "LBP"
         }
     },
     {
@@ -2740,13 +2595,12 @@
         "currency": {
             "name": "Loti",
             "full": "Lesotho Loti",
-            "symb_en": "L",
-            "symb_native": "",
-            "abbr": "LSL"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "L",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "LSL"
         }
     },
     {
@@ -2762,13 +2616,12 @@
         "currency": {
             "name": "Dollar",
             "full": "Liberian Dollar",
-            "symb_en": "L$",
-            "symb_native": "",
-            "abbr": "LRD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "L$",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "LRD"
         }
     },
     {
@@ -2784,13 +2637,12 @@
         "currency": {
             "name": "Dollar",
             "full": "Libyan Dollar",
-            "symb_en": "ل.د",
-            "symb_native": "",
-            "abbr": "LYD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "ل.د",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "LYD"
         }
     },
     {
@@ -2806,13 +2658,12 @@
         "currency": {
             "name": "Swiss Franc",
             "full": "Swiss Franc",
-            "symb_en": "CHF",
-            "symb_native": "",
-            "abbr": "CHF"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "CHF",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "CHF"
         }
     },
     {
@@ -2828,13 +2679,12 @@
         "currency": {
             "name": "Litas",
             "full": "Lithuanian Litas",
-            "symb_en": "Lt",
-            "symb_native": "",
-            "abbr": "LTL"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "Lt",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "LTL"
         }
     },
     {
@@ -2850,13 +2700,12 @@
         "currency": {
             "name": "Euro",
             "full": "European Euro",
-            "symb_en": "€",
-            "symb_native": "",
-            "abbr": "EURO"
-        },
-        "meta": {
-            "unicode_decimal": "8364",
-            "unicode_hex": "20ac"
+            "symbol": "€",
+            "symbol_alt": "",
+            "html_decimal": "&#8364;",
+            "html_entity": "&euro;",
+            "html_hex": "&#x20ac;",
+            "ISO": "EUR"
         }
     },
     {
@@ -2872,13 +2721,12 @@
         "currency": {
             "name": "Pataca",
             "full": "Macanese Pataca",
-            "symb_en": "MO$",
-            "symb_native": "",
-            "abbr": "MOP"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "MO$",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "MOP"
         }
     },
     {
@@ -2894,13 +2742,12 @@
         "currency": {
             "name": "Denar",
             "full": "Macedonian Denar",
-            "symb_en": "MKD",
-            "symb_native": "",
-            "abbr": "MKD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "MKD",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "MKD"
         }
     },
     {
@@ -2916,13 +2763,12 @@
         "currency": {
             "name": "Ariary",
             "full": "Malagasy Ariary",
-            "symb_en": "MGA",
-            "symb_native": "",
-            "abbr": "MGA"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "MGA",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "MGA"
         }
     },
     {
@@ -2938,13 +2784,12 @@
         "currency": {
             "name": "Kwacha",
             "full": "Malawian Kwacha",
-            "symb_en": "MK",
-            "symb_native": "",
-            "abbr": "MWK"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "MK",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "MWK"
         }
     },
     {
@@ -2960,13 +2805,12 @@
         "currency": {
             "name": "Ringgit",
             "full": "Malaysian Ringgit",
-            "symb_en": "RM",
-            "symb_native": "",
-            "abbr": "MYR"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "RM",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "MYR"
         }
     },
     {
@@ -2982,13 +2826,12 @@
         "currency": {
             "name": "Rufiyaa",
             "full": "Maldives Rufiyaa",
-            "symb_en": "MRf",
-            "symb_native": "",
-            "abbr": "MVR"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "MRf",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "MVR"
         }
     },
     {
@@ -3003,14 +2846,13 @@
         },
         "currency": {
             "name": "Franc",
-            "full": "West African CFA",
-            "symb_en": "franc",
-            "symb_native": "",
-            "abbr": "XOF"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "full": "Central African CFA franc",
+            "symbol": "CFA",
+            "symbol_alt": "franc",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "XOF"
         }
     },
     {
@@ -3026,13 +2868,12 @@
         "currency": {
             "name": "Lira",
             "full": "Maltese Lira",
-            "symb_en": "Lm",
-            "symb_native": "",
-            "abbr": "MTL"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "Lm",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "MTL"
         }
     },
     {
@@ -3048,13 +2889,12 @@
         "currency": {
             "name": "Dollar",
             "full": "United States Dollar",
-            "symb_en": "US$",
-            "symb_native": "",
-            "abbr": "USD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "US$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "USD"
         }
     },
     {
@@ -3070,13 +2910,12 @@
         "currency": {
             "name": "Euro",
             "full": "European Euro",
-            "symb_en": "€",
-            "symb_native": "",
-            "abbr": "EURO"
-        },
-        "meta": {
-            "unicode_decimal": "8364",
-            "unicode_hex": "20ac"
+            "symbol": "€",
+            "symbol_alt": "",
+            "html_decimal": "&#8364;",
+            "html_entity": "&euro;",
+            "html_hex": "&#x20ac;",
+            "ISO": "EUR"
         }
     },
     {
@@ -3092,13 +2931,12 @@
         "currency": {
             "name": "Ouguiya",
             "full": "Mauritanian Ouguiya",
-            "symb_en": "UM",
-            "symb_native": "",
-            "abbr": "MRO"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "UM",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "MRO"
         }
     },
     {
@@ -3114,13 +2952,12 @@
         "currency": {
             "name": "Rupee",
             "full": "Mauritian Rupee",
-            "symb_en": "MURs",
-            "symb_native": "",
-            "abbr": "MUR"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "MURs",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "MUR"
         }
     },
     {
@@ -3136,13 +2973,12 @@
         "currency": {
             "name": "Euro",
             "full": "European Euro",
-            "symb_en": "€",
-            "symb_native": "",
-            "abbr": "EURO"
-        },
-        "meta": {
-            "unicode_decimal": "8364",
-            "unicode_hex": "20ac"
+            "symbol": "€",
+            "symbol_alt": "",
+            "html_decimal": "&#8364;",
+            "html_entity": "&euro;",
+            "html_hex": "&#x20ac;",
+            "ISO": "EUR"
         }
     },
     {
@@ -3158,13 +2994,12 @@
         "currency": {
             "name": "Peso",
             "full": "Mexican Peso",
-            "symb_en": "Mex$",
-            "symb_native": "",
-            "abbr": "MXN"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "Mex$",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "MXN"
         }
     },
     {
@@ -3180,13 +3015,12 @@
         "currency": {
             "name": "Dollar",
             "full": "United States Dollar",
-            "symb_en": "US$",
-            "symb_native": "",
-            "abbr": "USD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "US$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "USD"
         }
     },
     {
@@ -3202,13 +3036,12 @@
         "currency": {
             "name": "Leu",
             "full": "Moldovan Leu",
-            "symb_en": "MDL",
-            "symb_native": "",
-            "abbr": "MDL"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "MDL",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "MDL"
         }
     },
     {
@@ -3224,13 +3057,12 @@
         "currency": {
             "name": "Euro",
             "full": "European Euro",
-            "symb_en": "€",
-            "symb_native": "",
-            "abbr": "EURO"
-        },
-        "meta": {
-            "unicode_decimal": "8364",
-            "unicode_hex": "20ac"
+            "symbol": "€",
+            "symbol_alt": "",
+            "html_decimal": "&#8364;",
+            "html_entity": "&euro;",
+            "html_hex": "&#x20ac;",
+            "ISO": "EUR"
         }
     },
     {
@@ -3246,13 +3078,12 @@
         "currency": {
             "name": "Tugrik",
             "full": "Mongolian Tugrik",
-            "symb_en": "₮",
-            "symb_native": "",
-            "abbr": "MNT"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "₮",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "MNT"
         }
     },
     {
@@ -3268,13 +3099,12 @@
         "currency": {
             "name": "Euro",
             "full": "European Euro",
-            "symb_en": "€",
-            "symb_native": "",
-            "abbr": "EURO"
-        },
-        "meta": {
-            "unicode_decimal": "8364",
-            "unicode_hex": "20ac"
+            "symbol": "€",
+            "symbol_alt": "",
+            "html_decimal": "&#8364;",
+            "html_entity": "&euro;",
+            "html_hex": "&#x20ac;",
+            "ISO": "EUR"
         }
     },
     {
@@ -3290,13 +3120,12 @@
         "currency": {
             "name": "Dollar",
             "full": "East Caribbean Dollar",
-            "symb_en": "EC$",
-            "symb_native": "",
-            "abbr": "XCD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "EC$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "XCD"
         }
     },
     {
@@ -3312,13 +3141,12 @@
         "currency": {
             "name": "Dirham",
             "full": "Moroccan Dirham",
-            "symb_en": "د.م",
-            "symb_native": "",
-            "abbr": "MAD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "د.م",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "MAD"
         }
     },
     {
@@ -3334,13 +3162,12 @@
         "currency": {
             "name": "Metical",
             "full": "Mozambican Metical",
-            "symb_en": "MTn",
-            "symb_native": "",
-            "abbr": "MZN"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "MTn",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "MZN"
         }
     },
     {
@@ -3356,13 +3183,12 @@
         "currency": {
             "name": "Kyat",
             "full": "Myanmar Kyat",
-            "symb_en": "K",
-            "symb_native": "",
-            "abbr": "MMK"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "K",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "MMK"
         }
     },
     {
@@ -3378,13 +3204,12 @@
         "currency": {
             "name": "Dollar",
             "full": "Namibian Dollar",
-            "symb_en": "N$",
-            "symb_native": "",
-            "abbr": "NAD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "N$",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "NAD"
         }
     },
     {
@@ -3400,13 +3225,12 @@
         "currency": {
             "name": "Dollar",
             "full": "Australian Dollar",
-            "symb_en": "AU$",
-            "symb_native": "",
-            "abbr": "AUD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "AU$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "AUD"
         }
     },
     {
@@ -3422,13 +3246,12 @@
         "currency": {
             "name": "Rupee",
             "full": "Nepalese Rupee",
-            "symb_en": "NPRs",
-            "symb_native": "",
-            "abbr": "NPR"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "NPRs",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "NPR"
         }
     },
     {
@@ -3444,13 +3267,12 @@
         "currency": {
             "name": "Euro",
             "full": "European Euro",
-            "symb_en": "€",
-            "symb_native": "",
-            "abbr": "EURO"
-        },
-        "meta": {
-            "unicode_decimal": "8364",
-            "unicode_hex": "20ac"
+            "symbol": "€",
+            "symbol_alt": "",
+            "html_decimal": "&#8364;",
+            "html_entity": "&euro;",
+            "html_hex": "&#x20ac;",
+            "ISO": "EUR"
         }
     },
     {
@@ -3466,13 +3288,12 @@
         "currency": {
             "name": "Franc",
             "full": "French Pacific Franc",
-            "symb_en": "CFP",
-            "symb_native": "",
-            "abbr": "XPF"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "F",
+            "symbol_alt": "CFP",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "XPF"
         }
     },
     {
@@ -3488,13 +3309,12 @@
         "currency": {
             "name": "Dollar",
             "full": "New Zealand Dollar",
-            "symb_en": "NZ$",
-            "symb_native": "",
-            "abbr": "NZD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "NZ$",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "NZD"
         }
     },
     {
@@ -3510,13 +3330,12 @@
         "currency": {
             "name": "Córdoba",
             "full": "Nicaraguan Córdoba",
-            "symb_en": "C$",
-            "symb_native": "",
-            "abbr": "NIO"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "C$",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "NIO"
         }
     },
     {
@@ -3531,14 +3350,13 @@
         },
         "currency": {
             "name": "Franc",
-            "full": "West African CFA",
-            "symb_en": "franc",
-            "symb_native": "",
-            "abbr": "XOF"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "full": "Central African CFA franc",
+            "symbol": "CFA",
+            "symbol_alt": "franc",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "XOF"
         }
     },
     {
@@ -3554,13 +3372,12 @@
         "currency": {
             "name": "Naira",
             "full": "Nigerian Naira",
-            "symb_en": "₦",
-            "symb_native": "",
-            "abbr": "NGN"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "₦",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "NGN"
         }
     },
     {
@@ -3576,13 +3393,12 @@
         "currency": {
             "name": "Dollar",
             "full": "New Zealand Dollar",
-            "symb_en": "NZ$",
-            "symb_native": "",
-            "abbr": "NZD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "NZ$",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "NZD"
         }
     },
     {
@@ -3598,13 +3414,12 @@
         "currency": {
             "name": "Dollar",
             "full": "Australian Dollar",
-            "symb_en": "AU$",
-            "symb_native": "",
-            "abbr": "AUD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "AU$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "AUD"
         }
     },
     {
@@ -3620,13 +3435,12 @@
         "currency": {
             "name": "Dollar",
             "full": "United States Dollar",
-            "symb_en": "US$",
-            "symb_native": "",
-            "abbr": "USD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "US$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "USD"
         }
     },
     {
@@ -3642,13 +3456,12 @@
         "currency": {
             "name": "Krone",
             "full": "Norwegian Krone",
-            "symb_en": "øre",
-            "symb_native": "",
-            "abbr": "NOK"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "øre",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "NOK"
         }
     },
     {
@@ -3664,13 +3477,12 @@
         "currency": {
             "name": "Rial",
             "full": "Omani Rial",
-            "symb_en": "ر.ع",
-            "symb_native": "",
-            "abbr": "OMR"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "ر.ع",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "OMR"
         }
     },
     {
@@ -3686,13 +3498,12 @@
         "currency": {
             "name": "Rupee",
             "full": "Pakistan Rupee",
-            "symb_en": "PKRs",
-            "symb_native": "",
-            "abbr": "PKR"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "PKRs",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "PKR"
         }
     },
     {
@@ -3708,13 +3519,12 @@
         "currency": {
             "name": "Dollar",
             "full": "United States Dollar",
-            "symb_en": "US$",
-            "symb_native": "",
-            "abbr": "USD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "US$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "USD"
         }
     },
     {
@@ -3730,13 +3540,12 @@
         "currency": {
             "name": "Dinar",
             "full": "Jordanian Dinar",
-            "symb_en": "JD",
-            "symb_native": "",
-            "abbr": "JOD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "JD",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "JOD"
         }
     },
     {
@@ -3752,13 +3561,12 @@
         "currency": {
             "name": "Balboa",
             "full": "Panamanian Balboa",
-            "symb_en": "PAB",
-            "symb_native": "",
-            "abbr": "PAB"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "PAB",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "PAB"
         }
     },
     {
@@ -3774,13 +3582,12 @@
         "currency": {
             "name": "Kina",
             "full": "Papua New Guinea Kina",
-            "symb_en": "K",
-            "symb_native": "",
-            "abbr": "PGK"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "K",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "PGK"
         }
     },
     {
@@ -3796,13 +3603,12 @@
         "currency": {
             "name": "Guarani",
             "full": "Paraguay Guarani",
-            "symb_en": "₲",
-            "symb_native": "",
-            "abbr": "PYG"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "₲",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "PYG"
         }
     },
     {
@@ -3818,13 +3624,12 @@
         "currency": {
             "name": "Nuevo Sol",
             "full": "Peruvian Nuevo Sol",
-            "symb_en": "S/",
-            "symb_native": "",
-            "abbr": "PEN"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "S/",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "PEN"
         }
     },
     {
@@ -3840,13 +3645,12 @@
         "currency": {
             "name": "Peso",
             "full": "Philippine Peso",
-            "symb_en": "₱",
-            "symb_native": "",
-            "abbr": "PHP"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "₱",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "PHP"
         }
     },
     {
@@ -3862,13 +3666,12 @@
         "currency": {
             "name": "Dollar",
             "full": "New Zealand Dollar",
-            "symb_en": "NZ$",
-            "symb_native": "",
-            "abbr": "NZD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "NZ$",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "NZD"
         }
     },
     {
@@ -3884,13 +3687,12 @@
         "currency": {
             "name": "Zloty",
             "full": "Polish Zloty",
-            "symb_en": "zł",
-            "symb_native": "",
-            "abbr": "PLN"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "zł",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "PLN"
         }
     },
     {
@@ -3906,13 +3708,12 @@
         "currency": {
             "name": "Euro",
             "full": "European Euro",
-            "symb_en": "€",
-            "symb_native": "",
-            "abbr": "EURO"
-        },
-        "meta": {
-            "unicode_decimal": "8364",
-            "unicode_hex": "20ac"
+            "symbol": "€",
+            "symbol_alt": "",
+            "html_decimal": "&#8364;",
+            "html_entity": "&euro;",
+            "html_hex": "&#x20ac;",
+            "ISO": "EUR"
         }
     },
     {
@@ -3928,13 +3729,12 @@
         "currency": {
             "name": "Dollar",
             "full": "United States Dollar",
-            "symb_en": "US$",
-            "symb_native": "",
-            "abbr": "USD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "US$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "USD"
         }
     },
     {
@@ -3950,13 +3750,12 @@
         "currency": {
             "name": "Riyal",
             "full": "Qatari Riyal",
-            "symb_en": "ر.ق",
-            "symb_native": "",
-            "abbr": "QAR"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "ر.ق",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "QAR"
         }
     },
     {
@@ -3972,13 +3771,12 @@
         "currency": {
             "name": "Leu",
             "full": "Romanian Leu",
-            "symb_en": "ROL",
-            "symb_native": "",
-            "abbr": "RON"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "ROL",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "RON"
         }
     },
     {
@@ -3994,13 +3792,12 @@
         "currency": {
             "name": "Ruble",
             "full": "Russian Ruble",
-            "symb_en": "руб",
-            "symb_native": "",
-            "abbr": "RUB"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "руб",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "RUB"
         }
     },
     {
@@ -4016,13 +3813,12 @@
         "currency": {
             "name": "Franc",
             "full": "Rwandan Franc",
-            "symb_en": "RF",
-            "symb_native": "",
-            "abbr": "RWF"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "RF",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "RWF"
         }
     },
     {
@@ -4038,13 +3834,12 @@
         "currency": {
             "name": "Euro",
             "full": "European Euro",
-            "symb_en": "€",
-            "symb_native": "",
-            "abbr": "EURO"
-        },
-        "meta": {
-            "unicode_decimal": "8364",
-            "unicode_hex": "20ac"
+            "symbol": "€",
+            "symbol_alt": "",
+            "html_decimal": "&#8364;",
+            "html_entity": "&euro;",
+            "html_hex": "&#x20ac;",
+            "ISO": "EUR"
         }
     },
     {
@@ -4060,13 +3855,12 @@
         "currency": {
             "name": "Euro",
             "full": "European Euro",
-            "symb_en": "€",
-            "symb_native": "",
-            "abbr": "EURO"
-        },
-        "meta": {
-            "unicode_decimal": "8364",
-            "unicode_hex": "20ac"
+            "symbol": "€",
+            "symbol_alt": "",
+            "html_decimal": "&#8364;",
+            "html_entity": "&euro;",
+            "html_hex": "&#x20ac;",
+            "ISO": "EUR"
         }
     },
     {
@@ -4082,13 +3876,12 @@
         "currency": {
             "name": "Pound",
             "full": "St Helena Pound",
-            "symb_en": "SH£",
-            "symb_native": "",
-            "abbr": "SHP"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "SH£",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "SHP"
         }
     },
     {
@@ -4104,13 +3897,12 @@
         "currency": {
             "name": "Dollar",
             "full": "East Caribbean Dollar",
-            "symb_en": "EC$",
-            "symb_native": "",
-            "abbr": "XCD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "EC$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "XCD"
         }
     },
     {
@@ -4126,13 +3918,12 @@
         "currency": {
             "name": "Dollar",
             "full": "East Caribbean Dollar",
-            "symb_en": "EC$",
-            "symb_native": "",
-            "abbr": "XCD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "EC$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "XCD"
         }
     },
     {
@@ -4148,13 +3939,12 @@
         "currency": {
             "name": "Euro",
             "full": "European Euro",
-            "symb_en": "€",
-            "symb_native": "",
-            "abbr": "EURO"
-        },
-        "meta": {
-            "unicode_decimal": "8364",
-            "unicode_hex": "20ac"
+            "symbol": "€",
+            "symbol_alt": "",
+            "html_decimal": "&#8364;",
+            "html_entity": "&euro;",
+            "html_hex": "&#x20ac;",
+            "ISO": "EUR"
         }
     },
     {
@@ -4170,13 +3960,12 @@
         "currency": {
             "name": "Euro",
             "full": "European Euro",
-            "symb_en": "€",
-            "symb_native": "",
-            "abbr": "EURO"
-        },
-        "meta": {
-            "unicode_decimal": "8364",
-            "unicode_hex": "20ac"
+            "symbol": "€",
+            "symbol_alt": "",
+            "html_decimal": "&#8364;",
+            "html_entity": "&euro;",
+            "html_hex": "&#x20ac;",
+            "ISO": "EUR"
         }
     },
     {
@@ -4192,13 +3981,12 @@
         "currency": {
             "name": "Dollar",
             "full": "East Caribbean Dollar",
-            "symb_en": "EC$",
-            "symb_native": "",
-            "abbr": "XCD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "EC$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "XCD"
         }
     },
     {
@@ -4214,13 +4002,12 @@
         "currency": {
             "name": "Tala",
             "full": "Samoan Tala",
-            "symb_en": "WS$",
-            "symb_native": "",
-            "abbr": "WST"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "WS$",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "WST"
         }
     },
     {
@@ -4236,13 +4023,12 @@
         "currency": {
             "name": "Euro",
             "full": "European Euro",
-            "symb_en": "€",
-            "symb_native": "",
-            "abbr": "EURO"
-        },
-        "meta": {
-            "unicode_decimal": "8364",
-            "unicode_hex": "20ac"
+            "symbol": "€",
+            "symbol_alt": "",
+            "html_decimal": "&#8364;",
+            "html_entity": "&euro;",
+            "html_hex": "&#x20ac;",
+            "ISO": "EUR"
         }
     },
     {
@@ -4258,13 +4044,12 @@
         "currency": {
             "name": "Dobra",
             "full": "Sao Tome Dobra",
-            "symb_en": "Db",
-            "symb_native": "",
-            "abbr": "STD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "Db",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "STD"
         }
     },
     {
@@ -4280,13 +4065,12 @@
         "currency": {
             "name": "Riyal",
             "full": "Saudi Arabian Riyal",
-            "symb_en": "ر.س",
-            "symb_native": "",
-            "abbr": "SAR"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "ر.س",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "SAR"
         }
     },
     {
@@ -4301,14 +4085,13 @@
         },
         "currency": {
             "name": "Franc",
-            "full": "West African CFA",
-            "symb_en": "franc",
-            "symb_native": "",
-            "abbr": "XOF"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "full": "Central African CFA franc",
+            "symbol": "CFA",
+            "symbol_alt": "franc",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "XOF"
         }
     },
     {
@@ -4324,13 +4107,12 @@
         "currency": {
             "name": "Dinar",
             "full": "Serbian Dinar",
-            "symb_en": "дин",
-            "symb_native": "",
-            "abbr": "RSD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "дин",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "RSD"
         }
     },
     {
@@ -4346,13 +4128,12 @@
         "currency": {
             "name": "Rupee",
             "full": "Seychelles Rupee",
-            "symb_en": "SRe",
-            "symb_native": "",
-            "abbr": "SCR"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "SRe",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "SCR"
         }
     },
     {
@@ -4368,13 +4149,12 @@
         "currency": {
             "name": "Leone",
             "full": "Sierra Leonean Leone",
-            "symb_en": "Le",
-            "symb_native": "",
-            "abbr": "SLL"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "Le",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "SLL"
         }
     },
     {
@@ -4390,13 +4170,12 @@
         "currency": {
             "name": "Dollar",
             "full": "Singaporean Dollar",
-            "symb_en": "S$",
-            "symb_native": "",
-            "abbr": "SGD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "S$",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "SGD"
         }
     },
     {
@@ -4412,13 +4191,12 @@
         "currency": {
             "name": "Antillean Guilder",
             "full": "Netherlands Antillean Guilder",
-            "symb_en": "NAƒ",
-            "symb_native": "",
-            "abbr": "ANG"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "NAf",
+            "symbol_alt": "NAƒ",
+            "html_decimal": "&#402;",
+            "html_entity": "",
+            "html_hex": "&fnof;",
+            "ISO": "ANG"
         }
     },
     {
@@ -4434,13 +4212,12 @@
         "currency": {
             "name": "Koruna",
             "full": "Slovak Koruna",
-            "symb_en": "Sk",
-            "symb_native": "",
-            "abbr": "SKK"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "Sk",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "SKK"
         }
     },
     {
@@ -4456,13 +4233,12 @@
         "currency": {
             "name": "Euro",
             "full": "European Euro",
-            "symb_en": "€",
-            "symb_native": "",
-            "abbr": "EURO"
-        },
-        "meta": {
-            "unicode_decimal": "8364",
-            "unicode_hex": "20ac"
+            "symbol": "€",
+            "symbol_alt": "",
+            "html_decimal": "&#8364;",
+            "html_entity": "&euro;",
+            "html_hex": "&#x20ac;",
+            "ISO": "EUR"
         }
     },
     {
@@ -4478,13 +4254,12 @@
         "currency": {
             "name": "Dollar",
             "full": "Solomon Islands Dollar",
-            "symb_en": "SI$",
-            "symb_native": "",
-            "abbr": "SBD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "SI$",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "SBD"
         }
     },
     {
@@ -4500,13 +4275,12 @@
         "currency": {
             "name": "Shilling",
             "full": "Somali Shilling",
-            "symb_en": "Sh",
-            "symb_native": "",
-            "abbr": "SOS"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "Sh",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "SOS"
         }
     },
     {
@@ -4522,13 +4296,12 @@
         "currency": {
             "name": "Rand",
             "full": "South African Rand",
-            "symb_en": "SAR",
-            "symb_native": "",
-            "abbr": "ZAR"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "SAR",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "ZAR"
         }
     },
     {
@@ -4544,13 +4317,12 @@
         "currency": {
             "name": "Pound",
             "full": "United Kingdom Pound Sterling",
-            "symb_en": "UK£",
-            "symb_native": "",
-            "abbr": "GBP"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "£",
+            "symbol_alt": "GBP",
+            "html_decimal": "&#163;",
+            "html_entity": "&pound;",
+            "html_hex": "&#xa3;0h",
+            "ISO": "GBP"
         }
     },
     {
@@ -4566,13 +4338,12 @@
         "currency": {
             "name": "Dinar",
             "full": "Sudanese Dinar",
-            "symb_en": "£Sd",
-            "symb_native": "",
-            "abbr": "SDD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "£Sd",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "SDD"
         }
     },
     {
@@ -4588,13 +4359,12 @@
         "currency": {
             "name": "Euro",
             "full": "European Euro",
-            "symb_en": "€",
-            "symb_native": "",
-            "abbr": "EURO"
-        },
-        "meta": {
-            "unicode_decimal": "8364",
-            "unicode_hex": "20ac"
+            "symbol": "€",
+            "symbol_alt": "",
+            "html_decimal": "&#8364;",
+            "html_entity": "&euro;",
+            "html_hex": "&#x20ac;",
+            "ISO": "EUR"
         }
     },
     {
@@ -4610,13 +4380,12 @@
         "currency": {
             "name": "Rupee",
             "full": "Sri Lankan Rupee",
-            "symb_en": "LKRs",
-            "symb_native": "",
-            "abbr": "LKR"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "LKRs",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "LKR"
         }
     },
     {
@@ -4632,13 +4401,12 @@
         "currency": {
             "name": "Dinar",
             "full": "Sudanese Dinar",
-            "symb_en": "£Sd",
-            "symb_native": "",
-            "abbr": "SDD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "£Sd",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "SDD"
         }
     },
     {
@@ -4654,13 +4422,12 @@
         "currency": {
             "name": "Dollar",
             "full": "Suriname Dollar",
-            "symb_en": "SR$",
-            "symb_native": "",
-            "abbr": "SRD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "SR$",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "SRD"
         }
     },
     {
@@ -4676,13 +4443,12 @@
         "currency": {
             "name": "Krone",
             "full": "Norwegian Krone",
-            "symb_en": "øre",
-            "symb_native": "",
-            "abbr": "NOK"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "øre",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "NOK"
         }
     },
     {
@@ -4698,13 +4464,12 @@
         "currency": {
             "name": "Lilangeni",
             "full": "Swazi Lilangeni",
-            "symb_en": "SZL",
-            "symb_native": "",
-            "abbr": "SZL"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "SZL",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "SZL"
         }
     },
     {
@@ -4720,13 +4485,12 @@
         "currency": {
             "name": "Krona",
             "full": "Swedish Krona",
-            "symb_en": "kr",
-            "symb_native": "",
-            "abbr": "SEK"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "kr",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "SEK"
         }
     },
     {
@@ -4742,13 +4506,12 @@
         "currency": {
             "name": "Swiss Franc",
             "full": "Swiss Franc",
-            "symb_en": "CHF",
-            "symb_native": "",
-            "abbr": "CHF"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "CHF",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "CHF"
         }
     },
     {
@@ -4764,13 +4527,12 @@
         "currency": {
             "name": "Pound",
             "full": "Syrian Pound",
-            "symb_en": "S£",
-            "symb_native": "",
-            "abbr": "SYP"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "S£",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "SYP"
         }
     },
     {
@@ -4786,13 +4548,12 @@
         "currency": {
             "name": "Dollar",
             "full": "New Taiwan Dollar",
-            "symb_en": "NT$",
-            "symb_native": "",
-            "abbr": "TWD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "NT$",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "TWD"
         }
     },
     {
@@ -4808,13 +4569,12 @@
         "currency": {
             "name": "Somoni",
             "full": "Tajikistan Somoni",
-            "symb_en": "TJS",
-            "symb_native": "",
-            "abbr": "TJS"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "TJS",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "TJS"
         }
     },
     {
@@ -4830,13 +4590,12 @@
         "currency": {
             "name": "Shilling",
             "full": "Tanzanian Shilling",
-            "symb_en": "TSh",
-            "symb_native": "",
-            "abbr": "TZS"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "TSh",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "TZS"
         }
     },
     {
@@ -4852,13 +4611,12 @@
         "currency": {
             "name": "Baht",
             "full": "Thai Baht",
-            "symb_en": "฿",
-            "symb_native": "",
-            "abbr": "THB"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "฿",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "THB"
         }
     },
     {
@@ -4874,13 +4632,12 @@
         "currency": {
             "name": "Dollar",
             "full": "United States Dollar",
-            "symb_en": "US$",
-            "symb_native": "",
-            "abbr": "USD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "US$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "USD"
         }
     },
     {
@@ -4895,14 +4652,13 @@
         },
         "currency": {
             "name": "Franc",
-            "full": "West African CFA",
-            "symb_en": "franc",
-            "symb_native": "",
-            "abbr": "XOF"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "full": "Central African CFA franc",
+            "symbol": "CFA",
+            "symbol_alt": "franc",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "XOF"
         }
     },
     {
@@ -4918,13 +4674,12 @@
         "currency": {
             "name": "Dollar",
             "full": "New Zealand Dollar",
-            "symb_en": "NZ$",
-            "symb_native": "",
-            "abbr": "NZD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "NZ$",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "NZD"
         }
     },
     {
@@ -4940,13 +4695,12 @@
         "currency": {
             "name": "Pa'Anga",
             "full": "Tongan Pa'Anga",
-            "symb_en": "PT$",
-            "symb_native": "",
-            "abbr": "TOP"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "PT$",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "TOP"
         }
     },
     {
@@ -4962,13 +4716,12 @@
         "currency": {
             "name": "Dollar",
             "full": "Trinidad and Tobago Dollar",
-            "symb_en": "TT$",
-            "symb_native": "",
-            "abbr": "TTD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "TT$",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "TTD"
         }
     },
     {
@@ -4984,13 +4737,12 @@
         "currency": {
             "name": "Dinar",
             "full": "Tunisian Dinar",
-            "symb_en": "د.ت",
-            "symb_native": "",
-            "abbr": "TND"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "د.ت",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "TND"
         }
     },
     {
@@ -5006,13 +4758,12 @@
         "currency": {
             "name": "Lira",
             "full": "Turkish New Lira",
-            "symb_en": "YTL",
-            "symb_native": "",
-            "abbr": "TRY"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "TL",
+            "symbol_alt": "YTL",
+            "html_decimal": "&#8378;",
+            "html_entity": "",
+            "html_hex": "&#x20ba;",
+            "ISO": "TRY"
         }
     },
     {
@@ -5028,13 +4779,12 @@
         "currency": {
             "name": "Manat",
             "full": "Turkmenistani Manat",
-            "symb_en": "m",
-            "symb_native": "",
-            "abbr": "TMM"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "T",
+            "symbol_alt": "m",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "TMM"
         }
     },
     {
@@ -5050,13 +4800,12 @@
         "currency": {
             "name": "Dollar",
             "full": "United States Dollar",
-            "symb_en": "US$",
-            "symb_native": "",
-            "abbr": "USD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "US$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "USD"
         }
     },
     {
@@ -5072,13 +4821,12 @@
         "currency": {
             "name": "Dollar",
             "full": "Australian Dollar",
-            "symb_en": "AU$",
-            "symb_native": "",
-            "abbr": "AUD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "AU$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "AUD"
         }
     },
     {
@@ -5094,13 +4842,12 @@
         "currency": {
             "name": "Shilling",
             "full": "Ugandan Shilling",
-            "symb_en": "USh",
-            "symb_native": "",
-            "abbr": "UGX"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "USh",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "UGX"
         }
     },
     {
@@ -5109,20 +4856,19 @@
             "alt_name": "",
             "native_name":"",
             "A2": "UA",
-            "A3": "UKR",
-            "NUM": "804",
+            "A3": "R",
+            "NUM": "804GBP",
             "DC": "380"
         },
         "currency": {
             "name": "Hryvnia",
             "full": "Ukrainian Hryvnia",
-            "symb_en": "₴",
-            "symb_native": "",
-            "abbr": "UAH"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "₴",
+            "symbol_alt": "",
+            "html_decimal": "&#8372;",
+            "html_entity": "",
+            "html_hex": "&#x20b4;",
+            "ISO": "UAH"
         }
     },
     {
@@ -5138,13 +4884,12 @@
         "currency": {
             "name": "Dirham",
             "full": "United Arab Emirates Dirham",
-            "symb_en": "د.إ",
-            "symb_native": "",
-            "abbr": "AED"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "DH",
+            "symbol_alt": "Dhs",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "AED"
         }
     },
     {
@@ -5160,13 +4905,12 @@
         "currency": {
             "name": "Pound",
             "full": "United Kingdom Pound Sterling",
-            "symb_en": "UK£",
-            "symb_native": "",
-            "abbr": "GBP"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "£",
+            "symbol_alt": "GBP",
+            "html_decimal": "&#163;",
+            "html_entity": "&pound;",
+            "html_hex": "&#xa3;0h",
+            "ISO": "GBP"
         }
     },
     {
@@ -5182,13 +4926,12 @@
         "currency": {
             "name": "Dollar",
             "full": "United States Dollar",
-            "symb_en": "US$",
-            "symb_native": "",
-            "abbr": "USD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "US$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "USD"
         }
     },
     {
@@ -5204,13 +4947,12 @@
         "currency": {
             "name": "Dollar",
             "full": "United States Dollar",
-            "symb_en": "US$",
-            "symb_native": "",
-            "abbr": "USD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "US$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "USD"
         }
     },
     {
@@ -5226,13 +4968,12 @@
         "currency": {
             "name": "Peso",
             "full": "Uruguayan Peso",
-            "symb_en": "UR$",
-            "symb_native": "",
-            "abbr": "UYU"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "UR$",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "UYU"
         }
     },
     {
@@ -5248,13 +4989,12 @@
         "currency": {
             "name": "Som",
             "full": "Uzbekistani Som",
-            "symb_en": "UZS",
-            "symb_native": "",
-            "abbr": "UZS"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "UZS",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "UZS"
         }
     },
     {
@@ -5270,13 +5010,12 @@
         "currency": {
             "name": "Vatu",
             "full": "Vanuatu Vatu",
-            "symb_en": "Vt",
-            "symb_native": "",
-            "abbr": "VUV"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "Vt",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "VUV"
         }
     },
     {
@@ -5292,19 +5031,18 @@
         "currency": {
             "name": "Bolivar",
             "full": "Venezuelan Bolivar",
-            "symb_en": "Bs",
-            "symb_native": "",
-            "abbr": "VEB"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "Bs",
+            "symbol_alt": "Bs.F.",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "VEB"
         }
     },
     {
         "country": {
             "en_name": "Vietnam",
-            "alt_name": "Viet Name",
+            "alt_name": "Viet Nam",
             "native_name":"",
             "A2": "VN",
             "A3": "VNM",
@@ -5314,13 +5052,12 @@
         "currency": {
             "name": "Dong",
             "full": "Vietnamese Dong",
-            "symb_en": "₫",
-            "symb_native": "",
-            "abbr": "VND"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "₫",
+            "symbol_alt": "",
+            "html_decimal": "&#8363;",
+            "html_entity": "",
+            "html_hex": "&#x20ab;",
+            "ISO": "VND"
         }
     },
     {
@@ -5336,13 +5073,12 @@
         "currency": {
             "name": "Pound",
             "full": "United Kingdom Pound Sterling",
-            "symb_en": "UK£",
-            "symb_native": "",
-            "abbr": "GBP"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "£",
+            "symbol_alt": "GBP",
+            "html_decimal": "&#163;",
+            "html_entity": "&pound;",
+            "html_hex": "&#xa3;0h",
+            "ISO": "GBP"
         }
     },
     {
@@ -5358,13 +5094,12 @@
         "currency": {
             "name": "Dollar",
             "full": "United States Dollar",
-            "symb_en": "US$",
-            "symb_native": "",
-            "abbr": "USD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "US$",
+            "symbol_alt": "",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "&#x0024;",
+            "ISO": "USD"
         }
     },
     {
@@ -5380,13 +5115,12 @@
         "currency": {
             "name": "Franc",
             "full": "French Pacific Franc",
-            "symb_en": "CFP",
-            "symb_native": "",
-            "abbr": "XPF"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "F",
+            "symbol_alt": "CFP",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "XPF"
         }
     },
     {
@@ -5402,13 +5136,12 @@
         "currency": {
             "name": "Dirham",
             "full": "Moroccan Dirham",
-            "symb_en": "درهم‎‎",
-            "symb_native": "",
-            "abbr": "MAD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "درهم‎‎",
+            "symbol_alt": "",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "MAD"
         }
     },
     {
@@ -5424,13 +5157,12 @@
         "currency": {
             "name": "Rial",
             "full": "Yemeni Rial",
-            "symb_en": "YER",
-            "symb_native": "",
-            "abbr": "YER"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "YER",
+            "symbol_alt": "﷼",
+            "html_decimal": "&#65020;",
+            "html_entity": "",
+            "html_hex": "&#xfdfc;",
+            "ISO": "YER"
         }
     },
     {
@@ -5446,13 +5178,12 @@
         "currency": {
             "name": "Kwacha",
             "full": "Zambian Kwacha",
-            "symb_en": "ZK",
-            "symb_native": "",
-            "abbr": "ZMK"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "ZK",
+            "symbol_alt": "ZMW",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "ZMK"
         }
     },
     {
@@ -5468,13 +5199,12 @@
         "currency": {
             "name": "Dollar",
             "full": "Zimbabwean Dollar",
-            "symb_en": "Z$",
-            "symb_native": "",
-            "abbr": "ZWD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "Z$",
+            "symbol_alt": "$Z",
+            "html_decimal": "",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "ZWD"
         }
     }
     

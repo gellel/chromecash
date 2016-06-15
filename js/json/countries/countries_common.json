@@ -3,260 +3,201 @@
       "currency": {
             "name": "Dollar",
             "full": "United States Dollar",
-            "symb_en": "$",
-            "symb_native": "$",
-            "abbr": "USD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "$",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "html_hex": "",
+            "ISO": "USD"
         }  
     },
     {
       "currency": {
             "name": "Euro",
             "full": "European Euro",
-            "symb_en": "€",
-            "symb_native": "€",
-            "abbr": "EUR"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "€",
+            "html_decimal": "&#8364;",
+            "html_entity": "",
+            "ISO": "EUR"
         }  
     },
     {
       "currency": {
             "name": "Yen",
             "full": "Japanese Yen",
-            "symb_en": "¥",
-            "symb_native": "¥",
-            "abbr": "JPY"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "¥",
+            "html_decimal": "&#165;",
+            "html_entity": "",
+            "ISO": "JPY"
         }  
     },
     {
       "currency": {
             "name": "Pound",
             "full": "Pound Sterling",
-            "symb_en": "£",
-            "symb_native": "£",
-            "abbr": "GBP"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "£",
+            "html_decimal": "&#35;",
+            "html_entity": "",
+            "ISO": "GBP"
         }  
     },
     {
       "currency": {
             "name": "Dollar",
             "full": "Australian Dollar",
-            "symb_en": "$",
-            "symb_native": "$",
-            "abbr": "AUD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "$",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "ISO": "AUD"
         }  
     },
     {
       "currency": {
             "name": "Franc",
             "full": "Swiss Franc",
-            "symb_en": "Fr",
-            "symb_native": "Fr",
-            "abbr": "CHF"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "Fr",
+            "html_decimal": "Fr",
+            "html_entity": "",
+            "ISO": "CHF"
         }  
     },
     {
       "currency": {
             "name": "Dollar",
             "full": "Canadian Dollar",
-            "symb_en": "$",
-            "symb_native": "$",
-            "abbr": "CAD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "$",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "ISO": "CAD"
         }  
     },
     {
       "currency": {
             "name": "Peso",
             "full": "Mexican Peso",
-            "symb_en": "$",
-            "symb_native": "$",
-            "abbr": "MXN"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "$",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "ISO": "MXN"
         }  
     },
     {
       "currency": {
             "name": "Yuan",
             "full": "Chinese Yuan",
-            "symb_en": "¥",
-            "symb_native": "¥",
-            "abbr": "CNY"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "¥",
+            "html_decimal": "&#165;",
+            "html_entity": "",
+            "ISO": "CNY"
         }  
     },
     {
       "currency": {
             "name": "Dollar",
             "full": "New Zealand Dollar",
-            "symb_en": "$",
-            "symb_native": "$",
-            "abbr": "NZD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "$",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "ISO": "NZD"
         }  
     },
     {
       "currency": {
             "name": "Krona",
             "full": "Swedish Krona",
-            "symb_en": "kr",
-            "symb_native": "kr",
-            "abbr": "SEK"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "kr",
+            "html_decimal": "kr",
+            "html_entity": "",
+            "ISO": "SEK"
         }  
     },
     {
       "currency": {
             "name": "Ruble",
             "full": "Russian Ruble",
-            "symb_en": "₽",
-            "symb_native": "₽",
-            "abbr": "RUB"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "₽",
+            "html_decimal": "&#8381;",
+            "html_entity": "",
+            "ISO": "RUB"
         }  
     },
     {
       "currency": {
             "name": "Dollar",
             "full": "Hong Kong Dollar",
-            "symb_en": "$",
-            "symb_native": "$",
-            "abbr": "HKD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "$",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "ISO": "HKD"
         }  
     },
     {
       "currency": {
             "name": "Krone",
             "full": "Norwegian Krone",
-            "symb_en": "kr",
-            "symb_native": "kr",
-            "abbr": "NOK"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "kr",
+            "html_decimal": "kr",
+            "html_entity": "",
+            "ISO": "NOK"
         }  
     },
     {
       "currency": {
             "name": "Dollar",
             "full": "Singapore Dollar",
-            "symb_en": "$",
-            "symb_native": "$",
-            "abbr": "SGD"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "$",
+            "html_decimal": "&#36;",
+            "html_entity": "",
+            "ISO": "SGD"
         }  
     },
     {
       "currency": {
             "name": "Lira",
             "full": "Turkish Lira",
-            "symb_en": "₺",
-            "symb_native": "₺",
-            "abbr": "TRY"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "₺",
+            "html_decimal": "&#8378;",
+            "html_entity": "",
+            "ISO": "TRY"
         }  
     },
     {
       "currency": {
             "name": "Won",
             "full": "South Korean Won",
-            "symb_en": "₩",
-            "symb_native": "₩",
-            "abbr": "KRW"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "₩",
+            "html_decimal": "&#8361;",
+            "html_entity": "",
+            "ISO": "KRW"
         }  
     },
     {
       "currency": {
             "name": "Rand",
             "full": "South African Rand",
-            "symb_en": "R",
-            "symb_native": "R",
-            "abbr": "ZAR"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "R",
+            "html_decimal": "R",
+            "html_entity": "",
+            "ISO": "ZAR"
         }  
     },
     {
       "currency": {
             "name": "Real",
             "full": "Brazilian Real",
-            "symb_en": "R$",
-            "symb_native": "R$",
-            "abbr": "BRL"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "R$",
+            "html_decimal": "R$",
+            "html_entity": "",
+            "ISO": "BRL"
         }  
     },
     {
       "currency": {
             "name": "Rupee",
             "full": "Indian Rupee",
-            "symb_en": "₹",
-            "symb_native": "₹",
-            "abbr": "INR"
-        },
-        "meta": {
-            "unicode_decimal": "",
-            "unicode_hex": ""
+            "symbol": "₹",
+            "html_decimal": "&#8377;",
+            "html_entity": "",
+            "ISO": "INR"
         }  
     }
 ]

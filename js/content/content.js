@@ -168,30 +168,36 @@ this.s = function (text, characters) {
 };
 
 this.matchCurrency = function (data) {
-	if (!location__data || !countries__data) return;
+	if (!locations__json || !countries__json) return;
 
 	let node = data.node;
 	let text = data.text;
-
-	/*
-	for (let i = 0; i < window.countries__data.length; i++) {
+	
+	for (let i = 0; i < window.countries__json.length; i++) {
+		
+		/**
+			* register async function
+		**/
 		!function (data, node, text) {
+			a(function () {
 
-			console.log(data)
+				let currency = data.currency;
 
-		}(countries__data[i], node, text);
+				
+			});
+
+		}(countries__json[i], node, text);
 	}
-	*/
 
 };
 
 this.init = function (request, callback) {
 	/**
-		* register countries__data result as global variable
-		* register location__data result as global variable
+		* register countries__json result as global variable
+		* register locations__json result as global variable
 	**/
-	window.location__data = request.location;
-	window.countries__data = request.countries;
+	window.locations__json = request.location;
+	window.countries__json = request.countries;
 
 
 	c(document.body, function (nodes) {
