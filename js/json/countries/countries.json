@@ -811,7 +811,7 @@
             "name": "Dollar",
             "full": "Candian Dollar",
             "symbol": "CA$",
-            "symbol_alt": "",
+            "symbol_alt": "$CA",
             "html_decimal": "&#36;",
             "html_entity": "",
             "html_hex": "&#x0024;",
