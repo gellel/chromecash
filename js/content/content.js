@@ -168,36 +168,71 @@ this.s = function (text, characters) {
 };
 
 this.matchCurrency = function (data) {
-	if (!locations__json || !countries__json) return;
+	if (!user__location__json || !common__countries__json) return;
 
 	let node = data.node;
 	let text = data.text;
 	
-	for (let i = 0; i < window.countries__json.length; i++) {
-		
+	for (let i = 0; i < window.common__countries__json.length; i++) {
+			
 		/**
-			* register async function
+			* create scoped anonymous function to process individual data items from common__countries
 		**/
 		!function (data, node, text) {
+
+			/**
+				* register async function
+			**/
 			a(function () {
+				let c = data.currency;
+				/**
+					* create smaller text object for iterations
+				**/
+				let t = {before: text.before, after: text.after, original: text.original};
+				/**
+					* create smaller data object for iterations
+				**/
+				let d = {ISO: c.ISO, decimal: c.html_decimal, hex: c.html_hex};
 
-				let currency = data.currency;
+				
+				/**
+					* iterate through simple text object (t)
+				**/
+				/**
+					* attempt the fastest match that has currency context (using ISO)
+				**/
+				let ISO_match = !function () {
+					/**
+						* ISO regex
+					**/
+					let ISO = new RegExp(d.ISO, "g");
 
+					for (let key in t) {
+						if (ISO.test(t[key])) {
+							return true;
+						}
+					};
+				}();
+
+				if (ISO_match) {
+					console.log('PRAISE BE! ISO MATCHED');
+				}
+				
 				
 			});
 
-		}(countries__json[i], node, text);
+		}(common__countries__json[i], node, text);
 	}
 
 };
 
 this.init = function (request, callback) {
 	/**
-		* register countries__json result as global variable
-		* register locations__json result as global variable
+		* register common__countries__json result as global variable
+		* register user__location__json result as global variable
 	**/
-	window.locations__json = request.location;
-	window.countries__json = request.countries;
+	window.user__location__json = request.location;
+	window.common__countries__json = request.countries;
 
 
 	c(document.body, function (nodes) {
