@@ -1,24 +1,54 @@
-/**
-	* async anonymous function handler
-**/
-this.a = function (funct, callback) {
-	let t = window.setTimeout(function () {
-		funct();
-		if (callback) callback();
-		window.clearInterval(t);
-	}, 0);
+this.async__array = function (array, funct) {
+	/**
+		* requires array for binding
+		* function to bind to each item of array
+		* function expected to handle individual item, not group (subgroups of parent can be iterated)
+	**/
+	array = array.map(function (item) {
+		/** 
+			* asynchronise event
+		**/
+		return new Promise(function (resolve) {
+			return setTimeout(resolve(funct(item)), 0);
+		});
+	});
+	return Promise.all(array);
 };
-/**
-	* document tree node walker
-**/
-this.c = function (element, callback) {
+
+this.async__function = function (funct) {
+	/**
+		* requires function (either called or uncalled);
+	**/
+	return new Promise(function (resolve) {
+		return setTimeout(resolve((typeof funct === "function") ? funct() : funct), 0);
+	});
+};
+
+
+this.tree__walker = function (element, callback) {
+	/**
+		* collect DOM nodes
+	**/
+	let element_filter = function (element) {
+		let tagNames = ["STYLE","SCRIPT", "NOSCRIPT", "PRE", "IMG", "CANVAS", "CODE", "ABBR", "TIME", "TEXTAREA", "INPUT", "OPTION", "AUDIO", "SOURCE", "VIDEO", "TRACK", "FORM"];
+		for (let i = 0; i < tagNames.length; i++) {
+			if (element.tagName === tagNames[i]) {
+				return true;
+			}
+		};
+		return false;
+	};
+
 	let c = document.createTreeWalker(element, NodeFilter.SHOW_TEXT, "", false);
 	let r = new RegExp(/^\s*$/);
 	let n;
 	let nodes = [];
+
 	while (n = c.nextNode()) {
-		if (!r.test(n.nodeValue)) {
-			nodes.push(n);
+		if (!element_filter(n.parentElement)) {
+			if (!r.test(n.nodeValue)) {
+				nodes.push(n);
+			}
 		}
 	}
 	if (callback) {
@@ -27,25 +57,47 @@ this.c = function (element, callback) {
 	return nodes;
 };
 /**
-	* node filter
+	* flexible string filter
 **/
-this.f = function (element) {
-	let tagNames = ["STYLE","SCRIPT", "NOSCRIPT", "PRE", "IMG", "CANVAS", "CODE", "ABBR", "TIME", "TEXTAREA", "INPUT", "OPTION", "AUDIO", "SOURCE", "VIDEO", "TRACK", "FORM"];
-	for (let i = 0; i < tagNames.length; i++) {
-		if (element.tagName === tagNames[i]) {
-			return true;
-		}
+this.str__filter = function (text, characters) {
+	if (!text || !characters) {
+		return;
+	}
+	/**
+		* temp array to hold found matches
+	**/
+	let str_matches = [];
+	/**
+		* iterate through provided string
+	**/
+	for (let i = 0; i < text.length; i++) {
+		/**
+			iterate through matches array
+		**/
+		for (let k = 0; k < characters.length; k++) {
+			/**
+				if text matches user supplied matches add to temp array
+			**/
+			if (text[i] === characters[k]) {
+				str_matches.push({ character: characters[k], position: i });
+				break;
+			}
+		};
 	};
-	return false;
+	return str_matches;
 };
-/**
-	* currency formatter 
-**/	
-this.m = function (text) {
+
+this.str__words = function (node) {
+	let words = node.nodeValue.splitIndex(new RegExp(/\s|[\_\+\-!@#%^&*():;\\\/|<>"'\n\t]+/));
+
+	return (words.length) ? { node: node, words: words } : false;
+};
+
+this.str__currency = function (text) {
 	/**
 		* declare base potential currency variable
 	**/
-	let potential_currency = undefined;
+	let potential = undefined;
 	/**
 		* check if str contains index of . or ,
 	**/	
@@ -74,20 +126,20 @@ this.m = function (text) {
 				/**
 					* check the existence of either a comma or period in string
 				**/
-				let matches = s(int[0], ['.', ',']);
+				let filter_matches = str__filter(int[0], ['.', ',']);
 				/**
 					* check that array was populated
 				**/
-				if (matches.length) {
+				if (filter_matches.length) {
 					/**
 						* check if array is longer than one
 						* prevents false flag value of, e.g. 1,000 being converted to 1.000
 					**/
-					if (matches.length > 1) {
+					if (filter_matches.length > 1) {
 						/**
 							* obtain last index of array
 						**/
-						let lastIndex = matches[matches.length - 1];
+						let lastIndex = filter_matches[filter_matches.length - 1];
 						/**
 							* format European decleration (replace trailing comma with period)
 						**/
@@ -106,7 +158,6 @@ this.m = function (text) {
 						else {
 							int[0] = int[0].replace(/[,]/g, "");
 						}
-
 					}
 				}
 
@@ -116,7 +167,7 @@ this.m = function (text) {
 
 				int[0] = int[0].replace(/\,/g, "");
 
-				potential_currency = int[0];
+				potential = int[0];
 
 			}
 			
@@ -126,238 +177,170 @@ this.m = function (text) {
 		* otherwise attempt to check if string is a potential number
 	**/
 	else if (!isNaN(text)) {
-		potential_currency = text;
+		potential = text;
 	}
 	/**
 		* return computed outcome
 	**/
-	return potential_currency;
+	return potential;
 };
-/**
-	* substring index
-**/ 
-this.s = function (text, characters) {
-	if (!text || !characters) {
-		return;
-	}
+
+this.str__identifier = function (text, patterns, json) {
+	let str_match = false;
 	/**
-		* temp array to hold found matches
+		* iterate over provided json document that has a currency object for each item
 	**/
-	let matches = [];
-	/**
-		* iterate through provided string
-	**/
-	for (let i = 0; i < text.length; i++) {
+	for (let i = 0; i < json.length && !str_match; i++) {
 		/**
-			iterate through matches array
+			* extract the currency object for [i]
 		**/
-		for (let k = 0; k < characters.length; k++) {
-			/**
-				if text matches user supplied matches add to temp array
-			**/
-			if (text[i] === characters[k]) {
-				matches.push({
-					character: characters[k],
-					position: i
-				});
-				break;
+		let currency = json[i].currency;
+
+
+		for (var k = 0; k < patterns.length; k++) {
+			
+			let format = currency[patterns[k]];
+
+			if (format) {
+				let r; 
+				for (let key in text) {
+					try {
+						r = ("/\\" + format + "/g").test(text[key]);
+					} catch (err) {
+						r = new RegExp(format, "g").test(text[key]);
+					}
+					if (r) {
+						str_match = { currency: currency.ISO };
+					} 
+				};
 			}
 		};
+
 	};
-	return matches;
-};
-
-this.matchCurrency = function (data) {
-	if (!user__location__json || !common__countries__json) return;
-
-	let node = data.node;
-	let text = data.text;
-	
-	for (let i = 0; i < window.common__countries__json.length; i++) {
-			
-		/**
-			* create scoped anonymous function to process individual data items from common__countries
-		**/
-		!function (data, node, text) {
-
-			/**
-				* register async function
-			**/
-			a(function () {
-				let c = data.currency;
-				/**
-					* create smaller text object for iterations
-				**/
-				let t = {before: text.before, after: text.after, original: text.original};
-				/**
-					* create smaller data object for iterations
-				**/
-				let d = {ISO: c.ISO, decimal: c.html_decimal, hex: c.html_hex};
-
-				
-				/**
-					* iterate through simple text object (t)
-				**/
-				/**
-					* attempt the fastest match that has currency context (using ISO)
-				**/
-				let ISO_match = !function () {
-					/**
-						* ISO regex
-					**/
-					let ISO = new RegExp(d.ISO, "g");
-
-					for (let key in t) {
-						if (ISO.test(t[key])) {
-							return true;
-						}
-					};
-				}();
-
-				if (ISO_match) {
-					console.log('PRAISE BE! ISO MATCHED');
-				}
-				
-				
-			});
-
-		}(common__countries__json[i], node, text);
-	}
-
+	return str_match;
 };
 
 this.init = function (request, callback) {
 	/**
-		* register common__countries__json result as global variable
-		* register user__location__json result as global variable
+		* abort operation if JSON not recovered
 	**/
-	window.user__location__json = request.location;
-	window.common__countries__json = request.countries;
+	if (!request.countries) return;
 
+	/**	
+		* asynchronously collect relevant DOM nodes (ignoring unlikely currency holders)
+	**/
+	async__function(tree__walker(document.body)).then(function (nodes) {
+		/**
+			* asynchronously split assumed seperated words from DOM nodes based on RegExp
+		**/
+		async__array(nodes, str__words).then(function (nodes) {
 
-	c(document.body, function (nodes) {
-
-		let clean_strs = [];
-
-		a(function () {
 			/**
-				* non whitespace strings
+				* filter empty arrays from nodes 
 			**/
+			nodes = nodes.filter(Boolean);
+
 			/**
-				* initial top loop of content nodes
+				* temp array for potential currency strings
 			**/
-			for (let i = 0; i < nodes.length; i++) {
+
+			let possible = [];
+
+			/**
+				* iterate over filtered collected nodes
+			**/
+
+			async__array(nodes, function (node) {
 				/**
-					* scopes function for evaluations of substrings
+					* asynchronise individual node for complex string evaluation
 				**/
-				!function (node) {
+				async__function(function () {
 					/**
-						* check parent node against registered elements to reduce array load
-						* filters against type, e.g. exclude <script> text
+						* temporary array for word matches for this indivdiual dom node
 					**/
-					if (!f(node.parentElement)) {
-
-						/**
-							* split words based on their position between spaces or special characters
-							* using characters that are unlikely to be used to declare a currency
-						**/
-						
-						/* original v */
-						/*
-						let words = node.nodeValue.split(new RegExp(/\s|[\_\+\-!@#%^&*():;\\\/|<>"'\n\t]+/)).filter(function (n) { return /\S/.test(n); });
-						*/
-
-						/**
-							* use prototype split method to get substrings and index of split substring
-						**/
-
-						let words = node.nodeValue.splitIndex(new RegExp(/\s|[\_\+\-!@#%^&*():;\\\/|<>"'\n\t]+/));
-
-						/**
-							* append to array of clean strings 
-						**/
-						if (words.length) {
-							clean_strs.push({ textNode: node, textNodeWords: words });
-						}
-					}
-
-				}(nodes[i]);
-			};
-		}, function () {
-			/**
-				* create primary async function to reduce page load
-			**/
-			a(function () {
-				/**
-					* iterate over cleaned/valid strings from document Tree Walker
-				**/
-				for (let i = 0; i < clean_strs.length; i++) {
+					let word_matches = [];
 					/**
-						* supply individual string to anonymous function for evaluation
+						* iterate over individual nodes word collection
 					**/
-					!function (clean) {
+					for (let i = 0, words = node.words; i < words.length; i++) {
+
 						/**
-							* secondary async to attempt to lighten computational delay 
+							* store the current word (being iterated over from words [collection of words from the node])
 						**/
-						a(function () {
+						let word = words[i][1];
+						/**
+							* attempt to determine if this text has a currency pattern
+						**/
+						let potential = str__currency(word);
+						/**
+							* it word has a pattern match
+						**/
+						if (potential)  {
 							/**
-								* iterate over individual items in cleaned words array individual word list
-								* it's a bit of a mouthful, basically this:
-									cleaned_strs - 
-										clean_strs_item -
-											clean_strs_items_words < iterate over this
-
+								* checking against potential to see if they are the same
+								* if they are, it is likely not a currency
 							**/
-							for (let k = 0, words = clean.textNodeWords; k < words.length; k++) {
-								let position = words[k][0];
-								let word = words[k][1];
-								/**
-									* evaluate current word in word list against currency string identifier 
-								**/
-								let potential = m(word);
-								/**
-									* process if not undefined
-								**/
-								if (potential) {
+							if (potential !== word) {
+						
+								let text = { original: word, filtered: potential, starts: words[i][0], ends: words[i][0] + word.length };
 
-									let data = {
-										text: {
-											original: word,
-											formatted: potential,
-											position: position
-										},
-										node: clean.textNode.parentElement
-									};
-									/**
-										* assumes we used splitIndex
-										* appends item before
-									**/
-									if (words[k - 1]) {
-										data.text.before = words[k - 1][1];
-									}
-									/**
-										* assumes we used splitIndex
-										* appends item after
-									**/
-									if (words[k + 1]) {
-										data.text.after = words[k + 1][1];
-									}	
-									/**
-										* dispatch to matchCurrency major function
-									**/
-									window.matchCurrency(data);
-								}
+								if (words[i - 1]) text.before = words[i - 1][1];
+
+								if (words[i + 1]) text.after = words[i + 1][1];
+
+								word_matches.push({ node: node, text: text });
 							}
-						});
+						}
+						
+					};
+					return word_matches;
 
-					}(clean_strs[i]);
+				}).then(function (result) {
+					/**
+						* if async result is a populated array push to the collection of potential currencies array
+					**/	
+					if (result.length) { 
+						possible.push(result);
+					}
 				
-				};	
+				});
+
+			}).then(function () {
+				/**
+					* contactenate possible multi dimensional array into one dimensional array
+				**/
+				possible = possible.concat.apply([], possible);
+
+				let positive = [];
+				let grey = [];
+
+				for (let i = 0; i < possible.length; i++) {
+					/**
+						* attempt to perform a simple match
+					**/
+					let item = possible[i];
+
+					let text = item.text;
+					
+					let patterns = ["ISO", "symbol", "symbol_alt"];
+
+					let str_test = str__identifier(text, patterns, request.countries);
+
+					if (str_test) {
+						positive.push(possible[i]);
+					}
+					else {
+						grey.push(possible[i]);
+					}
+				};
+			
 
 			});
+
 		});
 
 	});
+
 };
 
 /**
