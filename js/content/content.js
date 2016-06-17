@@ -94,6 +94,9 @@ this.str__words = function (node) {
 };
 
 this.str__currency = function (text) {
+	
+		//console.log(text)
+	
 	/**
 		* declare base potential currency variable
 	**/
@@ -115,11 +118,11 @@ this.str__currency = function (text) {
 				* 
 					(non-capture begins with any number of digits) 
 					(followed by digit any number of times) or (comma or period) repeated pattern
-					(followed by a digit any number of times) {not the currencies disperse that low}
+					(followed by a digit any number of times) or (one period) {not the currencies disperse that low}
 
 				* otherwise set undefined
 			**/
-			let int = text.match(/(?:\d+)(\d+|[,.])+\d+/g) || undefined;
+			let int = text.match(/(?:\d+)(\d+|[,.])+(\d+|\.{1})/g) || undefined;
 
 			if (int) {
 				
@@ -153,10 +156,10 @@ this.str__currency = function (text) {
 							int[0] = int[0].replace(/\,/g, "");
 						}
 						/**
-							* otherwise remove specia characters
+							* otherwise remove special characters
 						**/
 						else {
-							int[0] = int[0].replace(/[,]/g, "");
+							int[0] = int[0].replace(/[.,]/g, "");
 						}
 					}
 				}
@@ -205,12 +208,12 @@ this.str__identifier = function (text, patterns, json) {
 				let r; 
 				for (let key in text) {
 					try {
-						r = ("/\\" + format + "/g").test(text[key]);
+						r = ("/\\" + format + "/gi").test(text[key]);
 					} catch (err) {
-						r = new RegExp(format, "g").test(text[key]);
+						r = new RegExp(format, "gi").test(text[key]);
 					}
 					if (r) {
-						str_match = { currency: currency.ISO };
+						str_match = currency.ISO;
 					} 
 				};
 			}
@@ -220,12 +223,16 @@ this.str__identifier = function (text, patterns, json) {
 	return str_match;
 };
 
+
+this.try__match = function (argument) {
+	
+};
+
 this.init = function (request, callback) {
 	/**
 		* abort operation if JSON not recovered
 	**/
 	if (!request.countries) return;
-
 	/**	
 		* asynchronously collect relevant DOM nodes (ignoring unlikely currency holders)
 	**/
@@ -234,22 +241,17 @@ this.init = function (request, callback) {
 			* asynchronously split assumed seperated words from DOM nodes based on RegExp
 		**/
 		async__array(nodes, str__words).then(function (nodes) {
-
 			/**
 				* filter empty arrays from nodes 
 			**/
 			nodes = nodes.filter(Boolean);
-
 			/**
 				* temp array for potential currency strings
 			**/
-
 			let possible = [];
-
 			/**
 				* iterate over filtered collected nodes
 			**/
-
 			async__array(nodes, function (node) {
 				/**
 					* asynchronise individual node for complex string evaluation
@@ -263,7 +265,6 @@ this.init = function (request, callback) {
 						* iterate over individual nodes word collection
 					**/
 					for (let i = 0, words = node.words; i < words.length; i++) {
-
 						/**
 							* store the current word (being iterated over from words [collection of words from the node])
 						**/
@@ -306,11 +307,10 @@ this.init = function (request, callback) {
 				});
 
 			}).then(function () {
-				/**
-					* contactenate possible multi dimensional array into one dimensional array
-				**/
+	
 				possible = possible.concat.apply([], possible);
 
+				
 				let positive = [];
 				let grey = [];
 
@@ -322,18 +322,17 @@ this.init = function (request, callback) {
 
 					let text = item.text;
 					
-					let patterns = ["ISO", "symbol", "symbol_alt"];
+					let patterns = ["ISO", "symbol", "symbol_alt", "name"];
 
-					let str_test = str__identifier(text, patterns, request.countries);
+					let iso = str__identifier(text, patterns, request.countries);
 
-					if (str_test) {
-						positive.push(possible[i]);
+					if (iso) {
+						positive.push({ node: item.node.node, text: text, iso: iso });
 					}
 					else {
 						grey.push(possible[i]);
 					}
 				};
-			
 
 			});
 
@@ -342,7 +341,6 @@ this.init = function (request, callback) {
 	});
 
 };
-
 /**
 	* general message response handler between content.js and background.js
 	* primary operation to intilise content scripts after background scripts are set and tabs are ready
