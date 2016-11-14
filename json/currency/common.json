@@ -12,7 +12,6 @@
             "ISO": "USD"
         },  
 
-
         "EUR": {
             "name": "Euro",
             "full": "European Euro",
@@ -24,7 +23,6 @@
             "ISO": "EUR"
         },  
 
-
         "YEN": {
             "name": "Yen",
             "full": "Japanese Yen",
@@ -35,7 +33,6 @@
             "html_hex": "&#xa5;",
             "ISO": "JPY"
         },  
-
 
         "GBP": {
             "name": "Pound",
@@ -225,4 +222,4 @@
         } 
         
     }
-},
+}
