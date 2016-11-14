@@ -1,6 +1,11 @@
 
 class ChromeCash {
 
+	static currencyCommon (callback) {
+		return ChromeCash.XHR(chrome.extension.getURL("json/currency/common.json")).then(function (response) {
+			callback(response); 
+		});
+	}
 
 	static get tags () {
 		/** @description: create reference tags for filter **/
@@ -12,6 +17,37 @@ class ChromeCash {
 		/** @description: regular expression for filtering noise from string by splitting at regexp decleration **/
 		/** @return: is type {object} **/
 		return new RegExp(/\s|[\_\+\-!@#%^&*():;\\\/|<>"'\n\t]+/);
+	}
+
+	static XHR (file) {
+		/** @description: collects xhr data from resource **/
+		/** @param: {file} is type {string} **/
+		/** @return: is type {*} **/
+
+		/** set and return promise **/
+		return new Promise(function (resolve, reject) {
+			/** set xhr object **/
+			let xhr = new XMLHttpRequest();
+			/** on status change **/
+			xhr.onreadystatechange = function () {
+				/** confirm request is done **/
+				if (xhr.readyState === 4) {
+					/** confirm file found **/
+					if (xhr.status === 200) {
+						/** send resolved **/
+						resolve(JSON.parse(xhr.responseText));
+					}
+					else {
+						/** send rejected **/
+						reject(xhr);
+					};
+				}
+			};
+			/** open xhr request **/
+			xhr.open("GET", file, false);
+			/** make http request **/
+			xhr.send();
+		});
 	}
 
 	static tree (element) {
@@ -115,8 +151,13 @@ class ChromeCash {
 
 	static currency (nodes) {
 
-		return ChromeCash.collect(nodes);
+		ChromeCash.currencyCommon(function (currencies) {
 
+			console.log(currencies);
+
+		});
+
+		return ChromeCash.collect(nodes);
 	}
 
 }

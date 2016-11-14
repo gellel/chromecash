@@ -12,7 +12,7 @@
 
 	"content_scripts": [
 		{
-			"js": ["js/lib/document.js", "js/cash/main.js"],
+			"js": ["js/lib/document.js", "js/chromecash/main.js"],
 			"all_frames": false, /** true makes it do the multiple log; testing; result: success **/
 			"run_at" : "document_end", /** document_idle **/
 			"matches": ["http://*/*", "https://*/*"]
@@ -27,7 +27,7 @@
 	],
 
 	"web_accessible_resources": [
-		"json/countries/common.json", 
+		"json/currency/common.json", 
 		"json/countries/full.json"
 	]
 }
