@@ -113,9 +113,10 @@ class ChromeCash {
 		return strs;
 	}
 
-	static reduce (nodes) {
+	static reduce (nodes, currencies) {
 		/** @description: filters ChromeCash.index returned array to exclude unlikely text strings **/
 		/** @param: {nodes} is type {array} **/
+		/** @param: {currencies} is type {array} **/
 		/** @return: is type {array} **/
 
 		/** set empty array to collect passed nodes **/
@@ -125,7 +126,15 @@ class ChromeCash {
 
 			let str = nodes[i].str;
 
-			console.log(str);
+			if (str.length === 3) {
+
+				console.log(str.toUpperCase());
+
+				if (currencies[str.toUpperCase()]) {
+					console.log("3str", str)
+				}
+				
+			}
 
 		};
 		
@@ -145,7 +154,7 @@ class ChromeCash {
 		/** enumerate over supplied html elements **/
 		for (let i = 0, len = nodes.length; i < len; i++) {
 			/** set filtered object **/
-			let strs = ChromeCash.reduce(ChromeCash.index(nodes[i]));
+			let strs = ChromeCash.reduce(ChromeCash.index(nodes[i]), currencies);
 			/** add filtered object to collection **/
 			if (strs.length) collection.push(strs);
 		};
@@ -159,9 +168,7 @@ class ChromeCash {
 
 		ChromeCash.getCommonCurrencies(function (file) {
 
-			ChromeCash.currencies = file.currencies;
-
-			return ChromeCash.collect(nodes, ChromeCash.currencies);
+			return ChromeCash.collect(nodes, file.currencies);
 
 		});
 
