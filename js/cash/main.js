@@ -5,7 +5,7 @@ class ChromeCash {
 	static get tags () {
 		/** @description: create reference tags for filter **/
 		/** @return: is type {array} **/
-		return ["STYLE","SCRIPT", "NOSCRIPT", "PRE", "IMG", "CANVAS", "CODE", "ABBR", "TIME", "TEXTAREA", "INPUT", "OPTION", "AUDIO", "SOURCE", "VIDEO", "TRACK", "FORM"]
+		return ["STYLE","SCRIPT", "NOSCRIPT", "PRE", "IMG", "CANVAS", "CODE", "ABBR", "TIME", "TEXTAREA", "INPUT", "OPTION", "AUDIO", "SOURCE", "VIDEO", "TRACK", "FORM"];
 	}
 
 	static get RegExpWords () {
@@ -45,6 +45,9 @@ class ChromeCash {
 	}
 
 	static index (node) {
+		/** @description: splits supplied node with string into words **/
+		/** @param: {node} is type {HTML node} **/
+		/** @return: is type {array} **/
 
 		/** set base reference to string **/
 		let str = node.nodeValue;
@@ -60,23 +63,56 @@ class ChromeCash {
            	/** set position index **/
             position = position + index;
 			/** set current array item at position to contain string and its matching counterpart **/
-            strs[i] = [position, strs[i]];
+            strs[i] = { i: position, str: strs[i] };
             /** set string slice **/
             str = str.slice(index);
-        }
+        };
 
         /** return string index array **/
 		return strs;
 	}
 
-	static currency (nodes) {
+	static reduce (nodes) {
+
+		let collection = [];
+
+		for (let i = 0, len = nodes.length; i < len; i++) {
+
+			console.log(nodes[i]);
+
+		};
+		
+		return nodes;
+	}
+
+
+	static collect (nodes) {
 		/** @description: confirms nodes are currency **/
 		/** @param: {nodes} is type {array} **/
 		/** @return: is type {array} **/
+
+		/** set empty array to collect nodes **/
+		let collection = [];
+
+		/** enumerate over supplied html elements **/
 		for (let i = 0, len = nodes.length; i < len; i++) {
-			console.log(ChromeCash.index(nodes[i]));
-		}
+			/** set filtered object **/
+			let strs = ChromeCash.reduce(ChromeCash.index(nodes[i]));
+			/** add filtered object to collection **/
+			if (strs.length) collection.push(strs);
+		};
+
+		/** return array of filtered objects from dom node walker **/
+		return collection;
 	}
+
+
+	static currency (nodes) {
+
+		return ChromeCash.collect(nodes);
+
+	}
+
 }
 
 
