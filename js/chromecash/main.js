@@ -122,18 +122,21 @@ class ChromeCash {
 		/** set empty array to collect passed nodes **/
 		let collection = [];
 
+		/** enumerate over text collection for sentence **/
 		for (let i = 0, len = nodes.length; i < len; i++) {
-
+			/** set reference to current string **/
 			let str = nodes[i].str;
 
+			
+			/** attempt to match to countries key **/
 			if (str.length === 3) {
 
-				console.log(str.toUpperCase());
-
 				if (currencies[str.toUpperCase()]) {
-					console.log("3str", str)
+					// break here cause a str was found in the object ?key = str;
 				}
-				
+				else {
+				//	for ()
+				}
 			}
 
 		};
