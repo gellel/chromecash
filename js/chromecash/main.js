@@ -1,17 +1,6 @@
 
 class ChromeCash {
 
-	static getCommonCurrencies (callback) {
-		/** @description: fetches common currencies json data for use as a lookup for strings to determine what origin they are **/
-		/** @param: {callback} is type {function} **/
-		/** @return: is type {*} **/
-
-		/** set and return promise **/
-		return ChromeCash.XHR(chrome.extension.getURL("json/currency/common.json")).then(function (response) {
-			return typeof callback === "function" ? callback(response) : return response; 
-		});
-	}
-
 	static get tags () {
 		/** @description: create reference tags for filter **/
 		/** @return: is type {array} **/
@@ -52,6 +41,17 @@ class ChromeCash {
 			xhr.open("GET", file, false);
 			/** make http request **/
 			xhr.send();
+		});
+	}
+
+	static getCommonCurrencies (callback) {
+		/** @description: fetches common currencies json data for use as a lookup for strings to determine what origin they are **/
+		/** @param: {callback} is type {function} **/
+		/** @return: is type {*} **/
+
+		/** set and return promise **/
+		return ChromeCash.XHR(chrome.extension.getURL("json/currency/common.json")).then(function (response) {
+			return typeof callback === "function" ? callback(response) : response; 
 		});
 	}
 
