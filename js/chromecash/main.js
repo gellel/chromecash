@@ -1,9 +1,14 @@
 
 class ChromeCash {
 
-	static currencyCommon (callback) {
+	static getCommonCurrencies (callback) {
+		/** @description: fetches common currencies json data for use as a lookup for strings to determine what origin they are **/
+		/** @param: {callback} is type {function} **/
+		/** @return: is type {*} **/
+
+		/** set and return promise **/
 		return ChromeCash.XHR(chrome.extension.getURL("json/currency/common.json")).then(function (response) {
-			callback(response); 
+			return typeof callback === "function" ? callback(response) : return response; 
 		});
 	}
 
@@ -128,9 +133,10 @@ class ChromeCash {
 	}
 
 
-	static collect (nodes) {
+	static collect (nodes, currencies) {
 		/** @description: confirms nodes are currency **/
 		/** @param: {nodes} is type {array} **/
+		/** @param: {currencies} is type {array} **/
 		/** @return: is type {array} **/
 
 		/** set empty array to collect nodes **/
@@ -151,16 +157,18 @@ class ChromeCash {
 
 	static currency (nodes) {
 
-		ChromeCash.currencyCommon(function (currencies) {
+		ChromeCash.getCommonCurrencies(function (file) {
 
-			console.log(currencies);
+			ChromeCash.currencies = file.currencies;
+
+			return ChromeCash.collect(nodes, ChromeCash.currencies);
 
 		});
 
-		return ChromeCash.collect(nodes);
+		
 	}
 
 }
 
 
-ChromeCash.currency(ChromeCash.tree(document.body))
+ChromeCash.currency(ChromeCash.tree(document.body));
