@@ -1,242 +1,244 @@
-[   
-    {
-      "currency": {
-            "name": "Dollar",
-            "full": "United States Dollar",
-            "symbol": "US$",
-            "symbol_alt": "",
-            "html_decimal": "&#36;",
-            "html_entity": "",
-            "html_hex": "&#x0024;",
-            "ISO": "USD"
-        }  
-    },
-    {
-      "currency": {
-            "name": "Euro",
-            "full": "European Euro",
-            "symbol": "€",
-            "symbol_alt": "",
-            "html_decimal": "&#8364;",
-            "html_entity": "&euro;",
-            "html_hex": "&#x20ac;",
-            "ISO": "EUR"
-        }  
-    },
-    {
-      "currency": {
-            "name": "Yen",
-            "full": "Japanese Yen",
-            "symbol": "¥",
-            "symbol_alt": "JP¥",
-            "html_decimal": "&#165;",
-            "html_entity": "&yen;",
-            "html_hex": "&#xa5;",
-            "ISO": "JPY"
-        }  
-    },
-    {
-      "currency": {
-            "name": "Pound",
-            "full": "United Kingdom Pound Sterling",
-            "symbol": "£",
-            "symbol_alt": "GBP",
-            "html_decimal": "&#163;",
-            "html_entity": "&pound;",
-            "html_hex": "&#xa3;0h",
-            "ISO": "GBP"
-        }  
-    },
-    {
-      "currency": {
-            "name": "Dollar",
-            "full": "Australian Dollar",
-            "symbol": "AU$",
-            "symbol_alt": "",
-            "html_decimal": "&#36;",
-            "html_entity": "",
-            "html_hex": "&#x0024;",
-            "ISO": "AUD"
-        }  
-    },
-    {
-      "currency": {
-            "name": "Swiss Franc",
-            "full": "Swiss Franc",
-            "symbol": "CHF",
-            "symbol_alt": "Fr",
-            "html_decimal": "",
-            "html_entity": "",
-            "html_hex": "",
-            "ISO": "CHF"
-        }  
-    },
-    {
-      "currency": {
-            "name": "Dollar",
-            "full": "Candian Dollar",
-            "symbol": "CA$",
-            "symbol_alt": "",
-            "html_decimal": "&#36;",
-            "html_entity": "",
-            "html_hex": "&#x0024;",
-            "ISO": "CAD"
-        }  
-    },
-    {
-      "currency": {
-            "name": "Peso",
-            "full": "Mexican Peso",
-            "symbol": "Mex$",
-            "symbol_alt": "",
-            "html_decimal": "",
-            "html_entity": "",
-            "html_hex": "",
-            "ISO": "MXN"
-        }  
-    },
-    {
-      "currency": {
-            "name": "Yuan",
-            "full": "Chinese Yuan Renminbi",
-            "symbol": "CN¥",
-            "symbol_alt": "¥",
-            "html_decimal": "&#165;",
-            "html_entity": "&yen;",
-            "html_hex": "&#xa5;",
-            "ISO": "CNY"
-        }  
-    },
-    {
-      "currency": {
-            "name": "Dollar",
-            "full": "New Zealand Dollar",
-            "symbol": "NZ$",
-            "symbol_alt": "",
-            "html_decimal": "&#36;",
-            "html_entity": "",
-            "html_hex": "&#x0024;",
-            "ISO": "NZD"
-        }  
-    },
-    {
-      "currency": {
-            "name": "Krona",
-            "full": "Swedish Krona",
-            "symbol": "kr",
-            "symbol_alt": "",
-            "html_decimal": "",
-            "html_entity": "",
-            "html_hex": "",
-            "ISO": "SEK"
-        }  
-    },
-    {
-      "currency": {
-            "name": "Ruble",
-            "full": "Russian Ruble",
-            "symbol": "₽",
-            "symbol_alt": "руб",
-            "html_decimal": "&#8381;",
-            "html_entity": "",
-            "html_hex": "&#x20bd;",
-            "ISO": "RUB"
-        }  
-    },
-    {
-      "currency": {
-            "name": "Dollar",
-            "full": "Hong Kong Dollar",
-            "symbol": "HK$",
-            "symbol_alt": "",
-            "html_decimal": "",
-            "html_entity": "",
-            "html_hex": "",
-            "ISO": "HKD"
-        }  
-    },
-    {
-      "currency": {
-            "name": "Krone",
-            "full": "Norwegian Krone",
-            "symbol": "kr",
-            "symbol_alt": "",
-            "html_decimal": "",
-            "html_entity": "",
-            "html_hex": "",
-            "ISO": "NOK"
-        }  
-    },
-    {
-      "currency": {
-            "name": "Dollar",
-            "full": "Singaporean Dollar",
-            "symbol": "S$",
-            "symbol_alt": "$S",
-            "html_decimal": "",
-            "html_entity": "",
-            "html_hex": "",
-            "ISO": "SGD"
-        }  
-    },
-    {
-      "currency": {
-            "name": "Lira",
-            "full": "Turkish New Lira",
-            "symbol": "TL",
-            "symbol_alt": "YTL",
-            "html_decimal": "&#8378;",
-            "html_entity": "",
-            "html_hex": "&#x20ba;",
-            "ISO": "TRY"
-        }  
-    },
-    {
-      "currency": {
-            "name": "Won",
-            "full": "Korean Won",
-            "symbol": "₩",
-            "symbol_alt": "",
-            "html_decimal": "&#8361;",
-            "html_entity": "",
-            "html_hex": "&#x20a9;",
-            "ISO": "KPW"
-        }  
-    },
-    {
-      "currency": {
-            "name": "Rand",
-            "full": "South African Rand",
-            "symbol": "R",
-            "symbol_alt": "SAR",
-            "html_decimal": "",
-            "html_entity": "",
-            "html_hex": "",
-            "ISO": "ZAR"
-        }  
-    },
-    {
-      "currency": {
-            "name": "Real",
-            "full": "Brazilian Real",
-            "symbol": "R$",
-            "symbol_alt": "",
-            "html_decimal": "&#36;",
-            "html_entity": "",
-            "html_hex": "&#x0024;",
-            "ISO": "BRL"
-        }  
-    },
-    {
-      "currency": {
-            "name": "Rupee",
-            "full": "Indian Rupee",
-            "symbol": "₹",
-            "symbol_alt": "Rs",
-            "html_decimal": "&#8377;",
-            "html_entity": "",
-            "html_hex": "&#x20b9;",
-            "ISO": "INR"
-        }  
-    }
-]
+{
+    "countries": [   
+        {
+          "currency": {
+                "name": "Dollar",
+                "full": "United States Dollar",
+                "symbol": "US$",
+                "symbol_alt": "",
+                "html_decimal": "&#36;",
+                "html_entity": "",
+                "html_hex": "&#x0024;",
+                "ISO": "USD"
+            }  
+        },
+        {
+          "currency": {
+                "name": "Euro",
+                "full": "European Euro",
+                "symbol": "€",
+                "symbol_alt": "",
+                "html_decimal": "&#8364;",
+                "html_entity": "&euro;",
+                "html_hex": "&#x20ac;",
+                "ISO": "EUR"
+            }  
+        },
+        {
+          "currency": {
+                "name": "Yen",
+                "full": "Japanese Yen",
+                "symbol": "¥",
+                "symbol_alt": "JP¥",
+                "html_decimal": "&#165;",
+                "html_entity": "&yen;",
+                "html_hex": "&#xa5;",
+                "ISO": "JPY"
+            }  
+        },
+        {
+          "currency": {
+                "name": "Pound",
+                "full": "United Kingdom Pound Sterling",
+                "symbol": "£",
+                "symbol_alt": "GBP",
+                "html_decimal": "&#163;",
+                "html_entity": "&pound;",
+                "html_hex": "&#xa3;0h",
+                "ISO": "GBP"
+            }  
+        },
+        {
+          "currency": {
+                "name": "Dollar",
+                "full": "Australian Dollar",
+                "symbol": "AU$",
+                "symbol_alt": "",
+                "html_decimal": "&#36;",
+                "html_entity": "",
+                "html_hex": "&#x0024;",
+                "ISO": "AUD"
+            }  
+        },
+        {
+          "currency": {
+                "name": "Swiss Franc",
+                "full": "Swiss Franc",
+                "symbol": "CHF",
+                "symbol_alt": "Fr",
+                "html_decimal": "",
+                "html_entity": "",
+                "html_hex": "",
+                "ISO": "CHF"
+            }  
+        },
+        {
+          "currency": {
+                "name": "Dollar",
+                "full": "Candian Dollar",
+                "symbol": "CA$",
+                "symbol_alt": "",
+                "html_decimal": "&#36;",
+                "html_entity": "",
+                "html_hex": "&#x0024;",
+                "ISO": "CAD"
+            }  
+        },
+        {
+          "currency": {
+                "name": "Peso",
+                "full": "Mexican Peso",
+                "symbol": "Mex$",
+                "symbol_alt": "",
+                "html_decimal": "",
+                "html_entity": "",
+                "html_hex": "",
+                "ISO": "MXN"
+            }  
+        },
+        {
+          "currency": {
+                "name": "Yuan",
+                "full": "Chinese Yuan Renminbi",
+                "symbol": "CN¥",
+                "symbol_alt": "¥",
+                "html_decimal": "&#165;",
+                "html_entity": "&yen;",
+                "html_hex": "&#xa5;",
+                "ISO": "CNY"
+            }  
+        },
+        {
+          "currency": {
+                "name": "Dollar",
+                "full": "New Zealand Dollar",
+                "symbol": "NZ$",
+                "symbol_alt": "",
+                "html_decimal": "&#36;",
+                "html_entity": "",
+                "html_hex": "&#x0024;",
+                "ISO": "NZD"
+            }  
+        },
+        {
+          "currency": {
+                "name": "Krona",
+                "full": "Swedish Krona",
+                "symbol": "kr",
+                "symbol_alt": "",
+                "html_decimal": "",
+                "html_entity": "",
+                "html_hex": "",
+                "ISO": "SEK"
+            }  
+        },
+        {
+          "currency": {
+                "name": "Ruble",
+                "full": "Russian Ruble",
+                "symbol": "₽",
+                "symbol_alt": "руб",
+                "html_decimal": "&#8381;",
+                "html_entity": "",
+                "html_hex": "&#x20bd;",
+                "ISO": "RUB"
+            }  
+        },
+        {
+          "currency": {
+                "name": "Dollar",
+                "full": "Hong Kong Dollar",
+                "symbol": "HK$",
+                "symbol_alt": "",
+                "html_decimal": "",
+                "html_entity": "",
+                "html_hex": "",
+                "ISO": "HKD"
+            }  
+        },
+        {
+          "currency": {
+                "name": "Krone",
+                "full": "Norwegian Krone",
+                "symbol": "kr",
+                "symbol_alt": "",
+                "html_decimal": "",
+                "html_entity": "",
+                "html_hex": "",
+                "ISO": "NOK"
+            }  
+        },
+        {
+          "currency": {
+                "name": "Dollar",
+                "full": "Singaporean Dollar",
+                "symbol": "S$",
+                "symbol_alt": "$S",
+                "html_decimal": "",
+                "html_entity": "",
+                "html_hex": "",
+                "ISO": "SGD"
+            }  
+        },
+        {
+          "currency": {
+                "name": "Lira",
+                "full": "Turkish New Lira",
+                "symbol": "TL",
+                "symbol_alt": "YTL",
+                "html_decimal": "&#8378;",
+                "html_entity": "",
+                "html_hex": "&#x20ba;",
+                "ISO": "TRY"
+            }  
+        },
+        {
+          "currency": {
+                "name": "Won",
+                "full": "Korean Won",
+                "symbol": "₩",
+                "symbol_alt": "",
+                "html_decimal": "&#8361;",
+                "html_entity": "",
+                "html_hex": "&#x20a9;",
+                "ISO": "KPW"
+            }  
+        },
+        {
+          "currency": {
+                "name": "Rand",
+                "full": "South African Rand",
+                "symbol": "R",
+                "symbol_alt": "SAR",
+                "html_decimal": "",
+                "html_entity": "",
+                "html_hex": "",
+                "ISO": "ZAR"
+            }  
+        },
+        {
+          "currency": {
+                "name": "Real",
+                "full": "Brazilian Real",
+                "symbol": "R$",
+                "symbol_alt": "",
+                "html_decimal": "&#36;",
+                "html_entity": "",
+                "html_hex": "&#x0024;",
+                "ISO": "BRL"
+            }  
+        },
+        {
+          "currency": {
+                "name": "Rupee",
+                "full": "Indian Rupee",
+                "symbol": "₹",
+                "symbol_alt": "Rs",
+                "html_decimal": "&#8377;",
+                "html_entity": "",
+                "html_hex": "&#x20b9;",
+                "ISO": "INR"
+            }  
+        }
+    ]
+}

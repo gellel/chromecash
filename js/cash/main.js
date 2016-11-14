@@ -9,7 +9,7 @@ class ChromeCash {
 	}
 
 	static get RegExpWords () {
-		/** @description: regular expression for filtering noise from string **/
+		/** @description: regular expression for filtering noise from string by splitting at regexp decleration **/
 		/** @return: is type {object} **/
 		return new RegExp(/\s|[\_\+\-!@#%^&*():;\\\/|<>"'\n\t]+/);
 	}
@@ -73,12 +73,18 @@ class ChromeCash {
 	}
 
 	static reduce (nodes) {
+		/** @description: filters ChromeCash.index returned array to exclude unlikely text strings **/
+		/** @param: {nodes} is type {array} **/
+		/** @return: is type {array} **/
 
+		/** set empty array to collect passed nodes **/
 		let collection = [];
 
 		for (let i = 0, len = nodes.length; i < len; i++) {
 
-			console.log(nodes[i]);
+			let str = nodes[i].str;
+
+			console.log(str);
 
 		};
 		
