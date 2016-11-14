@@ -1,37 +1,33 @@
 {
-  "manifest_version": 2,
+	"manifest_version": 2,
 
-  "name": "chromecash",
-  "description": "Converts a pages display currency to your own",
-  "version": "1.0",
+	"name": "chromecash",
+	"description": "Converts a pages display currency to your own",
+	"version": "1.0",
 
-  "icons": {
-	 "16": "img/png/icon/16/16.png",
-   "128": "img/png/icon/128/128.png"
-  },
+	"icons": {
+		"16": "img/png/icon/16/16.png",
+		"128": "img/png/icon/128/128.png"
+	},
 
-  "background": {
-      "scripts": [
-          "js/background/background.js"
-      ],
-      "persistent": false
-  },
+	"content_scripts": [
+		{
+			"js": ["js/lib/document.js", "js/cash/main.js"],
+			"all_frames": false, /** true makes it do the multiple log; testing; result: success **/
+			"run_at" : "document_end", /** document_idle **/
+			"matches": ["http://*/*", "https://*/*"]
+		}
+	],
 
-  "content_scripts": [
-    {
-      "js": ["js/lib/prototypes.js", "js/content/content.js"],
-      "all_frames": false, /** true makes it do the multiple log; testing; result: success **/
-      "run_at" : "document_end", /** document_idle **/
-      "matches": ["http://*/*", "https://*/*"]
-    }
-  ],
+	"permissions": [
+		"activeTab",
+		"tabs", 
+		"http://*/*", 
+		"https://*/*"
+	],
 
-  "permissions": [
-    "activeTab",
-    "tabs", 
-    "http://*/*", 
-    "https://*/*"
-  ],
-
-  "web_accessible_resources": ["js/json/countries/countries.json"]
+	"web_accessible_resources": [
+		"json/countries/common.json", 
+		"json/countries/full.json"
+	]
 }
