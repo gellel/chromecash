@@ -85,6 +85,10 @@ class ChromeCash {
 		return nodes;
 	}
 
+	static match (text) {
+		return potential;
+	}
+
 	static index (node) {
 		/** @description: splits supplied node with string into words **/
 		/** @param: {node} is type {HTML node} **/
@@ -117,30 +121,18 @@ class ChromeCash {
 		/** @description: filters ChromeCash.index returned array to exclude unlikely text strings **/
 		/** @param: {nodes} is type {array} **/
 		/** @param: {currencies} is type {array} **/
-		/** @return: is type {array} **/
+		/** @return: is type {array} **/;
 
-		/** set empty array to collect passed nodes **/
+		/** set empty array to collect filtered nodes **/
 		let collection = [];
 
 		/** enumerate over text collection for sentence **/
 		for (let i = 0, len = nodes.length; i < len; i++) {
 			/** set reference to current string **/
-			let str = nodes[i].str;
-
+			str = this.match(nodes[i].str)
+			/** attempt to match against number **/
 			
-			/** attempt to match to countries key **/
-			if (str.length === 3) {
-
-				if (currencies[str.toUpperCase()]) {
-					// break here cause a str was found in the object ?key = str;
-				}
-				else {
-				//	for ()
-				}
-			}
-
 		};
-		
 		return nodes;
 	}
 
@@ -171,7 +163,9 @@ class ChromeCash {
 
 		ChromeCash.getCommonCurrencies(function (file) {
 
-			return ChromeCash.collect(nodes, file.currencies);
+			return setTimeout(function () {
+				return ChromeCash.collect(nodes, file.currencies);
+			}, 0);
 
 		});
 
