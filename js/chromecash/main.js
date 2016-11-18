@@ -13,6 +13,12 @@ class ChromeCash {
 		return new RegExp(/\s|[\_\+\-!@#%^&*():;\\\/|<>"'\n\t]+/);
 	}
 
+	static get RegExpCurrencySyntax () {
+		/** @description: regular expression for filtering numbers out of text noise **/
+		/** @return is type {object} **/
+		return new RegExp(/(?:\d+)(\d+|[,.])+(\d+|\.{1})/g);
+	}
+
 	static XHR (file) {
 		/** @description: collects xhr data from resource **/
 		/** @param: {file} is type {string} **/
@@ -86,7 +92,29 @@ class ChromeCash {
 	}
 
 	static match (text) {
-		return potential;
+
+		//console.log(new RegExp(/[,.]\.*/))
+
+		if (text.indexOf('.') > -1 || text.indexOf(',') > -1) {
+			/**
+				* test if . repeats
+			**/
+			let decimals = text.match(/[.,]/g) || [];
+			/**
+				* if decimals were found
+			**/
+			if (decimals.length) {
+
+				let s = text.match(ChromeCash.RegExpCurrencySyntax);
+
+				if (s) {
+					console.log(s);
+				}
+
+			}
+
+		}
+		return text;
 	}
 
 	static index (node) {
@@ -129,9 +157,8 @@ class ChromeCash {
 		/** enumerate over text collection for sentence **/
 		for (let i = 0, len = nodes.length; i < len; i++) {
 			/** set reference to current string **/
-			str = this.match(nodes[i].str)
-			/** attempt to match against number **/
-			
+			var str = this.match(nodes[i].str)
+			/** attempt to match against number **/			
 		};
 		return nodes;
 	}
@@ -161,11 +188,9 @@ class ChromeCash {
 
 	static currency (nodes) {
 
-		ChromeCash.getCommonCurrencies(function (file) {
+		return ChromeCash.getCommonCurrencies(function (file) {
 
-			return setTimeout(function () {
-				return ChromeCash.collect(nodes, file.currencies);
-			}, 0);
+			return ChromeCash.collect(nodes, file.currencies);
 
 		});
 
