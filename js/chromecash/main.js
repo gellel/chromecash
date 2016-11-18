@@ -13,6 +13,12 @@ class ChromeCash {
 		return new RegExp(/\s|[\_\+\-!@#%^&*():;\\\/|<>"'\n\t]+/);
 	}
 
+	static get RegExpPunctuated () {
+		/** @description: regular expression for testing strings that contain periods or commas **/
+		/** @return: is type {object} **/
+		return new RegExp(/(?:(\w|\.)*(\.|\,)\w+)/g);
+	}
+
 	static get RegExpCurrencySyntax () {
 		/** @description: regular expression for filtering numbers out of text noise **/
 		/** @return is type {object} **/
@@ -92,29 +98,7 @@ class ChromeCash {
 	}
 
 	static match (text) {
-
-		//console.log(new RegExp(/[,.]\.*/))
-
-		if (text.indexOf('.') > -1 || text.indexOf(',') > -1) {
-			/**
-				* test if . repeats
-			**/
-			let decimals = text.match(/[.,]/g) || [];
-			/**
-				* if decimals were found
-			**/
-			if (decimals.length) {
-
-				let s = text.match(ChromeCash.RegExpCurrencySyntax);
-
-				if (s) {
-					console.log(s);
-				}
-
-			}
-
-		}
-		return text;
+		return (text.match(ChromeCash.RegExpPunctuated) && text.match(ChromeCash.RegExpCurrencySyntax)) ? text : false;
 	}
 
 	static index (node) {
@@ -156,9 +140,12 @@ class ChromeCash {
 
 		/** enumerate over text collection for sentence **/
 		for (let i = 0, len = nodes.length; i < len; i++) {
-			/** set reference to current string **/
+			/** attempt to match against number **/	
 			var str = this.match(nodes[i].str)
-			/** attempt to match against number **/			
+			/** confirm pattern match **/
+			if (str) {
+				console.log(str);
+			}	
 		};
 		return nodes;
 	}
