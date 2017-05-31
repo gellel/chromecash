@@ -1,9 +1,8 @@
 
 class ChromeCash {
 
-	static get tags () {
-		/** @description: create reference tags for filter **/
-		/** @return: is type {array} **/
+	static get HTML () {
+		/** @return: @type: @array{@string}. **/
 		return [
 			"STYLE",
 			"SCRIPT", 
@@ -21,39 +20,39 @@ class ChromeCash {
 			"SOURCE", 
 			"VIDEO", 
 			"TRACK", 
-			"FORM"];
+			"FORM"
+		];
 	}
 
-	static get RegExpHexCurrencies () {
-		/** @description: regular expression for converting hexidecimal strings **/
-		/** @return: is type {object} **/
+	static get REGEX_HEX () {
+		/** @return: @type: @regexp. **/
 		return new RegExp(/&#x([a-fA-F0-9]+);/);
 	}
 
-	static get RegExpWords () {
-		/** @description: regular expression for filtering noise from string by splitting at regexp decleration **/
-		/** @return: is type {object} **/
-		return new RegExp(/\s|[\_\+\-!@#%^&*():;\\\/|<>"'\n\t]+/);
+	static get REGEX_STRS () {
+		/** @return: @type: @regexp. **/
+		return new RegExp(/[\_\+\-!@#%^&*():;\\\/|<>"'\s\n\t]+/);
 	}
 
-	static get RegExpPunctuated () {
-		/** @description: regular expression for testing strings that contain periods or commas **/
-		/** @return: is type {object} **/
+	static get REGEX_GRAMMAR () {
+		/** @return: @type: @regexp. **/
 		return new RegExp(/(?:(\w|\.)*(\.|\,)\w+)/g);
 	}
 
-	static get RegExpCurrencySyntax () {
-		/** @description: regular expression for filtering numbers out of text noise **/
-		/** @return is type {object} **/
+	static get REGEX_CURRENCY () {
+		/** @return: @type: @regexp. **/
 		return new RegExp(/(?:\d+)(\d+|[,.])+(\d+|\.{1})/g);
 	}
 
-	static XHR (file) {
-		/** @description: collects xhr data from resource **/
-		/** @param: {file} is type {string} **/
-		/** @return: is type {*} **/
+	static get CURRENCIES_COMMON () {
+		/** @return: @type: @promise. **/
+		return ChromeCash.XHR(chrome.extension.getURL("json/currency/common.json"));
+	}
 
-		/** set and return promise **/
+	static XHR (filePath) {
+		/** @param: @filePath, @type: @string. **/
+
+		/** @return: @type: @promise. **/
 		return new Promise(function (resolve, reject) {
 			/** set xhr object **/
 			let xhr = new XMLHttpRequest();
@@ -73,28 +72,51 @@ class ChromeCash {
 				}
 			};
 			/** open xhr request **/
-			xhr.open("GET", file, false);
+			xhr.open("GET", filePath, false);
 			/** make http request **/
 			xhr.send();
 		});
 	}
 
 	static getCommonCurrencies (callback) {
-		/** @description: fetches common currencies json data for use as a lookup for strings to determine what origin they are **/
-		/** @param: {callback} is type {function} **/
-		/** @return: is type {*} **/
+		/** @param: @callback, @type: @function. **/
+		if (!(typeof callback === "function")) return {};
 
-		/** set and return promise **/
-		return ChromeCash.XHR(chrome.extension.getURL("json/currency/common.json")).then(function (response) {
-			return typeof callback === "function" ? callback(response) : response; 
-		});
+		/** @return @type: @object. **/
+		return ChromeCash.CURRENCIES_COMMON.then(callback);
 	}
 
-	static getCurrenciesHexCharacter (hex) {
-		/** @return: is type {string} **/
-		return String.fromCharCode(
-			parseInt(hex.replace(
-				ChromeCash.RegExpHexCurrencies, "$1"), 16));
+
+	static getCurrenciesHexCharacter (text) {
+		/** @param: @text, @type: @string. **/
+
+		/** @return: @type: @string. **/
+		return String.fromCharCode(parseInt(text.replace(ChromeCash.REGEX_HEX, "$1"), 16));
+	}
+
+	static matchCurrencyNumeric (text) {
+		/** @description: checks argument string matches universal currency formatting pattern. **/
+		/** @param: {text} is type {string} **/
+		/** @return: @type: @string. **/
+		return (text.match(ChromeCash.REGEX_GRAMMAR) 
+			&& text.match(ChromeCash.REGEX_CURRENCY)) ? text : '';
+	}
+
+	static matchCurrencyIdentifier (text, currency) {
+		/** @description: checks argument string matches a defined currency formatting identifier. provided from json. **/
+		/** @param: {text} is type {string} **/
+		/** @param: {curreny} is type {object} **/
+		/** @return: @type: @boolean. **/
+
+		/** format symbol. **/
+		let hex = ChromeCash.getCurrenciesHexCharacter(currency.html_hex);
+		/* match against symbols. */
+		let match = (text.indexOf(hex) > -1 || 
+			text.indexOf(currency.ISO) > -1 || 
+			text.indexOf(currency.symbol) > -1) ? 
+				true : false;
+		/** @return: @type: @boolean. **/
+		return match;
 	}
 
 	static tree (element) {
@@ -114,7 +136,7 @@ class ChromeCash {
 		/** confirm that dom walker contains another item **/
 		while (node = tree.nextNode()) {
 			/** confirm that this element is not of the prohibited tag types **/
-			if (ChromeCash.tags.indexOf(node.parentElement.tagName) === -1) {
+			if (ChromeCash.HTML.indexOf(node.parentElement.tagName) === -1) {
 				/** confirm that string is not prohibited **/
 				if (!regexp.test(node.nodeValue)) {
 					/** add to collection **/
@@ -123,13 +145,11 @@ class ChromeCash {
 			}
 		}
 		
-		/** return completed array **/
+		/** @return: @type: @array{@textNode}. **/
 		return nodes;
 	}
 
-	static match (text) {
-		return (text.match(ChromeCash.RegExpPunctuated) && text.match(ChromeCash.RegExpCurrencySyntax)) ? text : false;
-	}
+
 
 	static index (node) {
 		/** @description: splits supplied node with string into words **/
@@ -139,7 +159,7 @@ class ChromeCash {
 		/** set base reference to string **/
 		let str = node.nodeValue;
 		/** set array of split words from string **/
-		let strs = str.split(ChromeCash.RegExpWords).filter(function (n) { return /\S/.test(n); });
+		let strs = str.split(ChromeCash.REGEX_STRS).filter(function (n) { return /\S/.test(n); });
 		/** set default position for where the string was split **/
 		let position = 0;
 
@@ -171,7 +191,7 @@ class ChromeCash {
 		/** enumerate over text collection for sentence **/
 		for (let i = 0, len = nodes.length; i < len; i++) {
 			/** attempt to match against number **/	
-			let str = ChromeCash.match(nodes[i].str);
+			let str = ChromeCash.matchCurrencyNumeric(nodes[i].str);
 			/** confirm pattern match **/
 			if (str) collection.push(str);		
 		};
@@ -181,7 +201,7 @@ class ChromeCash {
 	}
 
 	static compare (nodes, currencies) {
-		/** @description: filters reduction array to strip currencies not containing at least a pattern. **/
+		/** @description: filters collection array to strip currencies not containing an identifying pattern. **/
 		/** @param: {nodes} is type {array} **/
 
 		/** set empty array to collect filtered nodes **/
@@ -193,18 +213,17 @@ class ChromeCash {
 			for (let key in currencies) {
 				/* set iteration index. */
 				let currency = currencies[key];
-				/* set string from html character hex string. */
-				let hex = ChromeCash.getCurrenciesHexCharacter(currency.html_hex);
-				/* test matching string contains either an ISO, hex symbol or alternative symbol. */
-				if (nodes[i].indexOf(hex) > -1 || nodes[i].indexOf(currency.ISO) > -1 || nodes[i].indexOf(currency.symbol) > -1) {
-					//if console.log(nodes[i])
-					collection.push(nodes[i]);
+				/** test currency identifier pattern exists. **/
+				if (ChromeCash.matchCurrencyIdentifier(nodes[i], currency)) {
+					/* set strings and currency location. */
+					collection.push({ text: nodes[i], currency: currency });
+					/* terminate. */
 					break;
 				}
 			}
 		};
 
-		/* @return: @type: {@array}{@string} **/
+		/* @return: @type: {@array}{@object} **/
 		return collection;
 	}
 
@@ -226,13 +245,13 @@ class ChromeCash {
 			let tests = ChromeCash.compare(strs, currencies);
 			/** add filtered object to collection **/
 			if (tests.length) {
-				
-				collection.push({
+				console.log(tests)
+				/*collection.push({
 					strings: tests, 
 					textNodeElement: nodes[i], 
 					parentElement: nodes[i].parentElement, 
 					currencies: currencies 
-				});
+				});*/
 			}
 		};
 
@@ -269,8 +288,6 @@ class ChromeCash {
 				/*c[i].parentElement.insertBefore(document.createElement('chrome-cash').insertNode('div', function (d) {
 					return d.parentElement;
 				}), c[i].textNodeElement.nextSibling);*/
-
-
 			}
 		});
 	}
