@@ -83,7 +83,9 @@ class ChromeCash {
 		if (!(typeof callback === "function")) return {};
 
 		/** @return @type: @object. **/
-		return ChromeCash.CURRENCIES_COMMON.then(callback);
+		return ChromeCash.CURRENCIES_COMMON.then(function (file) {
+			callback(file.currencies); 
+		});
 	}
 
 	static getIdentifierHex (text) {
@@ -193,8 +195,8 @@ class ChromeCash {
 			/** confirm pattern match **/
 			if (str) {
 				collection.push({
-					textNode: (nodes[i - 1] ? nodes[i - 1] : {}),
-					previousTextNode: nodes[i],
+					previousTextNode: (nodes[i - 1] ? nodes[i - 1] : {}),
+					textNode: nodes[i],
 					nextTextNode: (nodes[i + 1] ? nodes[i + 1] : {})
 				});
 			}		
@@ -256,34 +258,28 @@ class ChromeCash {
 	static currency (nodes) {
 		/** @param: @nodes, @type: @array{@textNode}. **/
 
+		let collection = ChromeCash.collect(nodes);
+
 		/** @return: @type: @array{@object}. **/
-		return ChromeCash.collect(nodes);
+		return ChromeCash.getCommonCurrencies(function (currencies) {
+			/** enumerate for collection array. **/
+			for (let i = 0, len = collection.length; i < len; i++) {
+				/** set reference to item at index. **/
+				let c = collection[i];
+
+				/** enumerate for strings in collection item. **/
+				for (let j = 0, strlen = c.strings.length; j < strlen; j++) {
+
+					console.log(c.strings[j])
+				}
+			}
+		});
 	}
 
-	static highlight (nodes) {
-		/** @param: {nodes}, @type: {array}{TextNodeObject} **/
-
-		ChromeCash.currency(nodes).then(function (collection) {
-			/** iterate for currencies collection. **/
-			for (let i = 0; i < collection.length; i++) {
-				/** set collection item at index. **/
-				let c = collection[i];
-				
-				/*
-				for (let j = 0; j < c.strings.length; j++) {
-
-					console.log(c.strings[j]);
-				}*/
-				console.log(c);
-
-				console.log('\n');
-
-				/*c[i].parentElement.insertBefore(document.createElement('chrome-cash').insertNode('div', function (d) {
+	static highlight (collection) {
+		/** c[i].parent.insertBefore(document.createElement('chrome-cash').insertNode('div', function (d) {
 					return d.parentElement;
-				}), c[i].textNodeElement.nextSibling);*/
-			}
-			console.log(currencies);
-		});
+				}), c[i].node.nextSibling) **/
 	}
 
 }
@@ -292,9 +288,7 @@ class ChromeCash {
 
 document.body.insertNode('Chrome-Cash', {style:"position:fixed;top:0;right:0;width:40px;height:40px;background:aqua;z-index:10000"}, function (d) {
 	d.addEventListener('click', function () {
-		let c = ChromeCash.currency(ChromeCash.tree(document.body));
-
-		console.log(c);
+		ChromeCash.currency(ChromeCash.tree(document.body));
 	}, false);
 });
 //console.log(ChromeCash.currency(ChromeCash.tree(document.body)));
