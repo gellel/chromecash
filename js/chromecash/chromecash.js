@@ -54,26 +54,26 @@ class ChromeCash {
 
 		/** @return: @type: @promise. **/
 		return new Promise(function (resolve, reject) {
-			/** set xhr object **/
+			/** set new xhr object instance. **/
 			let xhr = new XMLHttpRequest();
-			/** on status change **/
+			/** set on status change event. **/
 			xhr.onreadystatechange = function () {
-				/** confirm request is done **/
+				/** confirm xhr request is done. **/
 				if (xhr.readyState === 4) {
-					/** confirm file found **/
+					/** confirm xhr status process success. **/
 					if (xhr.status === 200) {
-						/** send resolved **/
+						/** promise resolve. **/
 						resolve(JSON.parse(xhr.responseText));
 					}
 					else {
-						/** send rejected **/
+						/** promise reject. **/
 						reject(xhr);
 					};
 				}
 			};
 			/** open xhr request **/
-			xhr.open("GET", filePath, false);
-			/** make http request **/
+			xhr.open("GET", filePath, true);
+			/** make xhr async request **/
 			xhr.send();
 		});
 	}
