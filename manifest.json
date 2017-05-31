@@ -1,9 +1,12 @@
 {
 	"manifest_version": 2,
+	"name": "ChromeCash",
+	"version": "1.0.0.0",
+	"author": "gellel",
+	"homepage_url": "https://github.com/gellel/chromecash",
 
-	"name": "chromecash",
-	"description": "Converts a pages display currency to your own",
-	"version": "1.0",
+	"default_locale": "en",
+	"description": "Scans the page for currencies. Attempts to match them to your location.",
 
 	"icons": {
 		"16": "img/png/icon/16/16.png",
@@ -12,10 +15,17 @@
 
 	"content_scripts": [
 		{
-			"js": ["js/lib/document.js", "js/chromecash/main.js"],
-			"all_frames": false, /** true makes it do the multiple log; testing; result: success **/
-			"run_at" : "document_end", /** document_idle **/
-			"matches": ["http://*/*", "https://*/*"]
+			"js": [
+				"js/prototypes/prototypes.js", 
+				"js/chromecash/chromecash.js"
+			],
+			"matches": [
+				"http://*/*", 
+				"https://*/*"
+			],
+			"all_frames": false,
+			"run_at" : "document_end"
+			
 		}
 	],
 
@@ -23,7 +33,8 @@
 		"activeTab",
 		"tabs", 
 		"http://*/*", 
-		"https://*/*"
+		"https://*/*",
+		"storage"
 	],
 
 	"web_accessible_resources": [

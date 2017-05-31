@@ -4,7 +4,30 @@ class ChromeCash {
 	static get tags () {
 		/** @description: create reference tags for filter **/
 		/** @return: is type {array} **/
-		return ["STYLE","SCRIPT", "NOSCRIPT", "PRE", "IMG", "CANVAS", "CODE", "ABBR", "TIME", "TEXTAREA", "INPUT", "OPTION", "AUDIO", "SOURCE", "VIDEO", "TRACK", "FORM"];
+		return [
+			"STYLE",
+			"SCRIPT", 
+			"NOSCRIPT", 
+			"PRE", 
+			"IMG", 
+			"CANVAS", 
+			"CODE", 
+			"ABBR", 
+			"TIME", 
+			"TEXTAREA", 
+			"INPUT", 
+			"OPTION", 
+			"AUDIO", 
+			"SOURCE", 
+			"VIDEO", 
+			"TRACK", 
+			"FORM"];
+	}
+
+	static get RegExpHexCurrencies () {
+		/** @description: regular expression for converting hexidecimal strings **/
+		/** @return: is type {object} **/
+		return new RegExp(/&#x([a-fA-F0-9]+);/);
 	}
 
 	static get RegExpWords () {
@@ -65,6 +88,13 @@ class ChromeCash {
 		return ChromeCash.XHR(chrome.extension.getURL("json/currency/common.json")).then(function (response) {
 			return typeof callback === "function" ? callback(response) : response; 
 		});
+	}
+
+	static getCurrenciesHexCharacter (hex) {
+		/** @return: is type {string} **/
+		return String.fromCharCode(
+			parseInt(hex.replace(
+				ChromeCash.RegExpHexCurrencies, "$1"), 16));
 	}
 
 	static tree (element) {
@@ -141,13 +171,41 @@ class ChromeCash {
 		/** enumerate over text collection for sentence **/
 		for (let i = 0, len = nodes.length; i < len; i++) {
 			/** attempt to match against number **/	
-			var str = this.match(nodes[i].str)
+			let str = ChromeCash.match(nodes[i].str);
 			/** confirm pattern match **/
-			if (str) {
-				console.log(str);
-			}	
+			if (str) collection.push(str);		
 		};
-		return nodes;
+
+		/* @return: @type: {@array}{@string} **/
+		return collection;
+	}
+
+	static compare (nodes, currencies) {
+		/** @description: filters reduction array to strip currencies not containing at least a pattern. **/
+		/** @param: {nodes} is type {array} **/
+
+		/** set empty array to collect filtered nodes **/
+		let collection = [];
+
+		/** enumerate over text collection for sentence **/
+		for (let i = 0, len = nodes.length; i < len; i++) {
+			/** iterate over curriences group. **/
+			for (let key in currencies) {
+				/* set iteration index. */
+				let currency = currencies[key];
+				/* set string from html character hex string. */
+				let hex = ChromeCash.getCurrenciesHexCharacter(currency.html_hex);
+				/* test matching string contains either an ISO, hex symbol or alternative symbol. */
+				if (nodes[i].indexOf(hex) > -1 || nodes[i].indexOf(currency.ISO) > -1 || nodes[i].indexOf(currency.symbol) > -1) {
+					//if console.log(nodes[i])
+					collection.push(nodes[i]);
+					break;
+				}
+			}
+		};
+
+		/* @return: @type: {@array}{@string} **/
+		return collection;
 	}
 
 
@@ -164,8 +222,18 @@ class ChromeCash {
 		for (let i = 0, len = nodes.length; i < len; i++) {
 			/** set filtered object **/
 			let strs = ChromeCash.reduce(ChromeCash.index(nodes[i]), currencies);
+			/** set tested currencies. **/
+			let tests = ChromeCash.compare(strs, currencies);
 			/** add filtered object to collection **/
-			if (strs.length) collection.push(strs);
+			if (tests.length) {
+				
+				collection.push({
+					strings: tests, 
+					textNodeElement: nodes[i], 
+					parentElement: nodes[i].parentElement, 
+					currencies: currencies 
+				});
+			}
 		};
 
 		/** return array of filtered objects from dom node walker **/
@@ -174,17 +242,43 @@ class ChromeCash {
 
 
 	static currency (nodes) {
-
+		/** @param: {nodes}, @type: {array}<{TextNodeObject}> **/
+		/** @return: @type: @promise. **/
 		return ChromeCash.getCommonCurrencies(function (file) {
-
+			/** @return: @type: @array<object>. **/
 			return ChromeCash.collect(nodes, file.currencies);
-
 		});
+	}
 
-		
+	static highlight (nodes) {
+		/** @param: {nodes}, @type: {array}{TextNodeObject} **/
+
+		ChromeCash.currency(nodes).then(function (collection) {
+			/** iterate for currencies collection. **/
+			for (let i = 0; i < collection.length; i++) {
+				/** set collection item at index. **/
+				let c = collection[i];
+				
+				for (let j = 0; j < c.strings.length; j++) {
+
+					console.log(c.strings[j]);
+				}
+
+				console.log('\n');
+
+				/*c[i].parentElement.insertBefore(document.createElement('chrome-cash').insertNode('div', function (d) {
+					return d.parentElement;
+				}), c[i].textNodeElement.nextSibling);*/
+
+
+			}
+		});
 	}
 
 }
 
 
-ChromeCash.currency(ChromeCash.tree(document.body));
+
+ChromeCash.highlight(ChromeCash.tree(document.body));
+
+//console.log(ChromeCash.currency(ChromeCash.tree(document.body)));
