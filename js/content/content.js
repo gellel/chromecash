@@ -1,6 +1,6 @@
 
 
-chrome.runtime.sendMessage({}, function (response) {
+chrome.runtime.sendMessage({}, function (currencies) {
 	
-	ChromeCash.currency(ChromeCash.tree(document.body), response.currency);
+	ChromeCash.currency(ChromeCash.tree(document.body), currencies);
 });

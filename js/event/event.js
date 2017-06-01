@@ -1,13 +1,17 @@
 	
 
-XHR.GET(chrome.extension.getURL("json/currency/currency.json"))
+XHR.GET(chrome.extension.getURL("json/currencies/currencies.json"))
 
 .then(function (xhr) {
 
-	let response = JSON.parse(xhr.responseText);
+	/** xhr get success. **/
 
+	/** parse json from extension file. **/
+	let response = JSON.parse(xhr.responseText);
+	/** register event page message handler. **/
 	chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
-		sendResponse(response);
+		/** send currencies object. **/
+		sendResponse(response.currencies);
 	});
 })
 
