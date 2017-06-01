@@ -13,11 +13,20 @@
 		"128": "img/png/icon/128/128.png"
 	},
 
+	"background": {
+		"scripts": [
+			"js/xhr/xhr.js",
+			"js/event/event.js"
+		],
+		"persistent": false
+	},
+
 	"content_scripts": [
 		{
 			"js": [
 				"js/prototypes/prototypes.js", 
-				"js/chromecash/chromecash.js"
+				"js/chromecash/chromecash.js",
+				"js/content/content.js"
 			],
 			"matches": [
 				"http://*/*", 
@@ -38,7 +47,7 @@
 	],
 
 	"web_accessible_resources": [
-		"json/currency/common.json", 
-		"json/countries/full.json"
+		"json/currency/currency.json", 
+		"json/countries/countries.json"
 	]
 }

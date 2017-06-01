@@ -24,82 +24,38 @@ class ChromeCash {
 		];
 	}
 
-	static get REGEX_HEX () {
+	static get HEXIDECIMAL () {
 		/** @return: @type: @regexp. **/
 		return new RegExp(/&#x([a-fA-F0-9]+);/);
 	}
 
-	static get REGEX_STRS () {
+	static get STRINGS () {
 		/** @return: @type: @regexp. **/
 		return new RegExp(/[\_\+\-!@#%^&*():;\\\/|<>"'\s\n\t]+/);
 	}
 
-	static get REGEX_GRAMMAR () {
+	static get SENTENCE () {
 		/** @return: @type: @regexp. **/
 		return new RegExp(/(?:(\w|\.)*(\.|\,)\w+)/g);
 	}
 
-	static get REGEX_CURRENCY () {
+	static get MONEY () {
 		/** @return: @type: @regexp. **/
 		return new RegExp(/(?:\d+)(\d+|[,.])+(\d+|\.{1})/g);
-	}
-
-	static get CURRENCIES_COMMON () {
-		/** @return: @type: @promise. **/
-		return ChromeCash.XHR(chrome.extension.getURL("json/currency/common.json"));
-	}
-
-	static XHR (file) {
-		/** @param: @file, @type: @string. **/
-
-		/** @return: @type: @promise. **/
-		return new Promise(function (resolve, reject) {
-			/** set new xhr object instance. **/
-			let xhr = new XMLHttpRequest();
-			/** set on status change event. **/
-			xhr.onreadystatechange = function () {
-				/** confirm xhr request is done. **/
-				if (xhr.readyState === 4) {
-					/** confirm xhr status process success. **/
-					if (xhr.status === 200) {
-						/** promise resolve. **/
-						resolve(JSON.parse(xhr.responseText));
-					}
-					else {
-						/** promise reject. **/
-						reject(xhr);
-					};
-				}
-			};
-			/** open xhr request. **/
-			xhr.open("GET", file, true);
-			/** make xhr async request. **/
-			xhr.send();
-		});
-	}
-
-	static getCommonCurrencies (callback) {
-		/** @param: @callback, @type: @function. **/
-		if (!(typeof callback === "function")) return {};
-
-		/** @return @type: @object. **/
-		return ChromeCash.CURRENCIES_COMMON.then(function (file) {
-			callback(file.currencies); 
-		});
 	}
 
 	static getIdentifierHex (text) {
 		/** @param: @text, @type: @string. **/
 
 		/** @return: @type: @string. **/
-		return String.fromCharCode(parseInt(text.replace(ChromeCash.REGEX_HEX, "$1"), 16));
+		return String.fromCharCode(parseInt(text.replace(ChromeCash.HEXIDECIMAL, "$1"), 16));
 	}
 
 	static matchNumeric (text) {
 		/** @param: @text, @type: @string. **/
 
 		/** @return: @type: @string. **/
-		return (text.match(ChromeCash.REGEX_GRAMMAR) && text.match(ChromeCash.REGEX_CURRENCY)) ? text : '';
+		return (text.match(ChromeCash.SENTENCE) && text.match(ChromeCash.MONEY)) ? text : '';
 	}
 
 	static matchIdentifier (text, currency) {
@@ -107,6 +63,8 @@ class ChromeCash {
 		/** @param: {text} is type {string} **/
 		/** @param: {curreny} is type {object} **/
 		/** @return: @type: @boolean. **/
+
+		if (Object.keys(currencies).length) return
 
 		/** format symbol. **/
 		let hex = ChromeCash.getIdentifierHex(currency.html_hex);
@@ -160,7 +118,7 @@ class ChromeCash {
 		/** set base reference to string **/
 		let str = node.nodeValue;
 		/** set array of split words from string **/
-		let strs = str.split(ChromeCash.REGEX_STRS).filter(function (n) { return /\S/.test(n); });
+		let strs = str.split(ChromeCash.STRINGS).filter(function (n) { return /\S/.test(n); });
 		/** set default position for where the string was split **/
 		let position = 0;
 
@@ -171,7 +129,10 @@ class ChromeCash {
            	/** set position index **/
             position = position + index;
 			/** set current array item at position to contain string and its matching counterpart **/
-            strs[i] = { i: position, str: strs[i] };
+            strs[i] = { 
+            	i: position, 
+            	str: strs[i] 
+            };
             /** set string slice **/
             str = str.slice(index);
         };
@@ -221,7 +182,10 @@ class ChromeCash {
 				/** test currency identifier pattern exists. **/
 				if (ChromeCash.matchIdentifier(nodes[i], currency)) {
 					/* set strings and currency location. */
-					collection.push({ text: nodes[i], currency: currency });
+					collection.push({ 
+						text: nodes[i], 
+						currency: currency 
+					});
 					/* terminate. */
 					break;
 				}
@@ -245,30 +209,28 @@ class ChromeCash {
 			/** attempt to find matching pattern. **/
 			let strs = ChromeCash.reduce(ChromeCash.index(nodes[i]));
 			/** confirm pattern array contains contents. **/
-			if (strs.length) 
+			if (strs.length) {
 				/** set collection content for text node at index. **/
 				collection.push({ 
-					strings: strs, node: nodes[i], parent: nodes[i].parentElement });
+					strings: strs, 
+					node: nodes[i], 
+					parent: nodes[i].parentElement 
+				});
+			}
 		};
 		/** @return: @type: @array{@object}. **/
 		return collection;
 	}
 
 
-	static currency (nodes) {
+	static currency (nodes, currencies) {
 		/** @param: @nodes, @type: @array{@textNode}. **/
 
-		let collection = ChromeCash.collect(nodes);
+		this.collect(nodes).forEach(function (node, i) {
 
-		/** @return: @type: @array{@object}. **/
-		return ChromeCash.getCommonCurrencies(function (currencies) {
-			/** enumerate for currencies. **/
-			ChromeCash.collect(nodes).forEach(function (groups, i, collection) {
-				/** enumerate for matches group. **/
-				groups.strings.forEach(function (item, j, group) {
+			node.strings.forEach(function (group, j) {
 
-					console.log(item)
-				});
+				console.log(group, j);
 			});
 		});
 	}
@@ -282,10 +244,3 @@ class ChromeCash {
 }
 
 
-
-document.body.insertNode('Chrome-Cash', {style:"position:fixed;top:0;right:0;width:40px;height:40px;background:aqua;z-index:10000"}, function (d) {
-	d.addEventListener('click', function () {
-		ChromeCash.currency(ChromeCash.tree(document.body));
-	}, false);
-});
-//console.log(ChromeCash.currency(ChromeCash.tree(document.body)));
