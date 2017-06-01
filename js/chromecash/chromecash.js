@@ -31,7 +31,7 @@ class ChromeCash {
 
 	static get STRINGS () {
 		/** @return: @type: @regexp. **/
-		return new RegExp(/[\_\+\-!@#%^&*():;\\\/|<>"'\s\n\t]+/);
+		return new RegExp(/[\~\`\!\@\#\%\^\&\*\(\)\_\-\+\=\{\[\}\]\|\\\:\;\"\'\<\>\?\/\s\n\t]+/g);
 	}
 
 	static get SENTENCE () {
@@ -41,7 +41,7 @@ class ChromeCash {
 
 	static get MONEY () {
 		/** @return: @type: @regexp. **/
-		return new RegExp(/(?:\d+)(\d+|[,.])+(\d+|\.{1})/g);
+		return new RegExp(/(?:\d*)(\d*|[,.])+(\d+|\.{1}\d+)/g);
 	}
 
 	static getIdentifierHex (text) {
