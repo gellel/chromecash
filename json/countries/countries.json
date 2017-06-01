@@ -1,9 +1,9 @@
-[
-    {
+{
+    "AFG": {
         "country": {
             "en_name": "Afghanistan",
             "alt_name": "",
-            "native_name":"افغانستان",
+            "native_name": "افغانستان",
             "A2": "AF",
             "A3": "AFG",
             "NUM": "4",
@@ -20,11 +20,11 @@
             "ISO": "AFN"
         }
     },
-    {
+    "ALA": {
         "country": {
             "en_name": "Aland Islands",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "AX",
             "A3": "ALA",
             "NUM": "248",
@@ -41,11 +41,11 @@
             "ISO": "EUR"
         }
     },
-    {
+    "ALB": {
         "country": {
             "en_name": "Albania",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "AL",
             "A3": "ALB",
             "NUM": "8",
@@ -62,11 +62,11 @@
             "ISO": "ALL"
         }
     },
-    {
+    "DZA": {
         "country": {
             "en_name": "Algeria",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "DZ",
             "A3": "DZA",
             "NUM": "12",
@@ -83,11 +83,11 @@
             "ISO": "DZD"
         }
     },
-    {
+    "ASM": {
         "country": {
             "en_name": "American Samoa",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "AS",
             "A3": "ASM",
             "NUM": "16",
@@ -104,11 +104,11 @@
             "ISO": "USD"
         }
     },
-    {
+    "AND": {
         "country": {
             "en_name": "Andorra",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "AD",
             "A3": "AND",
             "NUM": "20",
@@ -125,11 +125,11 @@
             "ISO": "EUR"
         }
     },
-    {
+    "AGO": {
         "country": {
             "en_name": "Angola",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "AO",
             "A3": "AGO",
             "NUM": "24",
@@ -146,11 +146,11 @@
             "ISO": "AOA"
         }
     },
-    {
+    "AIA": {
         "country": {
             "en_name": "Anguilla",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "AI",
             "A3": "AIA",
             "NUM": "660",
@@ -167,11 +167,11 @@
             "ISO": "XCD"
         }
     },
-    {
+    "ATG": {
         "country": {
             "en_name": "Antigua and Barbuda",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "AG",
             "A3": "ATG",
             "NUM": "28",
@@ -188,11 +188,11 @@
             "ISO": "XCD"
         }
     },
-    {
+    "ARG": {
         "country": {
             "en_name": "Argentina",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "AR",
             "A3": "ARG",
             "NUM": "32",
@@ -209,11 +209,11 @@
             "ISO": "ARS"
         }
     },
-    {
+    "ARM": {
         "country": {
             "en_name": "Armenia",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "AM",
             "A3": "ARM",
             "NUM": "51",
@@ -230,11 +230,11 @@
             "ISO": "AMD"
         }
     },
-    {
+    "ABW": {
         "country": {
             "en_name": "Aruba",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "AW",
             "A3": "ABW",
             "NUM": "533",
@@ -251,11 +251,11 @@
             "ISO": "AWG"
         }
     },
-    {
+    "AUS": {
         "country": {
             "en_name": "Australia",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "AU",
             "A3": "AUS",
             "NUM": "36",
@@ -272,11 +272,11 @@
             "ISO": "AUD"
         }
     },
-    {
+    "AUT": {
         "country": {
             "en_name": "Austria",
             "alt_name": "",
-            "native_name":"Österreich",
+            "native_name": "Österreich",
             "A2": "AT",
             "A3": "AUT",
             "NUM": "40",
@@ -293,11 +293,11 @@
             "ISO": "EUR"
         }
     },
-    {
+    "AZE": {
         "country": {
             "en_name": "Azerbaijan",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "AZ",
             "A3": "AZE",
             "NUM": "31",
@@ -314,11 +314,11 @@
             "ISO": "AZN"
         }
     },
-    {
+    "BHS": {
         "country": {
             "en_name": "Bahamas",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "BS",
             "A3": "BHS",
             "NUM": "44",
@@ -335,11 +335,11 @@
             "ISO": "BSD"
         }
     },
-    {
+    "BHR": {
         "country": {
             "en_name": "Bahrain",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "BH",
             "A3": "BHR",
             "NUM": "48",
@@ -356,11 +356,11 @@
             "ISO": "BHD"
         }
     },
-    {
+    "BGD": {
         "country": {
             "en_name": "Bangladesh",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "BD",
             "A3": "BGD",
             "NUM": "50",
@@ -377,11 +377,11 @@
             "ISO": "BDT"
         }
     },
-    {
+    "BRB": {
         "country": {
             "en_name": "Barbados",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "BB",
             "A3": "BRB",
             "NUM": "52",
@@ -398,11 +398,11 @@
             "ISO": "BBD"
         }
     },
-    {
+    "BLR": {
         "country": {
             "en_name": "Belarus",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "BY",
             "A3": "BLR",
             "NUM": "112",
@@ -419,11 +419,11 @@
             "ISO": "BYR"
         }
     },
-    {
+    "BEL": {
         "country": {
             "en_name": "Belgium",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "BE",
             "A3": "BEL",
             "NUM": "56",
@@ -440,11 +440,11 @@
             "ISO": "EUR"
         }
     },
-    {
+    "BLZ": {
         "country": {
             "en_name": "Belize",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "BZ",
             "A3": "BLZ",
             "NUM": "84",
@@ -461,11 +461,11 @@
             "ISO": "BZD"
         }
     },
-    {
+    "BEN": {
         "country": {
             "en_name": "Benin",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "BJ",
             "A3": "BEN",
             "NUM": "204",
@@ -473,7 +473,7 @@
         },
         "currency": {
             "name": "Franc",
-            "full":"Central African CFA franc",
+            "full": "Central African CFA franc",
             "symbol": "CFA",
             "symbol_alt": "franc",
             "html_decimal": "",
@@ -482,11 +482,11 @@
             "ISO": "XOF"
         }
     },
-    {
+    "BMU": {
         "country": {
             "en_name": "Bermuda",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "BM",
             "A3": "BMU",
             "NUM": "60",
@@ -503,11 +503,11 @@
             "ISO": "BMD"
         }
     },
-    {
+    "BTN": {
         "country": {
             "en_name": "Bhutan",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "BT",
             "A3": "BTN",
             "NUM": "64",
@@ -524,11 +524,11 @@
             "ISO": "BTN"
         }
     },
-    {
+    "BOL": {
         "country": {
             "en_name": "Bolivia",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "BO",
             "A3": "BOL",
             "NUM": "68",
@@ -545,11 +545,11 @@
             "ISO": "BOB"
         }
     },
-    {
+    "BES": {
         "country": {
             "en_name": "Bonaire",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "BQ",
             "A3": "BES",
             "NUM": "535",
@@ -566,11 +566,11 @@
             "ISO": "USD"
         }
     },
-    {
+    "BIH": {
         "country": {
             "en_name": "Bosnia and Herzegovina",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "BA",
             "A3": "BIH",
             "NUM": "70",
@@ -587,11 +587,11 @@
             "ISO": "BAM"
         }
     },
-    {
+    "BWA": {
         "country": {
             "en_name": "Botswana",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "BW",
             "A3": "BWA",
             "NUM": "72",
@@ -608,11 +608,11 @@
             "ISO": "BWP"
         }
     },
-    {
+    "BVT": {
         "country": {
             "en_name": "Bouvet Island",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "BV",
             "A3": "BVT",
             "NUM": "74",
@@ -629,11 +629,11 @@
             "ISO": ""
         }
     },
-    {
+    "BRA": {
         "country": {
             "en_name": "Brazil",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "BR",
             "A3": "BRA",
             "NUM": "76",
@@ -650,11 +650,11 @@
             "ISO": "BRL"
         }
     },
-    {
+    "IOT": {
         "country": {
             "en_name": "British Indian Ocean Territory",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "IO",
             "A3": "IOT",
             "NUM": "86",
@@ -671,11 +671,11 @@
             "ISO": "GBP"
         }
     },
-    {
+    "BRN": {
         "country": {
             "en_name": "Brunei",
             "alt_name": "Brunei Darussalam",
-            "native_name":"",
+            "native_name": "",
             "A2": "BN",
             "A3": "BRN",
             "NUM": "96",
@@ -692,11 +692,11 @@
             "ISO": "BND"
         }
     },
-    {
+    "BGR": {
         "country": {
             "en_name": "Bulgaria",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "BG",
             "A3": "BGR",
             "NUM": "100",
@@ -713,11 +713,11 @@
             "ISO": "BGN"
         }
     },
-    {
+    "BFA": {
         "country": {
             "en_name": "Burkina Faso",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "BF",
             "A3": "BFA",
             "NUM": "854",
@@ -734,11 +734,11 @@
             "ISO": "XOF"
         }
     },
-    {
+    "BDI": {
         "country": {
             "en_name": "Burundi",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "BI",
             "A3": "BDI",
             "NUM": "108",
@@ -755,11 +755,11 @@
             "ISO": "BIF"
         }
     },
-    {
+    "KHM": {
         "country": {
             "en_name": "Cambodia",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "KH",
             "A3": "KHM",
             "NUM": "116",
@@ -776,11 +776,11 @@
             "ISO": "KHR"
         }
     },
-    {
+    "CMR": {
         "country": {
             "en_name": "Cameroon",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "CM",
             "A3": "CMR",
             "NUM": "120",
@@ -797,11 +797,11 @@
             "ISO": "XAF"
         }
     },
-    {
+    "CAN": {
         "country": {
             "en_name": "Canada",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "CA",
             "A3": "CAN",
             "NUM": "124",
@@ -818,11 +818,11 @@
             "ISO": "CAD"
         }
     },
-    {
+    "CPV": {
         "country": {
             "en_name": "Cape Verde",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "CV",
             "A3": "CPV",
             "NUM": "132",
@@ -839,11 +839,11 @@
             "ISO": "CVE"
         }
     },
-    {
+    "CYM": {
         "country": {
             "en_name": "Cayman Islands",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "KY",
             "A3": "CYM",
             "NUM": "136",
@@ -860,11 +860,11 @@
             "ISO": "KYD"
         }
     },
-    {
+    "CAF": {
         "country": {
             "en_name": "Central African Republic",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "CF",
             "A3": "CAF",
             "NUM": "140",
@@ -881,11 +881,11 @@
             "ISO": "XAF"
         }
     },
-    {
+    "TCD": {
         "country": {
             "en_name": "Chad",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "TD",
             "A3": "TCD",
             "NUM": "148",
@@ -902,11 +902,11 @@
             "ISO": "XAF"
         }
     },
-    {
+    "CHL": {
         "country": {
             "en_name": "Chile",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "CL",
             "A3": "CHL",
             "NUM": "152",
@@ -923,11 +923,11 @@
             "ISO": "CLP"
         }
     },
-    {
+    "CHN": {
         "country": {
             "en_name": "China",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "CN",
             "A3": "CHN",
             "NUM": "156",
@@ -944,11 +944,11 @@
             "ISO": "CNY"
         }
     },
-    {
+    "CXR": {
         "country": {
             "en_name": "Christmas Island",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "CX",
             "A3": "CXR",
             "NUM": "162",
@@ -965,11 +965,11 @@
             "ISO": "AUD"
         }
     },
-    {
+    "CCK": {
         "country": {
             "en_name": "Cocos Islands",
             "alt_name": "Cocos (Keeling) Islands",
-            "native_name":"",
+            "native_name": "",
             "A2": "CC",
             "A3": "CCK",
             "NUM": "166",
@@ -986,11 +986,11 @@
             "ISO": "AUD"
         }
     },
-    {
+    "COL": {
         "country": {
             "en_name": "Colombia",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "CO",
             "A3": "COL",
             "NUM": "170",
@@ -1007,11 +1007,11 @@
             "ISO": "COP"
         }
     },
-    {
+    "COM": {
         "country": {
             "en_name": "Comoros",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "KM",
             "A3": "COM",
             "NUM": "174",
@@ -1028,11 +1028,11 @@
             "ISO": "KMF"
         }
     },
-    {
+    "COG": {
         "country": {
             "en_name": "Congo",
             "alt_name": "Republic of Congo",
-            "native_name":"République du Congo",
+            "native_name": "République du Congo",
             "A2": "CG",
             "A3": "COG",
             "NUM": "178",
@@ -1049,11 +1049,11 @@
             "ISO": "XAF"
         }
     },
-    {
+    "COD": {
         "country": {
             "en_name": "Democratic Republic of the Congo",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "CD",
             "A3": "COD",
             "NUM": "180",
@@ -1070,11 +1070,11 @@
             "ISO": "CDF"
         }
     },
-    {
+    "COK": {
         "country": {
             "en_name": "Cook Islands",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "CK",
             "A3": "COK",
             "NUM": "184",
@@ -1091,11 +1091,11 @@
             "ISO": "NZD"
         }
     },
-    {
+    "CRI": {
         "country": {
             "en_name": "Costa Rica",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "CR",
             "A3": "CRI",
             "NUM": "188",
@@ -1112,11 +1112,11 @@
             "ISO": "CRC"
         }
     },
-    {
+    "HRV": {
         "country": {
             "en_name": "Croatia",
             "alt_name": "",
-            "native_name":"Hrvatska",
+            "native_name": "Hrvatska",
             "A2": "HR",
             "A3": "HRV",
             "NUM": "191",
@@ -1133,11 +1133,11 @@
             "ISO": "HRK"
         }
     },
-    {
+    "CUB": {
         "country": {
             "en_name": "Cuba",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "CU",
             "A3": "CUB",
             "NUM": "192",
@@ -1154,11 +1154,11 @@
             "ISO": "CUC"
         }
     },
-    {
+    "CUW": {
         "country": {
             "en_name": "Curaçao",
             "alt_name": "CuraÃ§ao",
-            "native_name":"Curaçao",
+            "native_name": "Curaçao",
             "A2": "CW",
             "A3": "CUW",
             "NUM": "531",
@@ -1175,11 +1175,11 @@
             "ISO": "ANG"
         }
     },
-    {
+    "CYP": {
         "country": {
             "en_name": "Cyprus",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "CY",
             "A3": "CYP",
             "NUM": "196",
@@ -1196,11 +1196,11 @@
             "ISO": "CYP"
         }
     },
-    {
+    "CZE": {
         "country": {
             "en_name": "Czech Republic",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "CZ",
             "A3": "CZE",
             "NUM": "203",
@@ -1217,11 +1217,11 @@
             "ISO": "CZK"
         }
     },
-    {
+    "CIV": {
         "country": {
             "en_name": "Ivory Coast",
             "alt_name": "Cote d'Ivoire",
-            "native_name":"Côte d’Ivoire",
+            "native_name": "Côte d’Ivoire",
             "A2": "CI",
             "A3": "CIV",
             "NUM": "384",
@@ -1238,11 +1238,11 @@
             "ISO": "XOF"
         }
     },
-    {
+    "DNK": {
         "country": {
             "en_name": "Denmark",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "DK",
             "A3": "DNK",
             "NUM": "208",
@@ -1259,11 +1259,11 @@
             "ISO": "DKK"
         }
     },
-    {
+    "DJI": {
         "country": {
             "en_name": "Djibouti",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "DJ",
             "A3": "DJI",
             "NUM": "262",
@@ -1280,11 +1280,11 @@
             "ISO": "DJF"
         }
     },
-    {
+    "DMA": {
         "country": {
             "en_name": "Dominica",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "DM",
             "A3": "DMA",
             "NUM": "212",
@@ -1301,11 +1301,11 @@
             "ISO": "XCD"
         }
     },
-    {
+    "DOM": {
         "country": {
             "en_name": "Dominican Republic",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "DO",
             "A3": "DOM",
             "NUM": "214",
@@ -1322,11 +1322,11 @@
             "ISO": "DOP"
         }
     },
-    {
+    "ECU": {
         "country": {
             "en_name": "Ecuador",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "EC",
             "A3": "ECU",
             "NUM": "218",
@@ -1343,11 +1343,11 @@
             "ISO": "USD"
         }
     },
-    {
+    "EGY": {
         "country": {
             "en_name": "Egypt",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "EG",
             "A3": "EGY",
             "NUM": "818",
@@ -1364,11 +1364,11 @@
             "ISO": "EGP"
         }
     },
-    {
+    "SLV": {
         "country": {
             "en_name": "El Salvador",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "SV",
             "A3": "SLV",
             "NUM": "222",
@@ -1385,11 +1385,11 @@
             "ISO": "USD"
         }
     },
-    {
+    "GNQ": {
         "country": {
             "en_name": "Equatorial Guinea",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "GQ",
             "A3": "GNQ",
             "NUM": "226",
@@ -1406,11 +1406,11 @@
             "ISO": "XAF"
         }
     },
-    {
+    "ERI": {
         "country": {
             "en_name": "Eritrea",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "ER",
             "A3": "ERI",
             "NUM": "232",
@@ -1427,11 +1427,11 @@
             "ISO": "ERN"
         }
     },
-    {
+    "EST": {
         "country": {
             "en_name": "Estonia",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "EE",
             "A3": "EST",
             "NUM": "233",
@@ -1448,11 +1448,11 @@
             "ISO": "EEK"
         }
     },
-    {
+    "ETH": {
         "country": {
             "en_name": "Ethiopia",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "ET",
             "A3": "ETH",
             "NUM": "231",
@@ -1469,11 +1469,11 @@
             "ISO": "ETB"
         }
     },
-    {
+    "FLK": {
         "country": {
             "en_name": "Falkland Islands",
             "alt_name": "Falkland Islands (Malvinas)",
-            "native_name":"",
+            "native_name": "",
             "A2": "FK",
             "A3": "FLK",
             "NUM": "238",
@@ -1490,11 +1490,11 @@
             "ISO": "FKP"
         }
     },
-    {
+    "FRO": {
         "country": {
             "en_name": "Faroe Islands",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "FO",
             "A3": "FRO",
             "NUM": "234",
@@ -1511,11 +1511,11 @@
             "ISO": "DKK"
         }
     },
-    {
+    "FJI": {
         "country": {
             "en_name": "Fiji",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "FJ",
             "A3": "FJI",
             "NUM": "242",
@@ -1532,11 +1532,11 @@
             "ISO": "FJD"
         }
     },
-    {
+    "FIN": {
         "country": {
             "en_name": "Finland",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "FI",
             "A3": "FIN",
             "NUM": "246",
@@ -1553,11 +1553,11 @@
             "ISO": "EUR"
         }
     },
-    {
+    "FRA": {
         "country": {
             "en_name": "France",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "FR",
             "A3": "FRA",
             "NUM": "250",
@@ -1574,11 +1574,11 @@
             "ISO": "EUR"
         }
     },
-    {
+    "GUF": {
         "country": {
             "en_name": "French Guiana",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "GF",
             "A3": "GUF",
             "NUM": "254",
@@ -1595,11 +1595,11 @@
             "ISO": "EUR"
         }
     },
-    {
+    "PYF": {
         "country": {
             "en_name": "French Polynesia",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "PF",
             "A3": "PYF",
             "NUM": "258",
@@ -1616,11 +1616,11 @@
             "ISO": "XPF"
         }
     },
-    {
+    "ATF": {
         "country": {
             "en_name": "French Southern Territories",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "TF",
             "A3": "ATF",
             "NUM": "260",
@@ -1637,11 +1637,11 @@
             "ISO": ""
         }
     },
-    {
+    "GAB": {
         "country": {
             "en_name": "Gabon",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "GA",
             "A3": "GAB",
             "NUM": "266",
@@ -1658,11 +1658,11 @@
             "ISO": "XAF"
         }
     },
-    {
+    "GMB": {
         "country": {
             "en_name": "Gambia",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "GM",
             "A3": "GMB",
             "NUM": "270",
@@ -1679,11 +1679,11 @@
             "ISO": "GMD"
         }
     },
-    {
+    "GEO": {
         "country": {
             "en_name": "Georgia",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "GE",
             "A3": "GEO",
             "NUM": "268",
@@ -1700,11 +1700,11 @@
             "ISO": "GEL"
         }
     },
-    {
+    "DEU": {
         "country": {
             "en_name": "Germany",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "DE",
             "A3": "DEU",
             "NUM": "276",
@@ -1721,11 +1721,11 @@
             "ISO": "EUR"
         }
     },
-    {
+    "GHA": {
         "country": {
             "en_name": "Ghana",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "GH",
             "A3": "GHA",
             "NUM": "288",
@@ -1742,11 +1742,11 @@
             "ISO": "GHC"
         }
     },
-    {
+    "GIB": {
         "country": {
             "en_name": "Gibraltar",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "GI",
             "A3": "GIB",
             "NUM": "292",
@@ -1763,11 +1763,11 @@
             "ISO": "GIP"
         }
     },
-    {
+    "GRC": {
         "country": {
             "en_name": "Greece",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "GR",
             "A3": "GRC",
             "NUM": "300",
@@ -1784,11 +1784,11 @@
             "ISO": "EUR"
         }
     },
-    {
+    "GRL": {
         "country": {
             "en_name": "Greenland",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "GL",
             "A3": "GRL",
             "NUM": "304",
@@ -1805,11 +1805,11 @@
             "ISO": "DKK"
         }
     },
-    {
+    "GRD": {
         "country": {
             "en_name": "Grenada",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "GD",
             "A3": "GRD",
             "NUM": "308",
@@ -1826,11 +1826,11 @@
             "ISO": "XCD"
         }
     },
-    {
+    "GLP": {
         "country": {
             "en_name": "Guadeloupe",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "GP",
             "A3": "GLP",
             "NUM": "312",
@@ -1847,11 +1847,11 @@
             "ISO": "EUR"
         }
     },
-    {
+    "GUM": {
         "country": {
             "en_name": "Guam",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "GU",
             "A3": "GUM",
             "NUM": "316",
@@ -1868,11 +1868,11 @@
             "ISO": "USD"
         }
     },
-    {
+    "GTM": {
         "country": {
             "en_name": "Guatemala",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "GT",
             "A3": "GTM",
             "NUM": "320",
@@ -1889,11 +1889,11 @@
             "ISO": "GTQ"
         }
     },
-    {
+    "GGY": {
         "country": {
             "en_name": "Guernsey",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "GG",
             "A3": "GGY",
             "NUM": "831",
@@ -1910,11 +1910,11 @@
             "ISO": "GGP"
         }
     },
-    {
+    "GIN": {
         "country": {
             "en_name": "Guinea",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "GN",
             "A3": "GIN",
             "NUM": "324",
@@ -1931,11 +1931,11 @@
             "ISO": "GNF"
         }
     },
-    {
+    "GNB": {
         "country": {
             "en_name": "Guinea-Bissau",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "GW",
             "A3": "GNB",
             "NUM": "624",
@@ -1952,11 +1952,11 @@
             "ISO": "XOF"
         }
     },
-    {
+    "GUY": {
         "country": {
             "en_name": "Guyana",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "GY",
             "A3": "GUY",
             "NUM": "328",
@@ -1973,11 +1973,11 @@
             "ISO": "GYD"
         }
     },
-    {
+    "HTI": {
         "country": {
             "en_name": "Haiti",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "HT",
             "A3": "HTI",
             "NUM": "332",
@@ -1994,11 +1994,11 @@
             "ISO": "HTG"
         }
     },
-    {
+    "HMD": {
         "country": {
             "en_name": "Heard Island and McDonald Islands",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "HM",
             "A3": "HMD",
             "NUM": "334",
@@ -2015,11 +2015,11 @@
             "ISO": "AUD"
         }
     },
-    {
+    "VAT": {
         "country": {
             "en_name": "Vatican City",
             "alt_name": "Holy See (Vatican City State)",
-            "native_name":"",
+            "native_name": "",
             "A2": "VA",
             "A3": "VAT",
             "NUM": "336",
@@ -2036,11 +2036,11 @@
             "ISO": "EUR"
         }
     },
-    {
+    "HND": {
         "country": {
             "en_name": "Honduras",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "HN",
             "A3": "HND",
             "NUM": "340",
@@ -2057,11 +2057,11 @@
             "ISO": "HNL"
         }
     },
-    {
+    "HKG": {
         "country": {
             "en_name": "Hong Kong",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "HK",
             "A3": "HKG",
             "NUM": "344",
@@ -2078,11 +2078,11 @@
             "ISO": "HKD"
         }
     },
-    {
+    "HUN": {
         "country": {
             "en_name": "Hungary",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "HU",
             "A3": "HUN",
             "NUM": "348",
@@ -2099,11 +2099,11 @@
             "ISO": "HUF"
         }
     },
-    {
+    "ISL": {
         "country": {
             "en_name": "Iceland",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "IS",
             "A3": "ISL",
             "NUM": "352",
@@ -2120,11 +2120,11 @@
             "ISO": "ISK"
         }
     },
-    {
+    "IND": {
         "country": {
             "en_name": "India",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "IN",
             "A3": "IND",
             "NUM": "356",
@@ -2141,11 +2141,11 @@
             "ISO": "INR"
         }
     },
-    {
+    "IDN": {
         "country": {
             "en_name": "Indonesia",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "ID",
             "A3": "IDN",
             "NUM": "360",
@@ -2162,11 +2162,11 @@
             "ISO": "IDR"
         }
     },
-    {
+    "IRN": {
         "country": {
             "en_name": "Iran",
             "alt_name": "Islamic Republic of Iran",
-            "native_name":"",
+            "native_name": "",
             "A2": "IR",
             "A3": "IRN",
             "NUM": "364",
@@ -2183,11 +2183,11 @@
             "ISO": "IRR"
         }
     },
-    {
+    "IRQ": {
         "country": {
             "en_name": "Iraq",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "IQ",
             "A3": "IRQ",
             "NUM": "368",
@@ -2204,11 +2204,11 @@
             "ISO": "IQD"
         }
     },
-    {
+    "IRL": {
         "country": {
             "en_name": "Ireland",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "IE",
             "A3": "IRL",
             "NUM": "372",
@@ -2225,11 +2225,11 @@
             "ISO": "EUR"
         }
     },
-    {
+    "IMN": {
         "country": {
             "en_name": "Isle of Man",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "IM",
             "A3": "IMN",
             "NUM": "833",
@@ -2246,11 +2246,11 @@
             "ISO": "GBP"
         }
     },
-    {
+    "ISR": {
         "country": {
             "en_name": "Israel",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "IL",
             "A3": "ISR",
             "NUM": "376",
@@ -2267,11 +2267,11 @@
             "ISO": "ILS"
         }
     },
-    {
+    "ITA": {
         "country": {
             "en_name": "Italy",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "IT",
             "A3": "ITA",
             "NUM": "380",
@@ -2288,11 +2288,11 @@
             "ISO": "EUR"
         }
     },
-    {
+    "JAM": {
         "country": {
             "en_name": "Jamaica",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "JM",
             "A3": "JAM",
             "NUM": "388",
@@ -2309,11 +2309,11 @@
             "ISO": "JMD"
         }
     },
-    {
+    "JPN": {
         "country": {
             "en_name": "Japan",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "JP",
             "A3": "JPN",
             "NUM": "392",
@@ -2330,11 +2330,11 @@
             "ISO": "JPY"
         }
     },
-    {
+    "JEY": {
         "country": {
             "en_name": "Jersey",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "JE",
             "A3": "JEY",
             "NUM": "832",
@@ -2351,11 +2351,11 @@
             "ISO": "GBP"
         }
     },
-    {
+    "JOR": {
         "country": {
             "en_name": "Jordan",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "JO",
             "A3": "JOR",
             "NUM": "400",
@@ -2372,11 +2372,11 @@
             "ISO": "JOD"
         }
     },
-    {
+    "KAZ": {
         "country": {
             "en_name": "Kazakhstan",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "KZ",
             "A3": "KAZ",
             "NUM": "398",
@@ -2393,11 +2393,11 @@
             "ISO": "KZT"
         }
     },
-    {
+    "KEN": {
         "country": {
             "en_name": "Kenya",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "KE",
             "A3": "KEN",
             "NUM": "404",
@@ -2414,11 +2414,11 @@
             "ISO": "KES"
         }
     },
-    {
+    "KIR": {
         "country": {
             "en_name": "Kiribati",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "KI",
             "A3": "KIR",
             "NUM": "296",
@@ -2435,11 +2435,11 @@
             "ISO": "AUD"
         }
     },
-    {
+    "PRK": {
         "country": {
             "en_name": "North Korea",
             "alt_name": "Democratic People's Republic of Korea",
-            "native_name":"",
+            "native_name": "",
             "A2": "KP",
             "A3": "PRK",
             "NUM": "408",
@@ -2456,11 +2456,11 @@
             "ISO": "KPW"
         }
     },
-    {
+    "KOR": {
         "country": {
             "en_name": "South Korea",
             "alt_name": "Republic of Korea",
-            "native_name":"",
+            "native_name": "",
             "A2": "KR",
             "A3": "KOR",
             "NUM": "410",
@@ -2477,11 +2477,11 @@
             "ISO": "KPW"
         }
     },
-    {
+    "KWT": {
         "country": {
             "en_name": "Kuwait",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "KW",
             "A3": "KWT",
             "NUM": "414",
@@ -2498,11 +2498,11 @@
             "ISO": "KWD"
         }
     },
-    {
+    "KGZ": {
         "country": {
             "en_name": "Kyrgyzstan",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "KG",
             "A3": "KGZ",
             "NUM": "417",
@@ -2519,11 +2519,11 @@
             "ISO": "KGS"
         }
     },
-    {
+    "LAO": {
         "country": {
             "en_name": "Lao",
             "alt_name": "People's Democratic Republic of Lao",
-            "native_name":"",
+            "native_name": "",
             "A2": "LA",
             "A3": "LAO",
             "NUM": "418",
@@ -2540,11 +2540,11 @@
             "ISO": "LAK"
         }
     },
-    {
+    "LVA": {
         "country": {
             "en_name": "Latvia",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "LV",
             "A3": "LVA",
             "NUM": "428",
@@ -2561,11 +2561,11 @@
             "ISO": "LVL"
         }
     },
-    {
+    "LBN": {
         "country": {
             "en_name": "Lebanon",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "LB",
             "A3": "LBN",
             "NUM": "422",
@@ -2582,11 +2582,11 @@
             "ISO": "LBP"
         }
     },
-    {
+    "LSO": {
         "country": {
             "en_name": "Lesotho",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "LS",
             "A3": "LSO",
             "NUM": "426",
@@ -2603,11 +2603,11 @@
             "ISO": "LSL"
         }
     },
-    {
+    "LBR": {
         "country": {
             "en_name": "Liberia",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "LR",
             "A3": "LBR",
             "NUM": "430",
@@ -2624,11 +2624,11 @@
             "ISO": "LRD"
         }
     },
-    {
+    "LBY": {
         "country": {
             "en_name": "Libya",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "LY",
             "A3": "LBY",
             "NUM": "434",
@@ -2645,11 +2645,11 @@
             "ISO": "LYD"
         }
     },
-    {
+    "LIE": {
         "country": {
             "en_name": "Liechtenstein",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "LI",
             "A3": "LIE",
             "NUM": "438",
@@ -2666,11 +2666,11 @@
             "ISO": "CHF"
         }
     },
-    {
+    "LTU": {
         "country": {
             "en_name": "Lithuania",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "LT",
             "A3": "LTU",
             "NUM": "440",
@@ -2687,11 +2687,11 @@
             "ISO": "LTL"
         }
     },
-    {
+    "LUX": {
         "country": {
             "en_name": "Luxembourg",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "LU",
             "A3": "LUX",
             "NUM": "442",
@@ -2708,11 +2708,11 @@
             "ISO": "EUR"
         }
     },
-    {
+    "MAC": {
         "country": {
             "en_name": "Macao",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "MO",
             "A3": "MAC",
             "NUM": "446",
@@ -2729,11 +2729,11 @@
             "ISO": "MOP"
         }
     },
-    {
+    "MKD": {
         "country": {
             "en_name": "Macedonia",
             "alt_name": "The Former Yugoslav Republic of Macedonia",
-            "native_name":"",
+            "native_name": "",
             "A2": "MK",
             "A3": "MKD",
             "NUM": "807",
@@ -2750,11 +2750,11 @@
             "ISO": "MKD"
         }
     },
-    {
+    "MDG": {
         "country": {
             "en_name": "Madagascar",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "MG",
             "A3": "MDG",
             "NUM": "450",
@@ -2771,11 +2771,11 @@
             "ISO": "MGA"
         }
     },
-    {
+    "MWI": {
         "country": {
             "en_name": "Malawi",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "MW",
             "A3": "MWI",
             "NUM": "454",
@@ -2792,11 +2792,11 @@
             "ISO": "MWK"
         }
     },
-    {
+    "MYS": {
         "country": {
             "en_name": "Malaysia",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "MY",
             "A3": "MYS",
             "NUM": "458",
@@ -2813,11 +2813,11 @@
             "ISO": "MYR"
         }
     },
-    {
+    "MDV": {
         "country": {
             "en_name": "Maldives",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "MV",
             "A3": "MDV",
             "NUM": "462",
@@ -2834,11 +2834,11 @@
             "ISO": "MVR"
         }
     },
-    {
+    "MLI": {
         "country": {
             "en_name": "Mali",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "ML",
             "A3": "MLI",
             "NUM": "466",
@@ -2855,11 +2855,11 @@
             "ISO": "XOF"
         }
     },
-    {
+    "MLT": {
         "country": {
             "en_name": "Malta",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "MT",
             "A3": "MLT",
             "NUM": "470",
@@ -2876,11 +2876,11 @@
             "ISO": "MTL"
         }
     },
-    {
+    "MHL": {
         "country": {
             "en_name": "Marshall Islands",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "MH",
             "A3": "MHL",
             "NUM": "584",
@@ -2897,11 +2897,11 @@
             "ISO": "USD"
         }
     },
-    {
+    "MTQ": {
         "country": {
             "en_name": "Martinique",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "MQ",
             "A3": "MTQ",
             "NUM": "474",
@@ -2918,11 +2918,11 @@
             "ISO": "EUR"
         }
     },
-    {
+    "MRT": {
         "country": {
             "en_name": "Mauritania",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "MR",
             "A3": "MRT",
             "NUM": "478",
@@ -2939,11 +2939,11 @@
             "ISO": "MRO"
         }
     },
-    {
+    "MUS": {
         "country": {
             "en_name": "Mauritius",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "MU",
             "A3": "MUS",
             "NUM": "480",
@@ -2960,11 +2960,11 @@
             "ISO": "MUR"
         }
     },
-    {
+    "MYT": {
         "country": {
             "en_name": "Mayotte",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "YT",
             "A3": "MYT",
             "NUM": "175",
@@ -2981,11 +2981,11 @@
             "ISO": "EUR"
         }
     },
-    {
+    "MEX": {
         "country": {
             "en_name": "Mexico",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "MX",
             "A3": "MEX",
             "NUM": "484",
@@ -3002,11 +3002,11 @@
             "ISO": "MXN"
         }
     },
-    {
+    "FSM": {
         "country": {
             "en_name": "Micronesia",
             "alt_name": "Federated States of Micronesia",
-            "native_name":"",
+            "native_name": "",
             "A2": "FM",
             "A3": "FSM",
             "NUM": "583",
@@ -3023,11 +3023,11 @@
             "ISO": "USD"
         }
     },
-    {
+    "MDA": {
         "country": {
             "en_name": "Moldova",
             "alt_name": "Republic of Moldova",
-            "native_name":"",
+            "native_name": "",
             "A2": "MD",
             "A3": "MDA",
             "NUM": "498",
@@ -3044,11 +3044,11 @@
             "ISO": "MDL"
         }
     },
-    {
+    "MCO": {
         "country": {
             "en_name": "Monaco",
             "alt_name": "Kingdom Of Monaco",
-            "native_name":"",
+            "native_name": "",
             "A2": "MC",
             "A3": "MCO",
             "NUM": "492",
@@ -3065,11 +3065,11 @@
             "ISO": "EUR"
         }
     },
-    {
+    "MNG": {
         "country": {
             "en_name": "Mongolia",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "MN",
             "A3": "MNG",
             "NUM": "496",
@@ -3086,11 +3086,11 @@
             "ISO": "MNT"
         }
     },
-    {
+    "MNE": {
         "country": {
             "en_name": "Montenegro",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "ME",
             "A3": "MNE",
             "NUM": "499",
@@ -3107,11 +3107,11 @@
             "ISO": "EUR"
         }
     },
-    {
+    "MSR": {
         "country": {
             "en_name": "Montserrat",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "MS",
             "A3": "MSR",
             "NUM": "500",
@@ -3128,11 +3128,11 @@
             "ISO": "XCD"
         }
     },
-    {
+    "MAR": {
         "country": {
             "en_name": "Morocco",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "MA",
             "A3": "MAR",
             "NUM": "504",
@@ -3149,11 +3149,11 @@
             "ISO": "MAD"
         }
     },
-    {
+    "MOZ": {
         "country": {
             "en_name": "Mozambique",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "MZ",
             "A3": "MOZ",
             "NUM": "508",
@@ -3170,11 +3170,11 @@
             "ISO": "MZN"
         }
     },
-    {
+    "MMR": {
         "country": {
             "en_name": "Myanmar",
             "alt_name": "Burma",
-            "native_name":"",
+            "native_name": "",
             "A2": "MM",
             "A3": "MMR",
             "NUM": "104",
@@ -3191,11 +3191,11 @@
             "ISO": "MMK"
         }
     },
-    {
+    "NAM": {
         "country": {
             "en_name": "Namibia",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "NA",
             "A3": "NAM",
             "NUM": "516",
@@ -3212,11 +3212,11 @@
             "ISO": "NAD"
         }
     },
-    {
+    "NRU": {
         "country": {
             "en_name": "Nauru",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "NR",
             "A3": "NRU",
             "NUM": "520",
@@ -3233,11 +3233,11 @@
             "ISO": "AUD"
         }
     },
-    {
+    "NPL": {
         "country": {
             "en_name": "Nepal",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "NP",
             "A3": "NPL",
             "NUM": "524",
@@ -3254,11 +3254,11 @@
             "ISO": "NPR"
         }
     },
-    {
+    "NLD": {
         "country": {
             "en_name": "Netherlands",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "NL",
             "A3": "NLD",
             "NUM": "528",
@@ -3275,11 +3275,11 @@
             "ISO": "EUR"
         }
     },
-    {
+    "NCL": {
         "country": {
             "en_name": "New Caledonia",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "NC",
             "A3": "NCL",
             "NUM": "540",
@@ -3296,11 +3296,11 @@
             "ISO": "XPF"
         }
     },
-    {
+    "NZL": {
         "country": {
             "en_name": "New Zealand",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "NZ",
             "A3": "NZL",
             "NUM": "554",
@@ -3317,11 +3317,11 @@
             "ISO": "NZD"
         }
     },
-    {
+    "NIC": {
         "country": {
             "en_name": "Nicaragua",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "NI",
             "A3": "NIC",
             "NUM": "558",
@@ -3338,11 +3338,11 @@
             "ISO": "NIO"
         }
     },
-    {
+    "NER": {
         "country": {
             "en_name": "Niger",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "NE",
             "A3": "NER",
             "NUM": "562",
@@ -3359,11 +3359,11 @@
             "ISO": "XOF"
         }
     },
-    {
+    "NGA": {
         "country": {
             "en_name": "Nigeria",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "NG",
             "A3": "NGA",
             "NUM": "566",
@@ -3380,11 +3380,11 @@
             "ISO": "NGN"
         }
     },
-    {
+    "NIU": {
         "country": {
             "en_name": "Niue",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "NU",
             "A3": "NIU",
             "NUM": "570",
@@ -3401,11 +3401,11 @@
             "ISO": "NZD"
         }
     },
-    {
+    "NFK": {
         "country": {
             "en_name": "Norfolk Island",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "NF",
             "A3": "NFK",
             "NUM": "574",
@@ -3422,11 +3422,11 @@
             "ISO": "AUD"
         }
     },
-    {
+    "MNP": {
         "country": {
             "en_name": "Northern Mariana Islands",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "MP",
             "A3": "MNP",
             "NUM": "580",
@@ -3443,11 +3443,11 @@
             "ISO": "USD"
         }
     },
-    {
+    "NOR": {
         "country": {
             "en_name": "Norway",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "NO",
             "A3": "NOR",
             "NUM": "578",
@@ -3464,11 +3464,11 @@
             "ISO": "NOK"
         }
     },
-    {
+    "OMN": {
         "country": {
             "en_name": "Oman",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "OM",
             "A3": "OMN",
             "NUM": "512",
@@ -3485,11 +3485,11 @@
             "ISO": "OMR"
         }
     },
-    {
+    "PAK": {
         "country": {
             "en_name": "Pakistan",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "PK",
             "A3": "PAK",
             "NUM": "586",
@@ -3506,11 +3506,11 @@
             "ISO": "PKR"
         }
     },
-    {
+    "PLW": {
         "country": {
             "en_name": "Palau",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "PW",
             "A3": "PLW",
             "NUM": "585",
@@ -3527,11 +3527,11 @@
             "ISO": "USD"
         }
     },
-    {
+    "PSE": {
         "country": {
             "en_name": "Palestine",
             "alt_name": "State of Palestine",
-            "native_name":"",
+            "native_name": "",
             "A2": "PS",
             "A3": "PSE",
             "NUM": "275",
@@ -3548,11 +3548,11 @@
             "ISO": "JOD"
         }
     },
-    {
+    "PAN": {
         "country": {
             "en_name": "Panama",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "PA",
             "A3": "PAN",
             "NUM": "591",
@@ -3569,11 +3569,11 @@
             "ISO": "PAB"
         }
     },
-    {
+    "PNG": {
         "country": {
             "en_name": "Papua New Guinea",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "PG",
             "A3": "PNG",
             "NUM": "598",
@@ -3590,11 +3590,11 @@
             "ISO": "PGK"
         }
     },
-    {
+    "PRY": {
         "country": {
             "en_name": "Paraguay",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "PY",
             "A3": "PRY",
             "NUM": "600",
@@ -3611,11 +3611,11 @@
             "ISO": "PYG"
         }
     },
-    {
+    "PER": {
         "country": {
             "en_name": "Peru",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "PE",
             "A3": "PER",
             "NUM": "604",
@@ -3632,11 +3632,11 @@
             "ISO": "PEN"
         }
     },
-    {
+    "PHL": {
         "country": {
             "en_name": "Philippines",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "PH",
             "A3": "PHL",
             "NUM": "608",
@@ -3653,11 +3653,11 @@
             "ISO": "PHP"
         }
     },
-    {
+    "PCN": {
         "country": {
             "en_name": "Pitcairn",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "PN",
             "A3": "PCN",
             "NUM": "612",
@@ -3674,11 +3674,11 @@
             "ISO": "NZD"
         }
     },
-    {
+    "POL": {
         "country": {
             "en_name": "Poland",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "PL",
             "A3": "POL",
             "NUM": "616",
@@ -3695,11 +3695,11 @@
             "ISO": "PLN"
         }
     },
-    {
+    "PRT": {
         "country": {
             "en_name": "Portugal",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "PT",
             "A3": "PRT",
             "NUM": "620",
@@ -3716,11 +3716,11 @@
             "ISO": "EUR"
         }
     },
-    {
+    "PRI": {
         "country": {
             "en_name": "Puerto Rico",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "PR",
             "A3": "PRI",
             "NUM": "630",
@@ -3737,11 +3737,11 @@
             "ISO": "USD"
         }
     },
-    {
+    "QAT": {
         "country": {
             "en_name": "Qatar",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "QA",
             "A3": "QAT",
             "NUM": "634",
@@ -3758,11 +3758,11 @@
             "ISO": "QAR"
         }
     },
-    {
+    "ROU": {
         "country": {
             "en_name": "Romania",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "RO",
             "A3": "ROU",
             "NUM": "642",
@@ -3779,11 +3779,11 @@
             "ISO": "RON"
         }
     },
-    {
+    "RUS": {
         "country": {
             "en_name": "Russian Federation",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "RU",
             "A3": "RUS",
             "NUM": "643",
@@ -3800,11 +3800,11 @@
             "ISO": "RUB"
         }
     },
-    {
+    "RWA": {
         "country": {
             "en_name": "Rwanda",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "RW",
             "A3": "RWA",
             "NUM": "646",
@@ -3821,11 +3821,11 @@
             "ISO": "RWF"
         }
     },
-    {
+    "REU": {
         "country": {
             "en_name": "Reunion",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "RE",
             "A3": "REU",
             "NUM": "638",
@@ -3842,11 +3842,11 @@
             "ISO": "EUR"
         }
     },
-    {
+    "BLM": {
         "country": {
             "en_name": "Saint Barthelemy",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "BL",
             "A3": "BLM",
             "NUM": "652",
@@ -3863,11 +3863,11 @@
             "ISO": "EUR"
         }
     },
-    {
+    "SHN": {
         "country": {
             "en_name": "Saint Helena",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "SH",
             "A3": "SHN",
             "NUM": "654",
@@ -3884,11 +3884,11 @@
             "ISO": "SHP"
         }
     },
-    {
+    "KNA": {
         "country": {
             "en_name": "Saint Kitts and Nevis",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "KN",
             "A3": "KNA",
             "NUM": "659",
@@ -3905,11 +3905,11 @@
             "ISO": "XCD"
         }
     },
-    {
+    "LCA": {
         "country": {
             "en_name": "Saint Lucia",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "LC",
             "A3": "LCA",
             "NUM": "662",
@@ -3926,11 +3926,11 @@
             "ISO": "XCD"
         }
     },
-    {
+    "MAF": {
         "country": {
             "en_name": "Saint Martin",
             "alt_name": "Saint Martin (French part)",
-            "native_name":"",
+            "native_name": "",
             "A2": "MF",
             "A3": "MAF",
             "NUM": "663",
@@ -3947,11 +3947,11 @@
             "ISO": "EUR"
         }
     },
-    {
+    "SPM": {
         "country": {
             "en_name": "Saint Pierre and Miquelon",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "PM",
             "A3": "SPM",
             "NUM": "666",
@@ -3968,11 +3968,11 @@
             "ISO": "EUR"
         }
     },
-    {
+    "VCT": {
         "country": {
             "en_name": "Saint Vincent and the Grenadines",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "VC",
             "A3": "VCT",
             "NUM": "670",
@@ -3989,11 +3989,11 @@
             "ISO": "XCD"
         }
     },
-    {
+    "WSM": {
         "country": {
             "en_name": "Samoa",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "WS",
             "A3": "WSM",
             "NUM": "882",
@@ -4010,11 +4010,11 @@
             "ISO": "WST"
         }
     },
-    {
+    "SMR": {
         "country": {
             "en_name": "San Marino",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "SM",
             "A3": "SMR",
             "NUM": "674",
@@ -4031,11 +4031,11 @@
             "ISO": "EUR"
         }
     },
-    {
+    "STP": {
         "country": {
             "en_name": "Sao Tome and Principe",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "ST",
             "A3": "STP",
             "NUM": "678",
@@ -4052,11 +4052,11 @@
             "ISO": "STD"
         }
     },
-    {
+    "SAU": {
         "country": {
             "en_name": "Saudi Arabia",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "SA",
             "A3": "SAU",
             "NUM": "682",
@@ -4073,11 +4073,11 @@
             "ISO": "SAR"
         }
     },
-    {
+    "SEN": {
         "country": {
             "en_name": "Senegal",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "SN",
             "A3": "SEN",
             "NUM": "686",
@@ -4094,11 +4094,11 @@
             "ISO": "XOF"
         }
     },
-    {
+    "SRB": {
         "country": {
             "en_name": "Serbia",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "RS",
             "A3": "SRB",
             "NUM": "688",
@@ -4115,11 +4115,11 @@
             "ISO": "RSD"
         }
     },
-    {
+    "SYC": {
         "country": {
             "en_name": "Seychelles",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "SC",
             "A3": "SYC",
             "NUM": "690",
@@ -4136,11 +4136,11 @@
             "ISO": "SCR"
         }
     },
-    {
+    "SLE": {
         "country": {
             "en_name": "Sierra Leone",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "SL",
             "A3": "SLE",
             "NUM": "694",
@@ -4157,11 +4157,11 @@
             "ISO": "SLL"
         }
     },
-    {
+    "SGP": {
         "country": {
             "en_name": "Singapore",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "SG",
             "A3": "SGP",
             "NUM": "702",
@@ -4178,11 +4178,11 @@
             "ISO": "SGD"
         }
     },
-    {
+    "SXM": {
         "country": {
             "en_name": "Sint Maarten",
             "alt_name": "Sint Maarten (Dutch part)",
-            "native_name":"",
+            "native_name": "",
             "A2": "SX",
             "A3": "SXM",
             "NUM": "534",
@@ -4199,11 +4199,11 @@
             "ISO": "ANG"
         }
     },
-    {
+    "SVK": {
         "country": {
             "en_name": "Slovakia",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "SK",
             "A3": "SVK",
             "NUM": "703",
@@ -4220,11 +4220,11 @@
             "ISO": "SKK"
         }
     },
-    {
+    "SVN": {
         "country": {
             "en_name": "Slovenia",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "SI",
             "A3": "SVN",
             "NUM": "705",
@@ -4241,11 +4241,11 @@
             "ISO": "EUR"
         }
     },
-    {
+    "SLB": {
         "country": {
             "en_name": "Solomon Islands",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "SB",
             "A3": "SLB",
             "NUM": "90",
@@ -4262,11 +4262,11 @@
             "ISO": "SBD"
         }
     },
-    {
+    "SOM": {
         "country": {
             "en_name": "Somalia",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "SO",
             "A3": "SOM",
             "NUM": "706",
@@ -4283,11 +4283,11 @@
             "ISO": "SOS"
         }
     },
-    {
+    "ZAF": {
         "country": {
             "en_name": "South Africa",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "ZA",
             "A3": "ZAF",
             "NUM": "710",
@@ -4304,11 +4304,11 @@
             "ISO": "ZAR"
         }
     },
-    {
+    "SGS": {
         "country": {
-        	"en_name": "South Georgia Islands",
+            "en_name": "South Georgia Islands",
             "alt_name": "South Georgia and the South Sandwich Islands",
-            "native_name":"",
+            "native_name": "",
             "A2": "GS",
             "A3": "SGS",
             "NUM": "239",
@@ -4325,11 +4325,11 @@
             "ISO": "GBP"
         }
     },
-    {
+    "SSD": {
         "country": {
             "en_name": "South Sudan",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "SS",
             "A3": "SSD",
             "NUM": "728",
@@ -4346,11 +4346,11 @@
             "ISO": "SDD"
         }
     },
-    {
+    "ESP": {
         "country": {
             "en_name": "Spain",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "ES",
             "A3": "ESP",
             "NUM": "724",
@@ -4367,11 +4367,11 @@
             "ISO": "EUR"
         }
     },
-    {
+    "LKA": {
         "country": {
             "en_name": "Sri Lanka",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "LK",
             "A3": "LKA",
             "NUM": "144",
@@ -4388,11 +4388,11 @@
             "ISO": "LKR"
         }
     },
-    {
+    "SDN": {
         "country": {
             "en_name": "Sudan",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "SD",
             "A3": "SDN",
             "NUM": "729",
@@ -4409,11 +4409,11 @@
             "ISO": "SDD"
         }
     },
-    {
+    "SUR": {
         "country": {
             "en_name": "Suriname",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "SR",
             "A3": "SUR",
             "NUM": "740",
@@ -4430,11 +4430,11 @@
             "ISO": "SRD"
         }
     },
-    {
+    "SJM": {
         "country": {
             "en_name": "Svalbard and Jan Mayen",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "SJ",
             "A3": "SJM",
             "NUM": "744",
@@ -4451,11 +4451,11 @@
             "ISO": "NOK"
         }
     },
-    {
+    "SWZ": {
         "country": {
             "en_name": "Swaziland",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "SZ",
             "A3": "SWZ",
             "NUM": "748",
@@ -4472,11 +4472,11 @@
             "ISO": "SZL"
         }
     },
-    {
+    "SWE": {
         "country": {
             "en_name": "Sweden",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "SE",
             "A3": "SWE",
             "NUM": "752",
@@ -4493,11 +4493,11 @@
             "ISO": "SEK"
         }
     },
-    {
+    "CHE": {
         "country": {
             "en_name": "Switzerland",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "CH",
             "A3": "CHE",
             "NUM": "756",
@@ -4514,11 +4514,11 @@
             "ISO": "CHF"
         }
     },
-    {
+    "SYR": {
         "country": {
             "en_name": "Syria",
             "alt_name": "Syrian Arab Republic",
-            "native_name":"",
+            "native_name": "",
             "A2": "SY",
             "A3": "SYR",
             "NUM": "760",
@@ -4535,11 +4535,11 @@
             "ISO": "SYP"
         }
     },
-    {
+    "TWN": {
         "country": {
             "en_name": "Taiwan",
             "alt_name": "Province of China Taiwan",
-            "native_name":"",
+            "native_name": "",
             "A2": "TW",
             "A3": "TWN",
             "NUM": "158",
@@ -4556,11 +4556,11 @@
             "ISO": "TWD"
         }
     },
-    {
+    "TJK": {
         "country": {
             "en_name": "Tajikistan",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "TJ",
             "A3": "TJK",
             "NUM": "762",
@@ -4577,11 +4577,11 @@
             "ISO": "TJS"
         }
     },
-    {
+    "TZA": {
         "country": {
             "en_name": "Tanzania",
             "alt_name": "United Republic of Tanzania",
-            "native_name":"",
+            "native_name": "",
             "A2": "TZ",
             "A3": "TZA",
             "NUM": "834",
@@ -4598,11 +4598,11 @@
             "ISO": "TZS"
         }
     },
-    {
+    "THA": {
         "country": {
             "en_name": "Thailand",
             "alt_name": "Kingdom Of Thailand",
-            "native_name":"",
+            "native_name": "",
             "A2": "TH",
             "A3": "THA",
             "NUM": "764",
@@ -4619,11 +4619,11 @@
             "ISO": "THB"
         }
     },
-    {
+    "TLS": {
         "country": {
             "en_name": "Timor-Leste",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "TL",
             "A3": "TLS",
             "NUM": "626",
@@ -4640,11 +4640,11 @@
             "ISO": "USD"
         }
     },
-    {
+    "TGO": {
         "country": {
             "en_name": "Togo",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "TG",
             "A3": "TGO",
             "NUM": "768",
@@ -4661,11 +4661,11 @@
             "ISO": "XOF"
         }
     },
-    {
+    "TKL": {
         "country": {
             "en_name": "Tokelau",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "TK",
             "A3": "TKL",
             "NUM": "772",
@@ -4682,11 +4682,11 @@
             "ISO": "NZD"
         }
     },
-    {
+    "TON": {
         "country": {
             "en_name": "Tonga",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "TO",
             "A3": "TON",
             "NUM": "776",
@@ -4703,11 +4703,11 @@
             "ISO": "TOP"
         }
     },
-    {
+    "TTO": {
         "country": {
             "en_name": "Trinidad and Tobago",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "TT",
             "A3": "TTO",
             "NUM": "780",
@@ -4724,11 +4724,11 @@
             "ISO": "TTD"
         }
     },
-    {
+    "TUN": {
         "country": {
             "en_name": "Tunisia",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "TN",
             "A3": "TUN",
             "NUM": "788",
@@ -4745,11 +4745,11 @@
             "ISO": "TND"
         }
     },
-    {
+    "TUR": {
         "country": {
             "en_name": "Turkey",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "TR",
             "A3": "TUR",
             "NUM": "792",
@@ -4766,11 +4766,11 @@
             "ISO": "TRY"
         }
     },
-    {
+    "TKM": {
         "country": {
             "en_name": "Turkmenistan",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "TM",
             "A3": "TKM",
             "NUM": "795",
@@ -4787,11 +4787,11 @@
             "ISO": "TMM"
         }
     },
-    {
+    "TCA": {
         "country": {
             "en_name": "Turks and Caicos Islands",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "TC",
             "A3": "TCA",
             "NUM": "796",
@@ -4808,11 +4808,11 @@
             "ISO": "USD"
         }
     },
-    {
+    "TUV": {
         "country": {
             "en_name": "Tuvalu",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "TV",
             "A3": "TUV",
             "NUM": "798",
@@ -4829,11 +4829,11 @@
             "ISO": "AUD"
         }
     },
-    {
+    "UGA": {
         "country": {
             "en_name": "Uganda",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "UG",
             "A3": "UGA",
             "NUM": "800",
@@ -4850,11 +4850,11 @@
             "ISO": "UGX"
         }
     },
-    {
+    "R": {
         "country": {
             "en_name": "Ukraine",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "UA",
             "A3": "R",
             "NUM": "804GBP",
@@ -4871,11 +4871,11 @@
             "ISO": "UAH"
         }
     },
-    {
+    "ARE": {
         "country": {
             "en_name": "United Arab Emirates",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "AE",
             "A3": "ARE",
             "NUM": "784",
@@ -4892,11 +4892,11 @@
             "ISO": "AED"
         }
     },
-    {
+    "GBR": {
         "country": {
             "en_name": "United Kingdom",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "GB",
             "A3": "GBR",
             "NUM": "826",
@@ -4913,11 +4913,11 @@
             "ISO": "GBP"
         }
     },
-    {
+    "USA": {
         "country": {
             "en_name": "United States",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "US",
             "A3": "USA",
             "NUM": "840",
@@ -4934,11 +4934,11 @@
             "ISO": "USD"
         }
     },
-    {
+    "UMI": {
         "country": {
             "en_name": "United States Minor Outlying Islands",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "UM",
             "A3": "UMI",
             "NUM": "581",
@@ -4955,11 +4955,11 @@
             "ISO": "USD"
         }
     },
-    {
+    "URY": {
         "country": {
             "en_name": "Uruguay",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "UY",
             "A3": "URY",
             "NUM": "858",
@@ -4976,11 +4976,11 @@
             "ISO": "UYU"
         }
     },
-    {
+    "UZB": {
         "country": {
             "en_name": "Uzbekistan",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "UZ",
             "A3": "UZB",
             "NUM": "860",
@@ -4997,11 +4997,11 @@
             "ISO": "UZS"
         }
     },
-    {
+    "VUT": {
         "country": {
             "en_name": "Vanuatu",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "VU",
             "A3": "VUT",
             "NUM": "548",
@@ -5018,11 +5018,11 @@
             "ISO": "VUV"
         }
     },
-    {
+    "VEN": {
         "country": {
             "en_name": "Venezuela",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "VE",
             "A3": "VEN",
             "NUM": "862",
@@ -5039,11 +5039,11 @@
             "ISO": "VEB"
         }
     },
-    {
+    "VNM": {
         "country": {
             "en_name": "Vietnam",
             "alt_name": "Viet Nam",
-            "native_name":"",
+            "native_name": "",
             "A2": "VN",
             "A3": "VNM",
             "NUM": "704",
@@ -5060,11 +5060,11 @@
             "ISO": "VND"
         }
     },
-    {
+    "VGB": {
         "country": {
             "en_name": "British Virgin Islands",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "VG",
             "A3": "VGB",
             "NUM": "92",
@@ -5081,11 +5081,11 @@
             "ISO": "GBP"
         }
     },
-    {
+    "VIR": {
         "country": {
             "en_name": "US Virgin Islands",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "VI",
             "A3": "VIR",
             "NUM": "850",
@@ -5102,11 +5102,11 @@
             "ISO": "USD"
         }
     },
-    {
+    "WLF": {
         "country": {
             "en_name": "Wallis and Futuna",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "WF",
             "A3": "WLF",
             "NUM": "876",
@@ -5123,11 +5123,11 @@
             "ISO": "XPF"
         }
     },
-    {
+    "ESH": {
         "country": {
             "en_name": "Western Sahara",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "EH",
             "A3": "ESH",
             "NUM": "732",
@@ -5144,11 +5144,11 @@
             "ISO": "MAD"
         }
     },
-    {
+    "YEM": {
         "country": {
             "en_name": "Yemen",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "YE",
             "A3": "YEM",
             "NUM": "887",
@@ -5165,11 +5165,11 @@
             "ISO": "YER"
         }
     },
-    {
+    "ZMB": {
         "country": {
             "en_name": "Zambia",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "ZM",
             "A3": "ZMB",
             "NUM": "894",
@@ -5186,11 +5186,11 @@
             "ISO": "ZMK"
         }
     },
-    {
+    "ZWE": {
         "country": {
             "en_name": "Zimbabwe",
             "alt_name": "",
-            "native_name":"",
+            "native_name": "",
             "A2": "ZW",
             "A3": "ZWE",
             "NUM": "716",
@@ -5207,5 +5207,4 @@
             "ISO": "ZWD"
         }
     }
-    
-]
+}

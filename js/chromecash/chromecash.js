@@ -262,17 +262,14 @@ class ChromeCash {
 
 		/** @return: @type: @array{@object}. **/
 		return ChromeCash.getCommonCurrencies(function (currencies) {
-			/** enumerate for collection array. **/
-			for (let i = 0, len = collection.length; i < len; i++) {
-				/** set reference to item at index. **/
-				let c = collection[i];
+			/** enumerate for currencies. **/
+			ChromeCash.collect(nodes).forEach(function (groups, i, collection) {
+				/** enumerate for matches group. **/
+				groups.strings.forEach(function (item, j, group) {
 
-				/** enumerate for strings in collection item. **/
-				for (let j = 0, strlen = c.strings.length; j < strlen; j++) {
-
-					console.log(c.strings[j])
-				}
-			}
+					console.log(item)
+				});
+			});
 		});
 	}
 
