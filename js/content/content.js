@@ -2,10 +2,11 @@
 chrome.runtime.sendMessage({}, function (currencies) {
 
 	/***
-	 *** Send message to event script.
+	 *** Content script send message to event script.
 	 *
-	 * Fetch currency data.
-	 * Process page text nodes.
+	 * 
+	 * Assumed response success.
+	 * Currencies object returned from event script.
 	 *
 	 */
 	
