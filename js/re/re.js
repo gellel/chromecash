@@ -1,4 +1,12 @@
-class RE {
+class Re {
+
+	/***
+	 *** Regular Expression manager.
+	 *
+	 * Contains pattern constants for ChromeCash.
+	 * Available as a extensible parent.
+	 *
+	 */
 
 	static get HEX () {
 		/***
