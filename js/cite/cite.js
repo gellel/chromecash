@@ -67,6 +67,18 @@ class Cite {
 				enumerable: true,
 				writable: false,
 				value: textNodeValue.length
+			},
+			textNodeMatchesFormatted: {
+				/* substring matches as punctuated strings. */
+				enumerable: true,
+				writable: false,
+				value: new RegExp(/(?:(\w|\.)*(\.|\,)\w+)/g).test(textValue)
+			},
+			textNodeMatchesMoney: {
+				/* substring matches as punctuated currencies. */
+				enumerable: true,
+				writable: false,
+				value: new RegExp(/(?:\d*)(\d*|[,.])+(\d+|\.{1}\d+)/g).test(textValue)
 			}
 		});
 	}
