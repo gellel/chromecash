@@ -12,6 +12,11 @@ class Cite {
 	 */
 
 	constructor (textValue, index, textNodeSubstrings, textNodeValue) {
+		/* @param: {textValue}, @type: {string}. */
+		/* @param: {index}, @type: {number}. */
+		/* @param: {textNodeSubstrings}, @type: {arraystring}}. */
+		/* @param: {textNodeValue}, @type: {string}
+
 		/* set class immutable properties. */
 		Object.defineProperties(this, {
 			textValue: {
